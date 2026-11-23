@@ -4,18 +4,21 @@ Documentación oficial (ChileCompra, mayo 2026):
   https://www.chilecompra.cl/api/
   http://www.chilecompra.cl/wp-content/uploads/2026/05/Documentacion_API_Compra_Agil.pdf
 
-Autenticación: header HTTP `ticket` con el ticket gratuito solicitado en
-https://www.chilecompra.cl/api/ (botón "Pide tu ticket", con Clave Única).
-
 COMPORTAMIENTO REAL de la API en producción (verificado nov-2026, difiere del PDF):
   - El parámetro de tamaño de página se llama `tamano_pagina` (SIN la "i"),
-    aunque el PDF oficial dice `tamanio_pagina` (errata). Enviar el nombre del
-    PDF provoca NOK "PARAMETROS_DESCONOCIDOS: Parámetros de consulta
-    desconocidos" tras autenticar correctamente.
-  - La API rechaza con ese mismo error cualquier parámetro no reconocido;
-    por eso `listar()` solo envía los probados: estado, tamano_pagina,
-    numero_pagina, region, q e id. Otros filtros del PDF (ordenar_por,
-    fechas, ttl_cambio_ms) se omiten con aviso en el log.
+    aunque el PDF dice `tamanio_pagina` (errata). El nombre del PDF provoca
+    NOK "PARAMETROS_DESCONOCIDOS: Parámetros de consulta desconocidos".
+  - La API rechaza con NOK 400 "Parámetros de consulta inválidos" valores o
+    combinaciones que no acepta (p. ej. tamano_pagina=5, o una consulta
+    nacional sin `region`). Los clientes probados en producción recorren las
+    16 regiones y deduplican en vez de consultar nacional.
+  - Por eso `listar()` auto-diagnostica en su primera llamada y usa el primer
+    modo que la API acepta:
+      1) la consulta pedida tal cual;
+      2) igual pero con tamano_pagina=50;
+      3) modo región: 16 consultas (1..16), 2 páginas por región, deduplicando.
+    El modo elegido queda registrado en el log de la corrida.
+  - Autenticación: header HTTP `ticket` (gratuito en https://www.chilecompra.cl/api/).
   - La API exige un intervalo mínimo (~1 s) entre consultas: sin él responde
     "peticiones simultáneas" o 429. `_get()` lo respeta.
   - El WAF rechaza peticiones sin User-Agent (403).
@@ -45,6 +48,8 @@ BASE_URL_DEFAULT = "https://api2.mercadopublico.cl"
 # Cualquier otro nombre recibe NOK PARAMETROS_DESCONOCIDOS.
 PARAMETROS_ACEPTADOS = {"estado", "tamano_pagina", "numero_pagina", "region", "q", "id"}
 
+REGIONES_DE_CHILE = tuple(range(1, 17))
+
 
 class MPApiError(Exception):
     """Error genérico de la API de Compra Ágil."""
@@ -56,6 +61,15 @@ class TicketInvalido(MPApiError):
 
 class CuotaAgotada(MPApiError):
     """Se alcanzó el límite diario de solicitudes del ticket (429)."""
+
+
+def _es_error_de_parametros(exc: Exception) -> bool:
+    """¿El error es por nombres/valores de parámetros (y no por red/cuota)?"""
+    txt = str(exc)
+    return any(
+        marca in txt
+        for marca in ("400", "PARAMETROS", "inválid", "desconocid")
+    )
 
 
 class CompraAgilClient:
@@ -79,6 +93,8 @@ class CompraAgilClient:
         self.reintentos = reintentos
         self.intervalo_ms = max(int(intervalo_ms), 0)
         self._ultima_consulta = 0.0  # monotonic de la última petición hecha
+        self._modo: Optional[str] = None    # None | "nacional" | "region"
+        self._tamanio_fijo: Optional[int] = None
         self.session = requests.Session()
         self.session.headers.update(
             {
@@ -133,8 +149,17 @@ class CompraAgilClient:
 
             if data.get("success") != "OK":
                 errores = data.get("errors") or []
-                mensaje = errores[0].get("mensaje", "?") if errores else "sin detalle"
-                codigo = str(errores[0].get("codigo", "?")) if errores else "?"
+                if errores:
+                    primero = errores[0]
+                    codigo = str(primero.get("codigo", "?"))
+                    partes = [str(primero.get("mensaje") or "sin detalle")]
+                    if primero.get("detalle"):
+                        partes.append("detalle: %s" % primero["detalle"])
+                    if data.get("trace"):
+                        partes.append("trace: %s" % data["trace"])
+                    mensaje = " | ".join(partes)
+                else:
+                    codigo, mensaje = "?", "sin detalle"
                 if codigo in ("401", "403"):
                     raise TicketInvalido(mensaje)
                 raise MPApiError("API respondió NOK (%s): %s" % (codigo, mensaje))
@@ -154,18 +179,17 @@ class CompraAgilClient:
         `tamanio_pagina` (nombre interno) se envía como `tamano_pagina`, que es
         el nombre real que acepta la API (errata del PDF oficial). Máximo 50.
         Solo se envían parámetros probados; el resto se omite con un aviso.
+
+        En la primera llamada auto-diagnostica el modo que la API acepta
+        (nacional, nacional con página 50, o recorrido por regiones).
         """
         filtros = dict(filtros or {})
         tamanio = int(filtros.pop("tamanio_pagina", 0) or tamanio_pagina)
-
-        query: Dict[str, Any] = {
-            "estado": filtros.get("estado", "publicada"),
-            "tamano_pagina": min(tamanio, 50),
-            "numero_pagina": 1,
-        }
-        for clave in ("region", "q", "id"):
-            if filtros.get(clave):
-                query[clave] = filtros[clave]
+        tamanio = min(max(tamanio, 1), 50)
+        estado = filtros.get("estado", "publicada")
+        region = filtros.get("region")
+        texto = filtros.get("q")
+        identificador = filtros.get("id")
 
         omitidos = sorted(
             set(filtros) - {"estado", "region", "q", "id", "tamanio_pagina"}
@@ -177,6 +201,73 @@ class CompraAgilClient:
                 ", ".join(omitidos),
             )
 
+        if self._tamanio_fijo and not texto and not identificador:
+            tamanio = self._tamanio_fijo
+
+        # Consultas acotadas (region/q/id) o modo nacional ya validado: directo.
+        if region or texto or identificador or self._modo == "nacional":
+            query: Dict[str, Any] = {
+                "estado": estado,
+                "tamano_pagina": tamanio,
+                "numero_pagina": 1,
+            }
+            if region:
+                query["region"] = region
+            if texto:
+                query["q"] = texto
+            if identificador:
+                query["id"] = identificador
+            return self._paginar(query, max_paginas)
+
+        if self._modo == "region":
+            return self._listar_por_regiones(estado, tamanio, max_paginas)
+
+        # Primera consulta nacional del proceso: sondeo escalonado.
+        query = {"estado": estado, "tamano_pagina": tamanio, "numero_pagina": 1}
+        try:
+            items = self._paginar(query, max_paginas)
+            self._modo = "nacional"
+            logger.info("Modo de consulta validado: nacional (tamano_pagina=%d).", tamanio)
+            return items
+        except MPApiError as exc:
+            if not _es_error_de_parametros(exc):
+                raise
+            logger.warning("Consulta nacional rechazada por la API (%s).", exc)
+
+        if tamanio != 50:
+            try:
+                items = self._paginar(
+                    {"estado": estado, "tamano_pagina": 50, "numero_pagina": 1},
+                    max_paginas,
+                )
+                self._modo = "nacional"
+                self._tamanio_fijo = 50
+                logger.info(
+                    "La API rechazó tamano_pagina=%d pero acepta 50: se usará 50.",
+                    tamanio,
+                )
+                return items
+            except MPApiError as exc2:
+                if not _es_error_de_parametros(exc2):
+                    raise
+                logger.warning(
+                    "Nacional con tamano_pagina=50 también rechazada (%s).", exc2
+                )
+
+        self._modo = "region"
+        logger.info(
+            "La API exige filtro por región: recorriendo las 16 regiones "
+            "(2 páginas por región, deduplicando)."
+        )
+        return self._listar_por_regiones(estado, 50, max_paginas)
+
+    def detalle(self, codigo: str) -> Dict[str, Any]:
+        """Detalle completo de una Compra Ágil: productos, proveedores, montos."""
+        return self._get("/v2/compra-agil/%s" % codigo)
+
+    # --------------------------------------------------------------- internos
+    def _paginar(self, query: Dict[str, Any], max_paginas: Optional[int]) -> List[Dict[str, Any]]:
+        """Itera páginas de una consulta hasta agotar total_paginas o max_paginas."""
         items: List[Dict[str, Any]] = []
         while True:
             payload = self._get("/v2/compra-agil", query)
@@ -191,18 +282,63 @@ class CompraAgilClient:
             query["numero_pagina"] = numero_pagina + 1
         return items
 
-    def detalle(self, codigo: str) -> Dict[str, Any]:
-        """Detalle completo de una Compra Ágil: productos, proveedores, montos."""
-        return self._get("/v2/compra-agil/%s" % codigo)
+    def _listar_por_regiones(
+        self, estado: str, tamanio: int, max_paginas: Optional[int]
+    ) -> List[Dict[str, Any]]:
+        """Recorre las 16 regiones (patrón de los clientes probados en producción)."""
+        por_region = max(1, min(2, max_paginas or 2))
+        items: List[Dict[str, Any]] = []
+        vistos = set()
+        ultimo_error: Optional[MPApiError] = None
+        for region in REGIONES_DE_CHILE:
+            query: Dict[str, Any] = {
+                "estado": estado,
+                "tamano_pagina": tamanio,
+                "numero_pagina": 1,
+                "region": region,
+            }
+            try:
+                while True:
+                    payload = self._get("/v2/compra-agil", query)
+                    for item in payload.get("items") or []:
+                        codigo = item.get("codigo")
+                        if codigo and codigo in vistos:
+                            continue
+                        vistos.add(codigo)
+                        items.append(item)
+                    paginacion = payload.get("paginacion") or {}
+                    total_paginas = int(paginacion.get("total_paginas") or 1)
+                    actual = int(paginacion.get("numero_pagina") or query["numero_pagina"])
+                    if actual >= total_paginas or actual >= por_region:
+                        break
+                    query["numero_pagina"] = actual + 1
+            except MPApiError as exc:
+                logger.warning("Región %d falló (se continúa): %s", region, exc)
+                ultimo_error = exc
+                continue
+        if not items and ultimo_error is not None:
+            raise ultimo_error
+        logger.info("Listado por regiones: %d Compras Ágiles únicas.", len(items))
+        return items
 
 
 def _mensaje_error(resp: requests.Response) -> str:
-    """Extrae el mensaje legible de una respuesta de error de la API."""
+    """Extrae el mensaje legible de una respuesta de error de la API.
+
+    Incluye `detalle` y `trace` cuando la API los entrega, para poder
+    diagnosticar rechazos de parámetros desde el log de Actions.
+    """
     try:
         data = resp.json()
         errores = data.get("errors") or []
         if errores:
-            return str(errores[0].get("mensaje") or resp.text[:200])
+            primero = errores[0]
+            partes = [str(primero.get("mensaje") or resp.text[:200])]
+            if primero.get("detalle"):
+                partes.append("detalle: %s" % primero["detalle"])
+            if data.get("trace"):
+                partes.append("trace: %s" % data["trace"])
+            return " | ".join(partes)
     except ValueError:
         pass
     return "HTTP %d: %s" % (resp.status_code, resp.text[:200])

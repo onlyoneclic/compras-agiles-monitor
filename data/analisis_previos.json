@@ -1,599 +1,1345 @@
 {
- "900001-100-COT26": {
-  "codigo": "900001-100-COT26",
-  "demo": true,
-  "guardado_utc": "2026-11-23T13:57:40+00:00",
-  "fecha_cierre": "2026-11-25T07:57:40+00:00",
-  "veredicto": "RENTABLE",
+ "1549-4831-COT26": {
+  "codigo": "1549-4831-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 16:45",
+  "veredicto": "SIN DATOS",
   "productos": [
    {
-    "nombre": "CUADERNO UNIVERSITARIO 100 HOJAS",
-    "cantidad": 400,
-    "unidad": "EA",
-    "descripcion": "Cuaderno universitario tapa dura"
+    "codigo_producto": 82121507,
+    "nombre": "Impresión de papelería o formularios comerciales",
+    "descripcion": "104-7495\tRECETARIO PABELLON AUTOCOP.FOLIADO X3",
+    "cantidad": 1000.0,
+    "unidad": "BLO"
    },
    {
-    "nombre": "PAPEL BOND OFICIO 75 GR",
-    "cantidad": 200,
-    "unidad": "EA",
-    "descripcion": "Caja resma papel bond"
-   },
-   {
-    "nombre": "BOLIGRAFO TINTA AZUL",
-    "cantidad": 500,
-    "unidad": "EA",
-    "descripcion": null
+    "codigo_producto": 82121507,
+    "nombre": "Impresión de papelería o formularios comerciales",
+    "descripcion": "104-7496\tRECETARIO PARTO AUTOCOP.FOLIADO X3",
+    "cantidad": 930.0,
+    "unidad": "BLO"
    }
   ],
   "resultados_precio": {
-   "CUADERNO UNIVERSITARIO 100 HOJAS": {
-    "query": "cuaderno universitario 100 hojas",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (cuaderno)",
-      "titulo": "[DEMO] cuaderno universitario 100 hojas — oferta tienda 1",
-      "precio_clp": 950,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (cuaderno)",
-      "titulo": "[DEMO] cuaderno universitario 100 hojas — oferta tienda 2",
-      "precio_clp": 1100,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (cuaderno)",
-      "titulo": "[DEMO] cuaderno universitario 100 hojas — oferta tienda 3",
-      "precio_clp": 1250,
-      "url": "",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   },
-   "PAPEL BOND OFICIO 75 GR": {
-    "query": "papel bond oficio 75 gr",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (papel bond)",
-      "titulo": "[DEMO] papel bond oficio 75 gr — oferta tienda 1",
-      "precio_clp": 3400,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (papel bond)",
-      "titulo": "[DEMO] papel bond oficio 75 gr — oferta tienda 2",
-      "precio_clp": 3900,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (papel bond)",
-      "titulo": "[DEMO] papel bond oficio 75 gr — oferta tienda 3",
-      "precio_clp": 4200,
-      "url": "",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   },
-   "BOLIGRAFO TINTA AZUL": {
-    "query": "boligrafo tinta azul",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (boligrafo)",
-      "titulo": "[DEMO] boligrafo tinta azul — oferta tienda 1",
-      "precio_clp": 150,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (boligrafo)",
-      "titulo": "[DEMO] boligrafo tinta azul — oferta tienda 2",
-      "precio_clp": 220,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (boligrafo)",
-      "titulo": "[DEMO] boligrafo tinta azul — oferta tienda 3",
-      "precio_clp": 300,
-      "url": "",
-      "disponible": true
-     }
-    ],
+   "Impresión de papelería o formularios comerciales": {
+    "query": "impresión de papelería o formularios comerciales",
+    "precios": [],
     "errores": []
    }
   },
   "mejor_cotizacion_neta": null
  },
- "900002-200-COT26": {
-  "codigo": "900002-200-COT26",
-  "demo": true,
-  "guardado_utc": "2026-11-23T13:57:40+00:00",
-  "fecha_cierre": "2026-11-23T17:57:40+00:00",
-  "veredicto": "RENTABLE",
+ "5209-2198-COT26": {
+  "codigo": "5209-2198-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 16:36",
+  "veredicto": "SIN DATOS",
   "productos": [
    {
-    "nombre": "TONER LASER NEGRO COMPATIBLE",
-    "cantidad": 12,
-    "unidad": "EA",
-    "descripcion": "Toner compatible hp"
-   },
-   {
-    "nombre": "TINTA IMPRESORA MULTIFUNCIONAL",
-    "cantidad": 10,
-    "unidad": "EA",
-    "descripcion": null
+    "codigo_producto": 51102710,
+    "nombre": "Antisépticos basados en alcohol o acetona",
+    "descripcion": "ALCOHOL ISOPROPILICO 70% DE 250-300 ML, La cantidad necesaria a despachar en caso de adjudicar será Coordinada por Bodega.",
+    "cantidad": 1794.0,
+    "unidad": "VI"
    }
   ],
   "resultados_precio": {
-   "TONER LASER NEGRO COMPATIBLE": {
-    "query": "toner laser negro compatible",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (toner)",
-      "titulo": "[DEMO] toner laser negro compatible — oferta tienda 1",
-      "precio_clp": 42000,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (toner)",
-      "titulo": "[DEMO] toner laser negro compatible — oferta tienda 2",
-      "precio_clp": 48000,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (toner)",
-      "titulo": "[DEMO] toner laser negro compatible — oferta tienda 3",
-      "precio_clp": 52000,
-      "url": "",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   },
-   "TINTA IMPRESORA MULTIFUNCIONAL": {
-    "query": "tinta impresora multifuncional",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (tinta)",
-      "titulo": "[DEMO] tinta impresora multifuncional — oferta tienda 1",
-      "precio_clp": 28000,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (tinta)",
-      "titulo": "[DEMO] tinta impresora multifuncional — oferta tienda 2",
-      "precio_clp": 32000,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (tinta)",
-      "titulo": "[DEMO] tinta impresora multifuncional — oferta tienda 3",
-      "precio_clp": 35000,
-      "url": "",
-      "disponible": true
-     }
-    ],
+   "Antisépticos basados en alcohol o acetona": {
+    "query": "antisépticos basados en alcohol o acetona",
+    "precios": [],
     "errores": []
    }
   },
   "mejor_cotizacion_neta": null
  },
- "900003-300-COT26": {
-  "codigo": "900003-300-COT26",
-  "demo": true,
-  "guardado_utc": "2026-11-23T13:57:40+00:00",
-  "fecha_cierre": "2026-11-26T11:57:40+00:00",
-  "veredicto": "RENTABLE",
+ "1549-4832-COT26": {
+  "codigo": "1549-4832-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 16:45",
+  "veredicto": "SIN DATOS",
   "productos": [
    {
-    "nombre": "NOTEBOOK 15 PULGADAS i5",
-    "cantidad": 10,
-    "unidad": "EA",
-    "descripcion": "Notebook 8GB RAM 512GB SSD"
-   },
-   {
-    "nombre": "MOUSE INALAMBRICO",
-    "cantidad": 10,
-    "unidad": "EA",
-    "descripcion": null
-   },
-   {
-    "nombre": "TECLADO USB",
-    "cantidad": 10,
-    "unidad": "EA",
-    "descripcion": null
+    "codigo_producto": 42295501,
+    "nombre": "Implantes cardiovasculares",
+    "descripcion": "226-9739 SET DE STENT DE DISECCION AORTICA",
+    "cantidad": 1.0,
+    "unidad": "KIT"
    }
   ],
   "resultados_precio": {
-   "NOTEBOOK 15 PULGADAS i5": {
-    "query": "notebook 15 pulgadas i5",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (notebook)",
-      "titulo": "[DEMO] notebook 15 pulgadas i5 — oferta tienda 1",
-      "precio_clp": 329990,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (notebook)",
-      "titulo": "[DEMO] notebook 15 pulgadas i5 — oferta tienda 2",
-      "precio_clp": 349990,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (notebook)",
-      "titulo": "[DEMO] notebook 15 pulgadas i5 — oferta tienda 3",
-      "precio_clp": 379990,
-      "url": "",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   },
-   "MOUSE INALAMBRICO": {
-    "query": "mouse inalambrico",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (mouse)",
-      "titulo": "[DEMO] mouse inalambrico — oferta tienda 1",
-      "precio_clp": 4990,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (mouse)",
-      "titulo": "[DEMO] mouse inalambrico — oferta tienda 2",
-      "precio_clp": 5990,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (mouse)",
-      "titulo": "[DEMO] mouse inalambrico — oferta tienda 3",
-      "precio_clp": 6990,
-      "url": "",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   },
-   "TECLADO USB": {
-    "query": "teclado usb",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (teclado)",
-      "titulo": "[DEMO] teclado usb — oferta tienda 1",
-      "precio_clp": 6990,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (teclado)",
-      "titulo": "[DEMO] teclado usb — oferta tienda 2",
-      "precio_clp": 8490,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (teclado)",
-      "titulo": "[DEMO] teclado usb — oferta tienda 3",
-      "precio_clp": 9990,
-      "url": "",
-      "disponible": true
-     }
-    ],
+   "Implantes cardiovasculares": {
+    "query": "implantes cardiovasculares",
+    "precios": [],
     "errores": []
    }
   },
   "mejor_cotizacion_neta": null
  },
- "900005-500-COT26": {
-  "codigo": "900005-500-COT26",
-  "demo": true,
-  "guardado_utc": "2026-11-23T13:57:40+00:00",
-  "fecha_cierre": "2026-11-27T13:57:40+00:00",
-  "veredicto": "NO RENTABLE",
+ "1208066-554-COT26": {
+  "codigo": "1208066-554-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-25 08:00",
+  "veredicto": "SIN DATOS",
   "productos": [
    {
-    "nombre": "SILLA OFICINA GIRATORIA",
-    "cantidad": 20,
-    "unidad": "EA",
-    "descripcion": "Silla ergonómica con ruedas"
-   },
-   {
-    "nombre": "ESCRITORIO 120 CM",
-    "cantidad": 20,
-    "unidad": "EA",
-    "descripcion": null
+    "codigo_producto": 72102401,
+    "nombre": "Servicios de pintura de exteriores",
+    "descripcion": "Para cada servicio encomendado, el Contratista deberá guardar el 5% de la pintura, barniz, Vitrificante o producto utilizado, para poder desmanchar y recorrer los posibles daños que se produzcan por faenas posteriores al pintado, como traslado de muebles, equipamiento, etc.\nEl Contratista deberá atenerse estrictamente a las especificaciones y catálogos de las fábricas respectivas. En proyectos que se requiera de colores personalizados, se harán muestras previas de 1 metro cuadrado para verificar",
+    "cantidad": 1.0,
+    "unidad": "EA"
    }
   ],
   "resultados_precio": {
-   "SILLA OFICINA GIRATORIA": {
-    "query": "silla oficina giratoria",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (silla)",
-      "titulo": "[DEMO] silla oficina giratoria — oferta tienda 1",
-      "precio_clp": 54990,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (silla)",
-      "titulo": "[DEMO] silla oficina giratoria — oferta tienda 2",
-      "precio_clp": 62990,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (silla)",
-      "titulo": "[DEMO] silla oficina giratoria — oferta tienda 3",
-      "precio_clp": 69990,
-      "url": "",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   },
-   "ESCRITORIO 120 CM": {
-    "query": "escritorio 120 cm",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (escritorio)",
-      "titulo": "[DEMO] escritorio 120 cm — oferta tienda 1",
-      "precio_clp": 89990,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (escritorio)",
-      "titulo": "[DEMO] escritorio 120 cm — oferta tienda 2",
-      "precio_clp": 97990,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (escritorio)",
-      "titulo": "[DEMO] escritorio 120 cm — oferta tienda 3",
-      "precio_clp": 109990,
-      "url": "",
-      "disponible": true
-     }
-    ],
+   "Servicios de pintura de exteriores": {
+    "query": "servicios de pintura de exteriores",
+    "precios": [],
     "errores": []
    }
   },
   "mejor_cotizacion_neta": null
  },
- "900006-600-COT26": {
-  "codigo": "900006-600-COT26",
-  "demo": true,
-  "guardado_utc": "2026-11-23T13:57:40+00:00",
-  "fecha_cierre": "2026-11-24T19:57:40+00:00",
-  "veredicto": "NO RENTABLE",
+ "3882-406-COT26": {
+  "codigo": "3882-406-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-25 08:00",
+  "veredicto": "SIN DATOS",
   "productos": [
    {
-    "nombre": "PARLANTE BLUETOOTH 20W",
-    "cantidad": 6,
-    "unidad": "EA",
-    "descripcion": null
+    "codigo_producto": 43211507,
+    "nombre": "Computadores de escritorio",
+    "descripcion": "PC Gamer Intel i7 14700F 12-Core + 32GB DDR5 + RTX 5050 8GB o equivalente técnico, segun especificaciones tecnicas adjuntas.",
+    "cantidad": 3.0,
+    "unidad": "EA"
    },
    {
-    "nombre": "CAMARA WEB FULL HD",
-    "cantidad": 6,
-    "unidad": "EA",
-    "descripcion": null
-   },
-   {
-    "nombre": "CABLE HDMI 2 METROS",
-    "cantidad": 10,
-    "unidad": "EA",
-    "descripcion": null
+    "codigo_producto": 43211902,
+    "nombre": "Monitores o pantallas de visualización en cristal líquido (LCD)",
+    "descripcion": "MONITORES SAMSUNG 29UM68 o equivalente técnico, segun especificaciones tecnicas adjuntas.",
+    "cantidad": 3.0,
+    "unidad": "EA"
    }
   ],
   "resultados_precio": {
-   "PARLANTE BLUETOOTH 20W": {
-    "query": "parlante bluetooth 20w",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (parlante)",
-      "titulo": "[DEMO] parlante bluetooth 20w — oferta tienda 1",
-      "precio_clp": 19990,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (parlante)",
-      "titulo": "[DEMO] parlante bluetooth 20w — oferta tienda 2",
-      "precio_clp": 24990,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (parlante)",
-      "titulo": "[DEMO] parlante bluetooth 20w — oferta tienda 3",
-      "precio_clp": 29990,
-      "url": "",
-      "disponible": true
-     }
-    ],
+   "Computadores de escritorio": {
+    "query": "computadores de escritorio",
+    "precios": [],
     "errores": []
    },
-   "CAMARA WEB FULL HD": {
-    "query": "camara web full hd",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (camara)",
-      "titulo": "[DEMO] camara web full hd — oferta tienda 1",
-      "precio_clp": 45990,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (camara)",
-      "titulo": "[DEMO] camara web full hd — oferta tienda 2",
-      "precio_clp": 52990,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (camara)",
-      "titulo": "[DEMO] camara web full hd — oferta tienda 3",
-      "precio_clp": 59990,
-      "url": "",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   },
-   "CABLE HDMI 2 METROS": {
-    "query": "cable hdmi 2 metros",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (cable)",
-      "titulo": "[DEMO] cable hdmi 2 metros — oferta tienda 1",
-      "precio_clp": 2490,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (cable)",
-      "titulo": "[DEMO] cable hdmi 2 metros — oferta tienda 2",
-      "precio_clp": 3200,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (cable)",
-      "titulo": "[DEMO] cable hdmi 2 metros — oferta tienda 3",
-      "precio_clp": 3990,
-      "url": "",
-      "disponible": true
-     }
-    ],
+   "Monitores o pantallas de visualización en cristal líquido (LCD)": {
+    "query": "monitores o pantallas de visualización en cristal líquido lcd",
+    "precios": [],
     "errores": []
    }
   },
   "mejor_cotizacion_neta": null
  },
- "900004-400-COT26": {
-  "codigo": "900004-400-COT26",
-  "demo": true,
-  "guardado_utc": "2026-11-23T13:57:40+00:00",
-  "fecha_cierre": "2026-11-24T07:57:40+00:00",
-  "veredicto": "NO RENTABLE",
+ "494-1169-COT26": {
+  "codigo": "494-1169-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 16:35",
+  "veredicto": "SIN DATOS",
   "productos": [
    {
-    "nombre": "GUANTES NITRILO TALLA M",
-    "cantidad": 100,
-    "unidad": "EA",
-    "descripcion": "Caja 100 unidades"
+    "codigo_producto": 42241804,
+    "nombre": "Productos blandos ortopédicos para la clavícula",
+    "descripcion": "PLACA CLAVICULA 5 ORIF. IZQ., \nTORNILLO CORTICAL 3.5 X 18 MM.,\nTORNILLO CORTICAL 3.5 X 16 MM.,\nTORNILLO BLOQ 3.5 X 16 MM.,\nTORNILLO BLOQ 3.5 X 14 MM.,\nTORNILLO BLOQ 2.7 X 14 MM.,\nTORNILLO BLOQ 2.7 X 12 MM.- Paciente F.M.",
+    "cantidad": 1.0,
+    "unidad": "KIT"
    },
    {
-    "nombre": "MASCARILLA QUIRURGICA",
-    "cantidad": 500,
-    "unidad": "EA",
-    "descripcion": null
+    "codigo_producto": 42241804,
+    "nombre": "Productos blandos ortopédicos para la clavícula",
+    "descripcion": "PLACA 1/3 TUBO 10 ORIF.,\nTORNILLO CORTICAL 3.5 X 14 MM.,\nTORNILLO CORTICAL 3.5 X 30 MM.,\nTORNILLO CORTICAL 3.5 X 36 MM. Paciente L.J.G.",
+    "cantidad": 1.0,
+    "unidad": "KIT"
    },
    {
-    "nombre": "ALCOHOL GEL 1 LITRO",
-    "cantidad": 60,
-    "unidad": "EA",
-    "descripcion": null
+    "codigo_producto": 42241804,
+    "nombre": "Productos blandos ortopédicos para la clavícula",
+    "descripcion": "TORNILLO CORT. 4.5 X 26 MM\nTORNILLO CORT. 4.5 X 24 MM\nTORNILLO CORT. 4.5 X 24 MM\nTORNILLO CORT. 4.5 X 28 MM\nTORNILLO CORT. 4.5 X 30 MM\nTORNILLO CORT. 4.5 X 36 MM\nPLACA RECTA LCP 10 ORIF.- Paciente D.M.",
+    "cantidad": 1.0,
+    "unidad": "KIT"
+   },
+   {
+    "codigo_producto": 42241804,
+    "nombre": "Productos blandos ortopédicos para la clavícula",
+    "descripcion": "PLACA RECTA LCP 8 ORIF. - Paciente Y.H.",
+    "cantidad": 1.0,
+    "unidad": "KIT"
+   },
+   {
+    "codigo_producto": 42241804,
+    "nombre": "Productos blandos ortopédicos para la clavícula",
+    "descripcion": "PLACA RECTA LCP 8 ORIF. - Paciente D.R.A.",
+    "cantidad": 1.0,
+    "unidad": "KIT"
+   },
+   {
+    "codigo_producto": 42241804,
+    "nombre": "Productos blandos ortopédicos para la clavícula",
+    "descripcion": "PLACA 1/3 TUBO 7 ORIF.\nTORNILLO CORTICAL 3.5 X 12 MM\nTORNILLO CORTICAL 3.5 X 16 MM\nTORNILLO CORTICAL 3.5 X 18 MM. - Paciente M.G.M.",
+    "cantidad": 1.0,
+    "unidad": "KIT"
+   },
+   {
+    "codigo_producto": 42241804,
+    "nombre": "Productos blandos ortopédicos para la clavícula",
+    "descripcion": "PLACA 1/3 TUBO 3 ORIF. - Paciente R.R.CH.",
+    "cantidad": 1.0,
+    "unidad": "KIT"
+   },
+   {
+    "codigo_producto": 42241804,
+    "nombre": "Productos blandos ortopédicos para la clavícula",
+    "descripcion": "PLACA 1/3 TUBO 4 ORIF. - Paciente A.M.M.",
+    "cantidad": 1.0,
+    "unidad": "KIT"
+   },
+   {
+    "codigo_producto": 42241804,
+    "nombre": "Productos blandos ortopédicos para la clavícula",
+    "descripcion": "PLACA CLAVICULA 8 ORIF.\nTORNILLO CORTICAL 3.5 X 14 MM\nTORNILLO CORTICAL 3.5 X 18 MM\nTORNILLO CORTICAL 3.5 X 12 MM\nTORNILLO BLOQ. 3.5 X 12 MM. - Paciente C.M.",
+    "cantidad": 1.0,
+    "unidad": "KIT"
+   },
+   {
+    "codigo_producto": 42241804,
+    "nombre": "Productos blandos ortopédicos para la clavícula",
+    "descripcion": "PLACA RECTA LCP 6 ORIF\nTORNILLO CORTICAL 3.5 X 26 MM\nTORNILLO CORTICAL 3.5 X 20 MM\nTORNILLO CORTICAL 3.5 X 18 MM\nTORNILLO BLOQ. 3.5 X 20 MM\nBROCA 2.7 X 180 MM MLP\nBROCA 2.7 X 180 MM MLP\nBROCA 2.3 X 180 MM MLP\nBROCA 2.3 X 180 MM MLP. - Paciente O.B.B.",
+    "cantidad": 1.0,
+    "unidad": "KIT"
+   },
+   {
+    "codigo_producto": 42241804,
+    "nombre": "Productos blandos ortopédicos para la clavícula",
+    "descripcion": "TORNILLO CORT. 4.5 X 26 MM\nTORNILLO CORT. 4.5 X 32 MM\nTORNILLO CORT. 4.5 X 24 MM\nTORNILLO CORT. 4.5 X 28 MM\nTORNILLO CORT. 4.5 X 38 MM. - Paciente N.M.N.",
+    "cantidad": 1.0,
+    "unidad": "KIT"
+   },
+   {
+    "codigo_producto": 42241804,
+    "nombre": "Productos blandos ortopédicos para la clavícula",
+    "descripcion": "TORNILLO CORTICAL 3.5 X 18 MM\nTORNILLO CORTICAL 3.5 X 14 MM\nPLACA RECTA LCP 12 ORIF\nTORNILLO BLOQ. 3.5 X 14 MM\nPLACA RECTA LCP 8 ORIF\nTORNILLO BLOQ. 3.5 X 16 MM. - Paciente G.F.E.",
+    "cantidad": 1.0,
+    "unidad": "KIT"
    }
   ],
   "resultados_precio": {
-   "GUANTES NITRILO TALLA M": {
-    "query": "guantes nitrilo talla m",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (guantes nitrilo)",
-      "titulo": "[DEMO] guantes nitrilo talla m — oferta tienda 1",
-      "precio_clp": 2490,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (guantes nitrilo)",
-      "titulo": "[DEMO] guantes nitrilo talla m — oferta tienda 2",
-      "precio_clp": 2890,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (guantes nitrilo)",
-      "titulo": "[DEMO] guantes nitrilo talla m — oferta tienda 3",
-      "precio_clp": 3300,
-      "url": "",
-      "disponible": true
-     }
-    ],
+   "Productos blandos ortopédicos para la clavícula": {
+    "query": "productos blandos ortopédicos para la clavícula",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1057539-5183-COT26": {
+  "codigo": "1057539-5183-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 16:37",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42293119,
+    "nombre": "Retractores abdominales",
+    "descripcion": "3400050\tRETRACTOR ABDOMINAL M 5 - 9 CM REF:DMR005090",
+    "cantidad": 30.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42293119,
+    "nombre": "Retractores abdominales",
+    "descripcion": "3400049\tRETRACTOR ABDOMINAL S 2 - 6 CM  REF.DMR002560",
+    "cantidad": 15.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42293119,
+    "nombre": "Retractores abdominales",
+    "descripcion": "1252315\tSEPARADOR SURGISLEEVE T-XS (2-4CM) REF:WPXSM24 (retractor)",
+    "cantidad": 20.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42293119,
+    "nombre": "Retractores abdominales",
+    "descripcion": "3400054\tRETRACTOR ABDOMINAL PELOSSI EXTRA LARGE 11-17 CM",
+    "cantidad": 35.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Retractores abdominales": {
+    "query": "retractores abdominales",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "5512-72-COT26": {
+  "codigo": "5512-72-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 17:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 86111502,
+    "nombre": "Enseñanza a distancia",
+    "descripcion": "ADQUISICIÓN DE EQUIPAMIENTO PARA IMPLEMENTACIÓN DE SALA HÍBRIDA, SEGÚN ARCHIVO ADJUNTO",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Enseñanza a distancia": {
+    "query": "enseñanza a distancia",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2776-1016-COT26": {
+  "codigo": "2776-1016-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 17:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 91111703,
+    "nombre": "Vestuario",
+    "descripcion": "INDUMENTARIA PARA PROFESIONALES Y EQUIPO DE ASISTENTES DEL PROGRAMA RED LOCAL DE APOYOS Y CUIDADOS (D.A.N°2198), SEGÚN LO ESTABLECIDO EN LOS 02 TÉRMINOS DE REQUERIMIENTOS ADJUNTOS.",
+    "cantidad": 1.0,
+    "unidad": "000"
+   }
+  ],
+  "resultados_precio": {
+   "Vestuario": {
+    "query": "vestuario indumentaria para profesionales y equipo de asistentes del programa red local de apoyos y cuidados d a n 2198 según lo establecido en los 02 términos de requerimientos adjuntos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1456840-57-COT26": {
+  "codigo": "1456840-57-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-26 17:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 46181504,
+    "nombre": "Guantes protectores",
+    "descripcion": "GUANTE STEELPRO EXECUTIVE IMPACT FORCE O EQUIVALENTE (SEGUN REQUERIMIENTOS ADJUNTOS)",
+    "cantidad": 10.0,
+    "unidad": "PR"
+   },
+   {
+    "codigo_producto": 46181507,
+    "nombre": "Chalecos de protección",
+    "descripcion": "CHALECO GEÓLOGO REFLECTANTE GEOPLUS ORBIT KBEEN O EQUIVALENTE (SEGUN REQUERIMIENTOS ADJUNTOS)",
+    "cantidad": 16.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 46181525,
+    "nombre": "Ropa impermeable protectora o ropa para ambiente húmedo",
+    "descripcion": "CHAQUETA IMPERMEABLE TORRENTSHELL 3L, PATAGONIA O EQUIVALENTE (SEGUN REQUERIMIENTOS ADJUNTOS)",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 46181525,
+    "nombre": "Ropa impermeable protectora o ropa para ambiente húmedo",
+    "descripcion": "PANTALÓN IMPERMEABLE STRETCH OZONIC MOUNTAIN HARDWEAR, TORRENTSHELL 3L PATAGONIA O EQUIVALENTE (SEGUN REQUERIMIENTOS ADJUNTOS)",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 46181602,
+    "nombre": "Calzado protector contra materias peligrosas",
+    "descripcion": "ZAPATO DE SEGURIDAD CHELSEA EVOLUTION MID HELLY HANSEN O EQUIVALENTE (SEGUN REQUERIMIENTOS ADJUNTOS)",
+    "cantidad": 10.0,
+    "unidad": "PR"
+   },
+   {
+    "codigo_producto": 46181704,
+    "nombre": "Cascos de protección",
+    "descripcion": "CASCO DE SEGURIDAD 3M H-701R HARDHAT BLANCO O EQUIVALENTE (SEGUN REQUERIMIENTOS ADJUNTOS)",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 46181802,
+    "nombre": "Lentes de protección",
+    "descripcion": "LENTE DE SEGURIDAD BOLLÉ AKA FOTOCROMÁTICO O EQUIVALENTE (SEGU REQUERIMIENTOS ADJUNTOS)",
+    "cantidad": 5.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 46181901,
+    "nombre": "Protectores de oídos",
+    "descripcion": "PROTECTOR AUDITIVO 3M PARA CASCO PELTOR X1P3E O EQUIVALENTE (SEGUN REQUERIMIENTOS ADJUNTOS)",
+    "cantidad": 5.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 46182005,
+    "nombre": "Máscaras o filtros de respirador o accesorios",
+    "descripcion": "UNA CAJA DE 50 UNIDADES DE RESPIRADOR 9010 PARA PARTICULAS, N95 O EQUIVALENTE (SEGUN REQUERIMIENTOS ADJUNTOS)",
+    "cantidad": 1.0,
+    "unidad": "BX"
+   },
+   {
+    "codigo_producto": 53111501,
+    "nombre": "Botas de hombre",
+    "descripcion": "BOTA DE SEGURIDAD V-FLEX CAUCHO MINERA M100 O EQUIVALENTE (SEGUN REQUERIMIENTOS ADJUNTOS)",
+    "cantidad": 10.0,
+    "unidad": "PR"
+   }
+  ],
+  "resultados_precio": {
+   "Guantes protectores": {
+    "query": "guantes protectores",
+    "precios": [],
     "errores": []
    },
-   "MASCARILLA QUIRURGICA": {
-    "query": "mascarilla quirurgica",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (generico)",
-      "titulo": "[DEMO] mascarilla quirurgica — oferta tienda 1",
-      "precio_clp": 5000,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (generico)",
-      "titulo": "[DEMO] mascarilla quirurgica — oferta tienda 2",
-      "precio_clp": 6500,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (generico)",
-      "titulo": "[DEMO] mascarilla quirurgica — oferta tienda 3",
-      "precio_clp": 8000,
-      "url": "",
-      "disponible": true
-     }
-    ],
+   "Chalecos de protección": {
+    "query": "chalecos de protección",
+    "precios": [],
     "errores": []
    },
-   "ALCOHOL GEL 1 LITRO": {
-    "query": "alcohol gel 1 litro",
-    "precios": [
-     {
-      "fuente": "tienda-demo-uno (alcohol gel)",
-      "titulo": "[DEMO] alcohol gel 1 litro — oferta tienda 1",
-      "precio_clp": 3600,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-dos (alcohol gel)",
-      "titulo": "[DEMO] alcohol gel 1 litro — oferta tienda 2",
-      "precio_clp": 4200,
-      "url": "",
-      "disponible": true
-     },
-     {
-      "fuente": "tienda-demo-tres (alcohol gel)",
-      "titulo": "[DEMO] alcohol gel 1 litro — oferta tienda 3",
-      "precio_clp": 4800,
-      "url": "",
-      "disponible": true
-     }
-    ],
+   "Ropa impermeable protectora o ropa para ambiente húmedo": {
+    "query": "ropa impermeable protectora o ropa para ambiente húmedo",
+    "precios": [],
+    "errores": []
+   },
+   "Calzado protector contra materias peligrosas": {
+    "query": "calzado protector contra materias peligrosas",
+    "precios": [],
+    "errores": []
+   },
+   "Cascos de protección": {
+    "query": "cascos de protección",
+    "precios": [],
+    "errores": []
+   },
+   "Lentes de protección": {
+    "query": "lentes de protección",
+    "precios": [],
+    "errores": []
+   },
+   "Protectores de oídos": {
+    "query": "protectores de oídos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2249-181-COT26": {
+  "codigo": "2249-181-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 16:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 47121805,
+    "nombre": "Limpiadoras de presión o de vapor",
+    "descripcion": "HIDROLAVADORA INDUSTRIAL AGUA FRIA/CALIENTE KARCHER o equivalente, según especificaciones adjuntas.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Limpiadoras de presión o de vapor": {
+    "query": "limpiadoras de presión o de vapor",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "5684-483-COT26": {
+  "codigo": "5684-483-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-26 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 41104912,
+    "nombre": "Filtros de prensas de fluidos",
+    "descripcion": "Suministro de 6 unidades (equivalente a 1 pack de 6 unidades) de filtro de repuesto PTFE-Filterfolie, Ø 25 mm para detectores de gas MSA, o repuesto equivalente técnico 100% compatible y de igual o superior calidad. Según especificaciones del anexo técnico adjunto.",
+    "cantidad": 6.0,
+    "unidad": "000"
+   },
+   {
+    "codigo_producto": 46171613,
+    "nombre": "Detectores de gas",
+    "descripcion": "Suministro de Detector de gas portátil MSA ALTAIR io 4 (o equivalente técnico de igual o superior calidad y compatibilidad operacional). Debe incluir cargador, accesorios estándar de fábrica y certificado de calibración de origen, según especificaciones del anexo técnico adjunto.",
+    "cantidad": 2.0,
+    "unidad": "000"
+   },
+   {
+    "codigo_producto": 46171613,
+    "nombre": "Detectores de gas",
+    "descripcion": "Suministro de Detector de fugas de gases combustibles MSA Leakator Jr (o equivalente técnico de igual o superior calidad). Debe entregarse operativo con sus accesorios estándar de fábrica y manuales, según especificaciones del anexo técnico adjunto.",
+    "cantidad": 6.0,
+    "unidad": "000"
+   },
+   {
+    "codigo_producto": 73152101,
+    "nombre": "Servicio de mantenimiento de equipo de fabricación",
+    "descripcion": "Servicio de mantención preventiva, diagnóstico, ajuste y calibración certificada con gases patrón trazables para 1 equipo existente: Detector de gases múltiples MSA ALTAIR® 5X. Incluye emisión de certificado de calibración vigente e informe técnico del estado de sensores, según anexo técnico adjunto.",
+    "cantidad": 1.0,
+    "unidad": "000"
+   }
+  ],
+  "resultados_precio": {
+   "Filtros de prensas de fluidos": {
+    "query": "filtros de prensas de fluidos",
+    "precios": [],
+    "errores": []
+   },
+   "Detectores de gas": {
+    "query": "detectores de gas",
+    "precios": [],
+    "errores": []
+   },
+   "Servicio de mantenimiento de equipo de fabricación": {
+    "query": "servicio de mantenimiento de equipo de fabricación",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "4967-1225-COT26": {
+  "codigo": "4967-1225-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 16:45",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42182405,
+    "nombre": "Unidades del control de la función auditoria",
+    "descripcion": "Olivas 3 mm compatible con equipo de emisiones otoacústicas Grason-Stadler modelo Corti",
+    "cantidad": 400.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42182405,
+    "nombre": "Unidades del control de la función auditoria",
+    "descripcion": "Olivas 4 mm compatible con equipo de emisiones otoacústicas Grason-Stadler modelo Corti",
+    "cantidad": 300.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42182405,
+    "nombre": "Unidades del control de la función auditoria",
+    "descripcion": "Olivas 5 mm compatible con equipo de emisiones otoacústicas Grason-Stadler modelo Corti",
+    "cantidad": 300.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Unidades del control de la función auditoria": {
+    "query": "unidades del control de la función auditoria",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1385462-117-COT26": {
+  "codigo": "1385462-117-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 16:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 43232408,
+    "nombre": "Software de desarrollo de plataforma Web",
+    "descripcion": "Servicio de desarrollo e implementación de funcionalidades específicas para la Plataforma de Participación Ciudadana\nREVISAR TERMINOS DE REFERENCIA Y COMPLETAR ANEXOS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Software de desarrollo de plataforma Web": {
+    "query": "software de desarrollo de plataforma web",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "3892-458-COT26": {
+  "codigo": "3892-458-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-25 15:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 80111709,
+    "nombre": "Personal médico",
+    "descripcion": "Atención de evaluación médica de psiquiatra o neurólogo infantil, para valoración de estudiantes programa PIE, según se indica en anexo \"Ficha Técnica\" que se adjunta.",
+    "cantidad": 173.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Personal médico": {
+    "query": "personal médico",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1208066-553-COT26": {
+  "codigo": "1208066-553-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-25 08:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 81141807,
+    "nombre": "Servicio de gasfitería y alcantarillado",
+    "descripcion": "2.\tSERVICIOS A REALIZAR\nLos servicios ofrecidos deberán comprender las tareas detalladas a continuación, junto con las especificaciones necesarias para llevar a cabo tanto el mantenimiento preventivo como el correctivo. Cada una de estas especificaciones garantizará la calidad y eficiencia del servicio prestado en la Universidad de Talca.\n\n2.1\tServicios de Supervisión equipo de mantenimiento\nEl proveedor deberá suministrar la mano de obra calificada para la supervisión y coordinación del equipo",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Servicio de gasfitería y alcantarillado": {
+    "query": "servicio de gasfitería y alcantarillado",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "812030-1122-COT26": {
+  "codigo": "812030-1122-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-25 16:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 51171620,
+    "nombre": "Citrato de magnesio",
+    "descripcion": "FAAA12013 MAGNESIO 200- 500 MG CÁPSULA ***Favor cotizar con stock real*** ***Favor indicar vigencia de medicamento (superior a 12 meses)*** ***Favor si el monto supera las 100 UTM cotizar a 1$ adjuntando cotización*** ***Favor indicar factor de empaque*** ***Adjuntar ficha técnica***",
+    "cantidad": 600.0,
+    "unidad": "CAPS"
+   }
+  ],
+  "resultados_precio": {
+   "Citrato de magnesio": {
+    "query": "citrato de magnesio",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1620-236-COT26": {
+  "codigo": "1620-236-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 17:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 44101713,
+    "nombre": "Contadores de copias",
+    "descripcion": "Cartucho De Brazaletes Zebra Z-band Direct Adultos 25x279mm - Cartridge 200 Caja x 6 Unidades, Oferentes de ebrán adjuntar Ficha Técnica del Producto.",
+    "cantidad": 12.0,
+    "unidad": "BX"
+   },
+   {
+    "codigo_producto": 44101713,
+    "nombre": "Contadores de copias",
+    "descripcion": "Cartucho De Brazaletes Zebra Z-band Direct Niños 25x178mm - Cartridge 200 Caja x 6 Unidades, Oferentes de ebrán adjuntar Ficha Técnica del Producto.",
+    "cantidad": 3.0,
+    "unidad": "BX"
+   }
+  ],
+  "resultados_precio": {
+   "Contadores de copias": {
+    "query": "contadores de copias",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1078177-1074-COT26": {
+  "codigo": "1078177-1074-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 16:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 93131608,
+    "nombre": "Servicios de suministro de alimentos",
+    "descripcion": "SERVICIO DE ALIMENTACION FIESTA DE NAVIDAD PREFECTURA CAUTIN Y UNIDADES DEPENDIENTES, CONFORME ANEXO REQUERIMIENTO ADJUNTO.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Servicios de suministro de alimentos": {
+    "query": "servicios de suministro de alimentos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2281-2157-COT26": {
+  "codigo": "2281-2157-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-25 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 30201803,
+    "nombre": "Unidades para contenedores",
+    "descripcion": "Provisión e instalación de punto limpio de reciclaje en parque Saval, programa de Medio Ambiente 2026.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Unidades para contenedores": {
+    "query": "unidades para contenedores",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1002772-3012-COT26": {
+  "codigo": "1002772-3012-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 17:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42221512,
+    "nombre": "Cánulas o accesorios para catéteres intravenosos o arteriales",
+    "descripcion": "322050044 CANULA TRAQUEOSTOMIA PEDIATRICA 3.5 CON BALON (SIMILAR TECNICO SHILEY)",
+    "cantidad": 11.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42221512,
+    "nombre": "Cánulas o accesorios para catéteres intravenosos o arteriales",
+    "descripcion": "322050046 CANULA TRAQUEOSTOMIA PEDIATRICA 4.0 CON BALON (SIMILAR TECNICO SHILEY)",
+    "cantidad": 11.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42221512,
+    "nombre": "Cánulas o accesorios para catéteres intravenosos o arteriales",
+    "descripcion": "322050048 CANULA TRAQUEOSTOMIA PEDIATRICA 4.5 CON BALON (SIMILAR TECNICO SHILEY)",
+    "cantidad": 4.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42221512,
+    "nombre": "Cánulas o accesorios para catéteres intravenosos o arteriales",
+    "descripcion": "322050050 CANULA TRAQUEOSTOMIA PEDIATRICA 5.0 CON BALON (SIMILAT TECNICO SHILEY)",
+    "cantidad": 14.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42221512,
+    "nombre": "Cánulas o accesorios para catéteres intravenosos o arteriales",
+    "descripcion": "322050052 CANULA TRAQUEOSTOMIA PEDIATRICA 6.0 CON BALON (SIMILAR SHILEY)",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Cánulas o accesorios para catéteres intravenosos o arteriales": {
+    "query": "cánulas o accesorios para catéteres intravenosos o arteriales",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1057476-263-COT26": {
+  "codigo": "1057476-263-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 16:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 53102902,
+    "nombre": "Prendas de deporte y buzos de hombre",
+    "descripcion": "Poleras amarillas manga larga cantidad 20 UNIDADES TALLA L 20 UNIDADES TALLA XL confirmar la tabla de medidas en centímetros (pecho, cintura, cadera y largo) para las tallas M, L y XL es necesario saber si corresponden a tallaje normal/occident",
+    "cantidad": 40.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 53102902,
+    "nombre": "Prendas de deporte y buzos de hombre",
+    "descripcion": "Poleras amarillas manga corta CANTIDAD 20 UNIDADES TALLA L 20 UNIDADES TALLA XL confirmar la tabla de medidas en centímetros (pecho, cintura, cadera y largo) para las tallas M, L y XL es necesario saber si corresponden a tallaje normal/occident",
+    "cantidad": 40.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 53102902,
+    "nombre": "Prendas de deporte y buzos de hombre",
+    "descripcion": "Poleron amarillo Cantidad 20 UNIDADES TALLA L 20 UNIDADES TALLA XLconfirmar la tabla de medidas en centímetros (pecho, cintura, cadera y largo) para las tallas M, L y XL es necesario saber si corresponden a tallaje normal/occident",
+    "cantidad": 40.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 53102902,
+    "nombre": "Prendas de deporte y buzos de hombre",
+    "descripcion": "Pantalón amarillo Cantidad 20 UNIDADES TALLA L 20 UNIDADES TALLA XLconfirmar la tabla de medidas en centímetros (pecho, cintura, cadera y largo) para las tallas M, L y XL es necesario saber si corresponden a tallaje normal/occident",
+    "cantidad": 40.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 53102902,
+    "nombre": "Prendas de deporte y buzos de hombre",
+    "descripcion": "POLERON POLAR amarillo CANTIDAD 20 UNIDADES TALLA L 20 UNIDADES TALLA XLconfirmar la tabla de medidas en centímetros (pecho, cintura, cadera y largo) para las tallas M, L y XL es necesario saber si corresponden a tallaje normal/occident",
+    "cantidad": 40.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 53102902,
+    "nombre": "Prendas de deporte y buzos de hombre",
+    "descripcion": "PANTALÓN POLAR amarillo CANTIDAD 20 UNIDADES TALLA L 20 UNIDADES TALLA XLconfirmar la tabla de medidas en centímetros (pecho, cintura, cadera y largo) para las tallas M, L y XL es necesario saber si corresponden a tallaje normal/occident",
+    "cantidad": 40.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 53102902,
+    "nombre": "Prendas de deporte y buzos de hombre",
+    "descripcion": "POLERA MANGA LARGA naranja CANTIDAD 10 UNIDADES TALLA M 10 UNIDADES TALLA L 10 UNIDADES TALLA XLconfirmar la tabla de medidas en centímetros (pecho, cintura, cadera y largo) para las tallas M, L y XL es necesario saber si corresponden a tallaje normal/occident",
+    "cantidad": 30.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 53102902,
+    "nombre": "Prendas de deporte y buzos de hombre",
+    "descripcion": "POLERA MANGA CORTA naranja CANTIDAD 10 UNIDADES TALLA M 10 UNIDADES TALLA Lconfirmar la tabla de medidas en centímetros (pecho, cintura, cadera y largo) para las tallas M, L y XL es necesario saber si corresponden a tallaje normal/occident",
+    "cantidad": 20.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 53102902,
+    "nombre": "Prendas de deporte y buzos de hombre",
+    "descripcion": "POLERON color naranja CANTIDAD 9 UNIDADES TALLA M 9 UNIDADES TALLA L 9 UNIDADES TALLA XLconfirmar la tabla de medidas en centímetros (pecho, cintura, cadera y largo) para las tallas M, L y XL es necesario saber si corresponden a tallaje normal/occident",
+    "cantidad": 27.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 53102902,
+    "nombre": "Prendas de deporte y buzos de hombre",
+    "descripcion": "PANTALÓN CANTIDAD 9 UNIDADES TALLA M 9 UNIDADES TALLA L 9 UNIDADES TALLA XLconfirmar la tabla de medidas en centímetros (pecho, cintura, cadera y largo) para las tallas M, L y XL es necesario saber si corresponden a tallaje normal/occident",
+    "cantidad": 27.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 53102902,
+    "nombre": "Prendas de deporte y buzos de hombre",
+    "descripcion": "POLERON POLAR CANTIDAD 10 UNIDADES TALLA M 10 UNIDADES TALLA L 10 UNIDADES TALLA XLconfirmar la tabla de medidas en centímetros (pecho, cintura, cadera y largo) para las tallas M, L y XL es necesario saber si corresponden a tallaje normal/occident",
+    "cantidad": 30.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 53102902,
+    "nombre": "Prendas de deporte y buzos de hombre",
+    "descripcion": "PANTALÓN POLAR CANTIDAD 10 UNIDADES TALLA M 10 UNIDADES TALLA L 10 UNIDADES TALLA XLconfirmar la tabla de medidas en centímetros (pecho, cintura, cadera y largo) para las tallas M, L y XL es necesario saber si corresponden a tallaje normal/occident",
+    "cantidad": 30.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Prendas de deporte y buzos de hombre": {
+    "query": "prendas de deporte y buzos de hombre",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1430396-106-COT26": {
+  "codigo": "1430396-106-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-25 16:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 30201706,
+    "nombre": "Baños portátiles",
+    "descripcion": "La Corporación requiere arrendar tráiler de baño con unidades single (baño individual unisex con 1 WC, 1 lavamanos y 1 acceso) y dobles (baño de doble cabina para hombres y mujeres con 2 WC, 2 lavamanos y 2 accesos independientes) para distintas actividades que realizará durante los meses de diciembre y enero en Ñuñoa. Se requiere que los oferentes adjunten ficha técnica de los baños y que adjunten resolución sanitaria que los autoriza. En el documento se detallan las cantidades y ubicaciones.",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Baños portátiles": {
+    "query": "baños portátiles",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "4454-858-COT26": {
+  "codigo": "4454-858-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-25 16:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "PLOTTER DE CORTE, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 3.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "MAQUINA ELECTRICA DE CORTE, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "PLANCHA ESTAMPADORA MINI PORTATIL,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "MAQUINAS MANUALES SIN MOLDE, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "MAQUINA GIRATORIA PARA HACER CHAPITAS REDONDAS, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "MAQUINA GIRATORIA PARA HACER CHAPITAS CUADRADAS, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "MOLDE METALICO CIRCULAR DE 25 MM, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "MOLDE /MATRIZ METALICO PARA CHAPITAS CIRCULAR DE 56MM, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "MOLDE METALICO CIRCULAR DE 75MM,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "MAQUINA DE COSER OVELRLOCK, COLOR BLANCO, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "TIJERA ELECTRICA INALAMBRICA, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "IMPRESORA MULTIFUNCIONAL, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "IMPRESORA MULTIFUNCIONAL DE TINTA CONTINUA,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "IMPRESORA DE INYECCION DE TINTA A COLOR",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "TORNO Y EXTRACTOR PROFESIONAL PARA MANICURE, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "TORNO PROFESIONAL ROSADO",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "EXTRACTOR COLECTOR PARA POLVO INALAMBRICO RECARGABLE, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "LAMPARA INALAMBRICA ROSADA SUN S30,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "POSA BRAZOS ANATOMICO ROSADO CON SOPORTE PARA CELULAR, ESPECIFICACIONES ADJUNTAS\n\nCantidad",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "MALETIN DE MANICURA CON RUEDAS, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "MALETA PROFESIONAL DE MANICURE, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "CARRO AYUDANTE PROFESIONAL,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "OLLA DEPILATORIA DE 8 KILOS,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "OLLA DEPILATORIA 1KG METALICA PROFESIONAL,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "MESON MURAL ECO DE ACERO INOXIDABLE 150X60X85CM,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "PACK DE 2 SILLAS MANICURISTA ROSADAS,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "SILLA DE ESCRITORIO EJECUTIVA ROSADA,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "MUEBLE REPISA TIPO LIBRERO DE 9 NIVELES COLOR BLANCO,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "ESTANQUES RACK NEGRO METALICO ORGANIZADOR CON 5 REPISAS,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "BAUL ORGANIZADOR DE PLASTICO NEGRO O GRIS CON TAPA DE PLASTICO,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 3.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "PUERTA PLEGABLE MDF color marrón, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "PANEL MDF RANURADO BLANCO,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "ESPEJO DE CUERPO ENTERO OVALADO,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "PERCHERO EXHIBIDOR GIRATORIO METALICO MODERNO, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "TORSO MANIQUI DAMA EXIBIDOR DE ROPA, ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "COLGADORES DE MADERA PARA ROPA,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 45.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "COLGADORES DE MADERA,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 30.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 23153303,
+    "nombre": "Brocas o herramientas de moldeado",
+    "descripcion": "MAQUINA SUBLIMACION 8 EN 1,ESPECIFICACIONES ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Brocas o herramientas de moldeado": {
+    "query": "brocas o herramientas de moldeado",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "5251-1458-COT26": {
+  "codigo": "5251-1458-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 60101718,
+    "nombre": "Libros de planificación del profesor",
+    "descripcion": "Adquisición de libros impresos nuevos carreras de Ingeniería en Información y Control de Gestion, Ingeniería en Minas. Segun archivo adjunto, los proveedores deberán adjuntar una cotización formal que detalle claramente los insumos ofertados. Asimismo, deberán completar correctamente e ingresar todos los anexos adjuntos. El incumplimiento de estos requisitos será motivo de inadmisibilidad de la oferta.\nSu evaluacion sera segun Costo promedio ofertado.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Libros de planificación del profesor": {
+    "query": "libros de planificación del profesor",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2273-1049-COT26": {
+  "codigo": "2273-1049-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-25 10:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 43211507,
+    "nombre": "Computadores de escritorio",
+    "descripcion": "Computadores All In One, con las siguientes características:· PANTALLA: PANEL DE 24 PULGADAS O SUPERIOR, FULL HD (1920×1080) O MAYOR. SE RECOMIENDA IPS O IPS-TYPE CON BRILLO MÍNIMO DE 250 NITS. ver más detalle de lo requerido en anexo adjunto.",
+    "cantidad": 4.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Computadores de escritorio": {
+    "query": "computadores de escritorio",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "5209-2197-COT26": {
+  "codigo": "5209-2197-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 16:17",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 51102710,
+    "nombre": "Antisépticos basados en alcohol o acetona",
+    "descripcion": "ALCOHOL ISOPROPILICO 70% 15X15 (ALCOHOL IPA PAD), La cantidad necesaria a despachar en caso de adjudicar será Coordinada por Bodega.",
+    "cantidad": 40000.0,
+    "unidad": "SACH"
+   }
+  ],
+  "resultados_precio": {
+   "Antisépticos basados en alcohol o acetona": {
+    "query": "antisépticos basados en alcohol o acetona",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1208066-552-COT26": {
+  "codigo": "1208066-552-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-26 08:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 72101703,
+    "nombre": "Construcción de aceras, veredas, cunetas",
+    "descripcion": "crecimiento de raíces de árboles y del tránsito de vehículos pesados.\n2.1. Levantamiento y demarcación\nPreviamente se realizará inspección técnica en terreno para identificar las áreas intervenidas, cuantificar los elementos a retirar y verificar interferencias con instalaciones existentes. Se procederá a la demarcación y señalización preventiva de las zonas de trabajo.\n2.2. Retiro de pastelones existentes\nSe desmontarán cuidadosamente los pastelones deteriorados mediante herramientas manuales y",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Construcción de aceras, veredas, cunetas": {
+    "query": "construcción de aceras veredas cunetas",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1549-4830-COT26": {
+  "codigo": "1549-4830-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 16:15",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 43202101,
+    "nombre": "Cajas de CD",
+    "descripcion": "105-4520 CD GRABABLE P/EQ.RX.C/SOBRE C/LOGO",
+    "cantidad": 17400.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Cajas de CD": {
+    "query": "cajas de cd 105 4520 cd grabable p eq rx c sobre c logo",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "4594-234-COT26": {
+  "codigo": "4594-234-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-23T19:40:24+00:00",
+  "fecha_cierre": "2026-11-24 16:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 56101504,
+    "nombre": "Sillas",
+    "descripcion": "ARTÍCULOS DE CONVENIOS SEGÚN ANEXOS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Sillas": {
+    "query": "sillas artículos de convenios según anexos",
+    "precios": [],
     "errores": []
    }
   },

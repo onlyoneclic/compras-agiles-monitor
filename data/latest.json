@@ -1,21 +1,20 @@
 {
- "corrida": "2026-11-23_1357",
- "ruta": "data/runs/2026-11-23_1357",
- "generado_utc": "2026-11-23T13:57:40+00:00",
+ "corrida": "2026-11-23_1938",
+ "ruta": "data/runs/2026-11-23_1938",
+ "generado_utc": "2026-11-23T19:40:24+00:00",
  "resumen": {
-  "demo": true,
-  "fuente": "demo (datos sintéticos)",
-  "generado_utc": "2026-11-23T13:57:40+00:00",
-  "ruta_corrida": "data/runs/2026-11-23_1357",
-  "nuevas_analizadas": 0,
-  "reutilizadas": 6,
-  "total": 6,
+  "demo": false,
+  "fuente": "API Compra Ágil v2 (api2.mercadopublico.cl)",
+  "generado_utc": "2026-11-23T19:40:24+00:00",
+  "ruta_corrida": "data/runs/2026-11-23_1938",
+  "nuevas_analizadas": 300,
+  "reutilizadas": 0,
+  "total": 300,
   "por_veredicto": {
-   "RENTABLE": 3,
-   "NO RENTABLE": 3
+   "SIN DATOS": 300
   },
-  "monto_total_disponible": 10840000,
-  "monto_rentable": 7740000,
-  "utilidad_potencial": 2731639.0
+  "monto_total_disponible": 477499928,
+  "monto_rentable": 0,
+  "utilidad_potencial": 0
  }
 }

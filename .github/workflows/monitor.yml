@@ -1,0 +1,82 @@
+name: Monitor Compras Ágiles
+
+on:
+  schedule:
+    # 13:30 UTC = 10:30 en Chile continental (UTC-3, horario de verano)
+    - cron: "30 13 * * *"
+  workflow_dispatch: {}   # permite corridas manuales desde la pestaña Actions
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    env:
+      MP_TICKET: ${{ secrets.MP_TICKET }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Correr monitor (demo si no hay ticket)
+        run: |
+          if [ -z "$MP_TICKET" ]; then
+            echo "MP_TICKET no configurado: se genera y publica el dashboard DEMO."
+            python -m cam_monitor demo
+          else
+            python -m cam_monitor test
+            python -m cam_monitor run --max-ca "${MAX_CA:-30}"
+          fi
+
+      - name: Guardar resultados (commit, solo con ticket)
+        if: env.MP_TICKET != ''
+        run: |
+          git config user.name "cam-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add web/index.html data/latest.json data/historial.json data/analisis_previos.json
+          git diff --cached --quiet || git commit -m "Datos del día $(date -u +%Y-%m-%d) [skip ci]"
+          git push
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Empaquetar sitio
+        run: mkdir -p _site && cp web/index.html _site/
+
+      - name: Subir artefacto de Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Publicar en GitHub Pages
+        id: despliegue
+        uses: actions/deploy-pages@v4
+
+      - name: Subir artifact de la corrida
+        uses: actions/upload-artifact@v4
+        with:
+          name: corrida-${{ github.run_id }}
+          path: |
+            data/runs/**/
+            web/index.html
+          retention-days: 14

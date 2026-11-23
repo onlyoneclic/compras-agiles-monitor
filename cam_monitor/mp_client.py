@@ -7,6 +7,19 @@ Documentación oficial (ChileCompra, mayo 2026):
 Autenticación: header HTTP `ticket` con el ticket gratuito solicitado en
 https://www.chilecompra.cl/api/ (botón "Pide tu ticket", con Clave Única).
 
+COMPORTAMIENTO REAL de la API en producción (verificado nov-2026, difiere del PDF):
+  - El parámetro de tamaño de página se llama `tamano_pagina` (SIN la "i"),
+    aunque el PDF oficial dice `tamanio_pagina` (errata). Enviar el nombre del
+    PDF provoca NOK "PARAMETROS_DESCONOCIDOS: Parámetros de consulta
+    desconocidos" tras autenticar correctamente.
+  - La API rechaza con ese mismo error cualquier parámetro no reconocido;
+    por eso `listar()` solo envía los probados: estado, tamano_pagina,
+    numero_pagina, region, q e id. Otros filtros del PDF (ordenar_por,
+    fechas, ttl_cambio_ms) se omiten con aviso en el log.
+  - La API exige un intervalo mínimo (~1 s) entre consultas: sin él responde
+    "peticiones simultáneas" o 429. `_get()` lo respeta.
+  - El WAF rechaza peticiones sin User-Agent (403).
+
 Estructura de respuesta exitosa:
   {"success": "OK", "trace": ..., "payload": {...}, "errors": null}
 
@@ -18,12 +31,19 @@ Errores relevantes:
 
 from __future__ import annotations
 
+import logging
 import time
 from typing import Any, Dict, List, Optional
 
 import requests
 
+logger = logging.getLogger(__name__)
+
 BASE_URL_DEFAULT = "https://api2.mercadopublico.cl"
+
+# Parámetros que la API real acepta en GET /v2/compra-agil (nov-2026).
+# Cualquier otro nombre recibe NOK PARAMETROS_DESCONOCIDOS.
+PARAMETROS_ACEPTADOS = {"estado", "tamano_pagina", "numero_pagina", "region", "q", "id"}
 
 
 class MPApiError(Exception):
@@ -47,6 +67,7 @@ class CompraAgilClient:
         base_url: str = BASE_URL_DEFAULT,
         timeout: int = 30,
         reintentos: int = 2,
+        intervalo_ms: int = 1100,
     ):
         if not ticket:
             raise ValueError(
@@ -56,6 +77,8 @@ class CompraAgilClient:
         self.base_url = base_url.rstrip("/")
         self.timeout = timeout
         self.reintentos = reintentos
+        self.intervalo_ms = max(int(intervalo_ms), 0)
+        self._ultima_consulta = 0.0  # monotonic de la última petición hecha
         self.session = requests.Session()
         self.session.headers.update(
             {
@@ -74,6 +97,12 @@ class CompraAgilClient:
         while intento <= self.reintentos:
             if intento:
                 time.sleep(min(2 ** intento * 2, 10))  # 2s, 4s, 8s...
+            # Intervalo mínimo entre consultas: la API rechaza ráfagas con
+            # "peticiones simultáneas" o 429 (requiere ~1 req/segundo).
+            espera = self.intervalo_ms / 1000.0 - (time.monotonic() - self._ultima_consulta)
+            if espera > 0:
+                time.sleep(espera)
+            self._ultima_consulta = time.monotonic()
             try:
                 resp = self.session.get(url, params=params, timeout=self.timeout)
             except requests.RequestException as exc:
@@ -122,24 +151,44 @@ class CompraAgilClient:
     ) -> List[Dict[str, Any]]:
         """Itera /v2/compra-agil hasta agotar total_paginas (o max_paginas).
 
-        La API permite hasta 50 resultados por página (`tamanio_pagina`).
+        `tamanio_pagina` (nombre interno) se envía como `tamano_pagina`, que es
+        el nombre real que acepta la API (errata del PDF oficial). Máximo 50.
+        Solo se envían parámetros probados; el resto se omite con un aviso.
         """
         filtros = dict(filtros or {})
-        filtros.setdefault("tamanio_pagina", min(int(tamanio_pagina), 50))
-        filtros.setdefault("numero_pagina", 1)
+        tamanio = int(filtros.pop("tamanio_pagina", 0) or tamanio_pagina)
+
+        query: Dict[str, Any] = {
+            "estado": filtros.get("estado", "publicada"),
+            "tamano_pagina": min(tamanio, 50),
+            "numero_pagina": 1,
+        }
+        for clave in ("region", "q", "id"):
+            if filtros.get(clave):
+                query[clave] = filtros[clave]
+
+        omitidos = sorted(
+            set(filtros) - {"estado", "region", "q", "id", "tamanio_pagina"}
+        )
+        if omitidos:
+            logger.warning(
+                "Parámetros omitidos en el listado (la API real los rechaza con "
+                "PARAMETROS_DESCONOCIDOS): %s",
+                ", ".join(omitidos),
+            )
 
         items: List[Dict[str, Any]] = []
         while True:
-            payload = self._get("/v2/compra-agil", filtros)
+            payload = self._get("/v2/compra-agil", query)
             items.extend(payload.get("items") or [])
             paginacion = payload.get("paginacion") or {}
             total_paginas = int(paginacion.get("total_paginas") or 1)
-            numero_pagina = int(paginacion.get("numero_pagina") or filtros["numero_pagina"])
+            numero_pagina = int(paginacion.get("numero_pagina") or query["numero_pagina"])
             if numero_pagina >= total_paginas:
                 break
             if max_paginas is not None and numero_pagina >= max_paginas:
                 break
-            filtros["numero_pagina"] = numero_pagina + 1
+            query["numero_pagina"] = numero_pagina + 1
         return items
 
     def detalle(self, codigo: str) -> Dict[str, Any]:

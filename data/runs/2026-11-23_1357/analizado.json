@@ -1,0 +1,1436 @@
+{
+ "meta": {
+  "demo": true,
+  "fuente": "demo (datos sintéticos)",
+  "generado_utc": "2026-11-23T13:57:40+00:00",
+  "ruta_corrida": "data/runs/2026-11-23_1357",
+  "nuevas_analizadas": 0,
+  "reutilizadas": 6
+ },
+ "resumen": {
+  "demo": true,
+  "fuente": "demo (datos sintéticos)",
+  "generado_utc": "2026-11-23T13:57:40+00:00",
+  "ruta_corrida": "data/runs/2026-11-23_1357",
+  "nuevas_analizadas": 0,
+  "reutilizadas": 6,
+  "total": 6,
+  "por_veredicto": {
+   "RENTABLE": 3,
+   "NO RENTABLE": 3
+  },
+  "monto_total_disponible": 10840000,
+  "monto_rentable": 7740000,
+  "utilidad_potencial": 2731639.0
+ },
+ "compras": [
+  {
+   "codigo": "900001-100-COT26",
+   "nombre": "Adquisición de material de escritorio para oficinas regionales",
+   "estado_codigo": "publicada",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-23T07:57:40+00:00",
+   "fecha_cierre": "2026-11-25T07:57:40+00:00",
+   "monto_disponible": 1450000,
+   "monto_disponible_clp": 1450000,
+   "organismo": "[DEMO] Servicio de Salud Ficticio",
+   "region": 13,
+   "region_nombre": "Metropolitana",
+   "ofertas_recibidas": 3,
+   "productos": [
+    {
+     "nombre": "CUADERNO UNIVERSITARIO 100 HOJAS",
+     "cantidad": 400,
+     "unidad": "EA",
+     "descripcion": "Cuaderno universitario tapa dura"
+    },
+    {
+     "nombre": "PAPEL BOND OFICIO 75 GR",
+     "cantidad": 200,
+     "unidad": "EA",
+     "descripcion": "Caja resma papel bond"
+    },
+    {
+     "nombre": "BOLIGRAFO TINTA AZUL",
+     "cantidad": 500,
+     "unidad": "EA",
+     "descripcion": null
+    }
+   ],
+   "mejor_cotizacion_neta": null,
+   "analisis_previo_utc": "2026-11-23T13:57:30+00:00",
+   "_previo": {
+    "codigo": "900001-100-COT26",
+    "demo": true,
+    "guardado_utc": "2026-11-23T13:57:30+00:00",
+    "fecha_cierre": "2026-11-25T07:57:30+00:00",
+    "veredicto": "RENTABLE",
+    "productos": [
+     {
+      "nombre": "CUADERNO UNIVERSITARIO 100 HOJAS",
+      "cantidad": 400,
+      "unidad": "EA",
+      "descripcion": "Cuaderno universitario tapa dura"
+     },
+     {
+      "nombre": "PAPEL BOND OFICIO 75 GR",
+      "cantidad": 200,
+      "unidad": "EA",
+      "descripcion": "Caja resma papel bond"
+     },
+     {
+      "nombre": "BOLIGRAFO TINTA AZUL",
+      "cantidad": 500,
+      "unidad": "EA",
+      "descripcion": null
+     }
+    ],
+    "resultados_precio": {
+     "CUADERNO UNIVERSITARIO 100 HOJAS": {
+      "query": "cuaderno universitario 100 hojas",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (cuaderno)",
+        "titulo": "[DEMO] cuaderno universitario 100 hojas — oferta tienda 1",
+        "precio_clp": 950,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (cuaderno)",
+        "titulo": "[DEMO] cuaderno universitario 100 hojas — oferta tienda 2",
+        "precio_clp": 1100,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (cuaderno)",
+        "titulo": "[DEMO] cuaderno universitario 100 hojas — oferta tienda 3",
+        "precio_clp": 1250,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     },
+     "PAPEL BOND OFICIO 75 GR": {
+      "query": "papel bond oficio 75 gr",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (papel bond)",
+        "titulo": "[DEMO] papel bond oficio 75 gr — oferta tienda 1",
+        "precio_clp": 3400,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (papel bond)",
+        "titulo": "[DEMO] papel bond oficio 75 gr — oferta tienda 2",
+        "precio_clp": 3900,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (papel bond)",
+        "titulo": "[DEMO] papel bond oficio 75 gr — oferta tienda 3",
+        "precio_clp": 4200,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     },
+     "BOLIGRAFO TINTA AZUL": {
+      "query": "boligrafo tinta azul",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (boligrafo)",
+        "titulo": "[DEMO] boligrafo tinta azul — oferta tienda 1",
+        "precio_clp": 150,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (boligrafo)",
+        "titulo": "[DEMO] boligrafo tinta azul — oferta tienda 2",
+        "precio_clp": 220,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (boligrafo)",
+        "titulo": "[DEMO] boligrafo tinta azul — oferta tienda 3",
+        "precio_clp": 300,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     }
+    },
+    "mejor_cotizacion_neta": null
+   },
+   "analisis": {
+    "veredicto": "RENTABLE",
+    "margen": 0.212,
+    "utilidad_estimada": 307353.0,
+    "ingreso_neto": 1450000.0,
+    "costo_adquisicion_neto": 1117647.0,
+    "flete_estimado": 25000.0,
+    "costo_total_neto": 1142647.0,
+    "cobertura_precios": 1.0,
+    "items_con_precio": 3,
+    "total_items": 3,
+    "estrategia_precio": "mediana",
+    "iva_usado": 0.19,
+    "riesgo_competencia": false,
+    "mejor_cotizacion_competencia": null,
+    "items": [
+     {
+      "nombre": "CUADERNO UNIVERSITARIO 100 HOJAS",
+      "descripcion": "Cuaderno universitario tapa dura",
+      "cantidad": 400.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 924.0,
+      "total_linea_neto": 369748.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (cuaderno)",
+        "titulo": "[DEMO] cuaderno universitario 100 hojas — oferta tienda 1",
+        "precio_clp": 950,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (cuaderno)",
+        "titulo": "[DEMO] cuaderno universitario 100 hojas — oferta tienda 2",
+        "precio_clp": 1100,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (cuaderno)",
+        "titulo": "[DEMO] cuaderno universitario 100 hojas — oferta tienda 3",
+        "precio_clp": 1250,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "cuaderno universitario 100 hojas",
+      "errores_busqueda": []
+     },
+     {
+      "nombre": "PAPEL BOND OFICIO 75 GR",
+      "descripcion": "Caja resma papel bond",
+      "cantidad": 200.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 3277.0,
+      "total_linea_neto": 655462.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (papel bond)",
+        "titulo": "[DEMO] papel bond oficio 75 gr — oferta tienda 1",
+        "precio_clp": 3400,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (papel bond)",
+        "titulo": "[DEMO] papel bond oficio 75 gr — oferta tienda 2",
+        "precio_clp": 3900,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (papel bond)",
+        "titulo": "[DEMO] papel bond oficio 75 gr — oferta tienda 3",
+        "precio_clp": 4200,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "papel bond oficio 75 gr",
+      "errores_busqueda": []
+     },
+     {
+      "nombre": "BOLIGRAFO TINTA AZUL",
+      "descripcion": null,
+      "cantidad": 500.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 185.0,
+      "total_linea_neto": 92437.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (boligrafo)",
+        "titulo": "[DEMO] boligrafo tinta azul — oferta tienda 1",
+        "precio_clp": 150,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (boligrafo)",
+        "titulo": "[DEMO] boligrafo tinta azul — oferta tienda 2",
+        "precio_clp": 220,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (boligrafo)",
+        "titulo": "[DEMO] boligrafo tinta azul — oferta tienda 3",
+        "precio_clp": 300,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "boligrafo tinta azul",
+      "errores_busqueda": []
+     }
+    ]
+   }
+  },
+  {
+   "codigo": "900002-200-COT26",
+   "nombre": "Compra ágil de insumos de impresión y toner",
+   "estado_codigo": "publicada",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-22T17:57:40+00:00",
+   "fecha_cierre": "2026-11-23T17:57:40+00:00",
+   "monto_disponible": 890000,
+   "monto_disponible_clp": 890000,
+   "organismo": "[DEMO] Municipalidad de Ejemplo",
+   "region": 5,
+   "region_nombre": "Valparaíso",
+   "ofertas_recibidas": 1,
+   "productos": [
+    {
+     "nombre": "TONER LASER NEGRO COMPATIBLE",
+     "cantidad": 12,
+     "unidad": "EA",
+     "descripcion": "Toner compatible hp"
+    },
+    {
+     "nombre": "TINTA IMPRESORA MULTIFUNCIONAL",
+     "cantidad": 10,
+     "unidad": "EA",
+     "descripcion": null
+    }
+   ],
+   "mejor_cotizacion_neta": null,
+   "analisis_previo_utc": "2026-11-23T13:57:30+00:00",
+   "_previo": {
+    "codigo": "900002-200-COT26",
+    "demo": true,
+    "guardado_utc": "2026-11-23T13:57:30+00:00",
+    "fecha_cierre": "2026-11-23T17:57:30+00:00",
+    "veredicto": "RENTABLE",
+    "productos": [
+     {
+      "nombre": "TONER LASER NEGRO COMPATIBLE",
+      "cantidad": 12,
+      "unidad": "EA",
+      "descripcion": "Toner compatible hp"
+     },
+     {
+      "nombre": "TINTA IMPRESORA MULTIFUNCIONAL",
+      "cantidad": 10,
+      "unidad": "EA",
+      "descripcion": null
+     }
+    ],
+    "resultados_precio": {
+     "TONER LASER NEGRO COMPATIBLE": {
+      "query": "toner laser negro compatible",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (toner)",
+        "titulo": "[DEMO] toner laser negro compatible — oferta tienda 1",
+        "precio_clp": 42000,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (toner)",
+        "titulo": "[DEMO] toner laser negro compatible — oferta tienda 2",
+        "precio_clp": 48000,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (toner)",
+        "titulo": "[DEMO] toner laser negro compatible — oferta tienda 3",
+        "precio_clp": 52000,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     },
+     "TINTA IMPRESORA MULTIFUNCIONAL": {
+      "query": "tinta impresora multifuncional",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (tinta)",
+        "titulo": "[DEMO] tinta impresora multifuncional — oferta tienda 1",
+        "precio_clp": 28000,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (tinta)",
+        "titulo": "[DEMO] tinta impresora multifuncional — oferta tienda 2",
+        "precio_clp": 32000,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (tinta)",
+        "titulo": "[DEMO] tinta impresora multifuncional — oferta tienda 3",
+        "precio_clp": 35000,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     }
+    },
+    "mejor_cotizacion_neta": null
+   },
+   "analisis": {
+    "veredicto": "RENTABLE",
+    "margen": 0.1259,
+    "utilidad_estimada": 112059.0,
+    "ingreso_neto": 890000.0,
+    "costo_adquisicion_neto": 752941.0,
+    "flete_estimado": 25000.0,
+    "costo_total_neto": 777941.0,
+    "cobertura_precios": 1.0,
+    "items_con_precio": 2,
+    "total_items": 2,
+    "estrategia_precio": "mediana",
+    "iva_usado": 0.19,
+    "riesgo_competencia": false,
+    "mejor_cotizacion_competencia": null,
+    "items": [
+     {
+      "nombre": "TONER LASER NEGRO COMPATIBLE",
+      "descripcion": "Toner compatible hp",
+      "cantidad": 12.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 40336.0,
+      "total_linea_neto": 484034.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (toner)",
+        "titulo": "[DEMO] toner laser negro compatible — oferta tienda 1",
+        "precio_clp": 42000,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (toner)",
+        "titulo": "[DEMO] toner laser negro compatible — oferta tienda 2",
+        "precio_clp": 48000,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (toner)",
+        "titulo": "[DEMO] toner laser negro compatible — oferta tienda 3",
+        "precio_clp": 52000,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "toner laser negro compatible",
+      "errores_busqueda": []
+     },
+     {
+      "nombre": "TINTA IMPRESORA MULTIFUNCIONAL",
+      "descripcion": null,
+      "cantidad": 10.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 26891.0,
+      "total_linea_neto": 268908.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (tinta)",
+        "titulo": "[DEMO] tinta impresora multifuncional — oferta tienda 1",
+        "precio_clp": 28000,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (tinta)",
+        "titulo": "[DEMO] tinta impresora multifuncional — oferta tienda 2",
+        "precio_clp": 32000,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (tinta)",
+        "titulo": "[DEMO] tinta impresora multifuncional — oferta tienda 3",
+        "precio_clp": 35000,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "tinta impresora multifuncional",
+      "errores_busqueda": []
+     }
+    ]
+   }
+  },
+  {
+   "codigo": "900003-300-COT26",
+   "nombre": "Equipamiento computacional para personal nuevo",
+   "estado_codigo": "publicada",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-23T10:57:40+00:00",
+   "fecha_cierre": "2026-11-26T11:57:40+00:00",
+   "monto_disponible": 5400000,
+   "monto_disponible_clp": 5400000,
+   "organismo": "[DEMO] Dirección Regional de Ficción",
+   "region": 8,
+   "region_nombre": "Biobío",
+   "ofertas_recibidas": 0,
+   "productos": [
+    {
+     "nombre": "NOTEBOOK 15 PULGADAS i5",
+     "cantidad": 10,
+     "unidad": "EA",
+     "descripcion": "Notebook 8GB RAM 512GB SSD"
+    },
+    {
+     "nombre": "MOUSE INALAMBRICO",
+     "cantidad": 10,
+     "unidad": "EA",
+     "descripcion": null
+    },
+    {
+     "nombre": "TECLADO USB",
+     "cantidad": 10,
+     "unidad": "EA",
+     "descripcion": null
+    }
+   ],
+   "mejor_cotizacion_neta": null,
+   "analisis_previo_utc": "2026-11-23T13:57:30+00:00",
+   "_previo": {
+    "codigo": "900003-300-COT26",
+    "demo": true,
+    "guardado_utc": "2026-11-23T13:57:30+00:00",
+    "fecha_cierre": "2026-11-26T11:57:30+00:00",
+    "veredicto": "RENTABLE",
+    "productos": [
+     {
+      "nombre": "NOTEBOOK 15 PULGADAS i5",
+      "cantidad": 10,
+      "unidad": "EA",
+      "descripcion": "Notebook 8GB RAM 512GB SSD"
+     },
+     {
+      "nombre": "MOUSE INALAMBRICO",
+      "cantidad": 10,
+      "unidad": "EA",
+      "descripcion": null
+     },
+     {
+      "nombre": "TECLADO USB",
+      "cantidad": 10,
+      "unidad": "EA",
+      "descripcion": null
+     }
+    ],
+    "resultados_precio": {
+     "NOTEBOOK 15 PULGADAS i5": {
+      "query": "notebook 15 pulgadas i5",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (notebook)",
+        "titulo": "[DEMO] notebook 15 pulgadas i5 — oferta tienda 1",
+        "precio_clp": 329990,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (notebook)",
+        "titulo": "[DEMO] notebook 15 pulgadas i5 — oferta tienda 2",
+        "precio_clp": 349990,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (notebook)",
+        "titulo": "[DEMO] notebook 15 pulgadas i5 — oferta tienda 3",
+        "precio_clp": 379990,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     },
+     "MOUSE INALAMBRICO": {
+      "query": "mouse inalambrico",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (mouse)",
+        "titulo": "[DEMO] mouse inalambrico — oferta tienda 1",
+        "precio_clp": 4990,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (mouse)",
+        "titulo": "[DEMO] mouse inalambrico — oferta tienda 2",
+        "precio_clp": 5990,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (mouse)",
+        "titulo": "[DEMO] mouse inalambrico — oferta tienda 3",
+        "precio_clp": 6990,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     },
+     "TECLADO USB": {
+      "query": "teclado usb",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (teclado)",
+        "titulo": "[DEMO] teclado usb — oferta tienda 1",
+        "precio_clp": 6990,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (teclado)",
+        "titulo": "[DEMO] teclado usb — oferta tienda 2",
+        "precio_clp": 8490,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (teclado)",
+        "titulo": "[DEMO] teclado usb — oferta tienda 3",
+        "precio_clp": 9990,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     }
+    },
+    "mejor_cotizacion_neta": null
+   },
+   "analisis": {
+    "veredicto": "RENTABLE",
+    "margen": 0.4282,
+    "utilidad_estimada": 2312227.0,
+    "ingreso_neto": 5400000.0,
+    "costo_adquisicion_neto": 3062773.0,
+    "flete_estimado": 25000.0,
+    "costo_total_neto": 3087773.0,
+    "cobertura_precios": 1.0,
+    "items_con_precio": 3,
+    "total_items": 3,
+    "estrategia_precio": "mediana",
+    "iva_usado": 0.19,
+    "riesgo_competencia": false,
+    "mejor_cotizacion_competencia": null,
+    "items": [
+     {
+      "nombre": "NOTEBOOK 15 PULGADAS i5",
+      "descripcion": "Notebook 8GB RAM 512GB SSD",
+      "cantidad": 10.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 294109.0,
+      "total_linea_neto": 2941092.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (notebook)",
+        "titulo": "[DEMO] notebook 15 pulgadas i5 — oferta tienda 1",
+        "precio_clp": 329990,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (notebook)",
+        "titulo": "[DEMO] notebook 15 pulgadas i5 — oferta tienda 2",
+        "precio_clp": 349990,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (notebook)",
+        "titulo": "[DEMO] notebook 15 pulgadas i5 — oferta tienda 3",
+        "precio_clp": 379990,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "notebook 15 pulgadas i5",
+      "errores_busqueda": []
+     },
+     {
+      "nombre": "MOUSE INALAMBRICO",
+      "descripcion": null,
+      "cantidad": 10.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 5034.0,
+      "total_linea_neto": 50336.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (mouse)",
+        "titulo": "[DEMO] mouse inalambrico — oferta tienda 1",
+        "precio_clp": 4990,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (mouse)",
+        "titulo": "[DEMO] mouse inalambrico — oferta tienda 2",
+        "precio_clp": 5990,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (mouse)",
+        "titulo": "[DEMO] mouse inalambrico — oferta tienda 3",
+        "precio_clp": 6990,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "mouse inalambrico",
+      "errores_busqueda": []
+     },
+     {
+      "nombre": "TECLADO USB",
+      "descripcion": null,
+      "cantidad": 10.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 7134.0,
+      "total_linea_neto": 71345.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (teclado)",
+        "titulo": "[DEMO] teclado usb — oferta tienda 1",
+        "precio_clp": 6990,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (teclado)",
+        "titulo": "[DEMO] teclado usb — oferta tienda 2",
+        "precio_clp": 8490,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (teclado)",
+        "titulo": "[DEMO] teclado usb — oferta tienda 3",
+        "precio_clp": 9990,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "teclado usb",
+      "errores_busqueda": []
+     }
+    ]
+   }
+  },
+  {
+   "codigo": "900004-400-COT26",
+   "nombre": "Insumos de protección personal para personal de terreno",
+   "estado_codigo": "publicada",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-22T07:57:40+00:00",
+   "fecha_cierre": "2026-11-24T07:57:40+00:00",
+   "monto_disponible": 620000,
+   "monto_disponible_clp": 620000,
+   "organismo": "[DEMO] Corporación de Salud Demostración",
+   "region": 9,
+   "region_nombre": "Araucanía",
+   "ofertas_recibidas": 5,
+   "productos": [
+    {
+     "nombre": "GUANTES NITRILO TALLA M",
+     "cantidad": 100,
+     "unidad": "EA",
+     "descripcion": "Caja 100 unidades"
+    },
+    {
+     "nombre": "MASCARILLA QUIRURGICA",
+     "cantidad": 500,
+     "unidad": "EA",
+     "descripcion": null
+    },
+    {
+     "nombre": "ALCOHOL GEL 1 LITRO",
+     "cantidad": 60,
+     "unidad": "EA",
+     "descripcion": null
+    }
+   ],
+   "mejor_cotizacion_neta": null,
+   "analisis_previo_utc": "2026-11-23T13:57:30+00:00",
+   "_previo": {
+    "codigo": "900004-400-COT26",
+    "demo": true,
+    "guardado_utc": "2026-11-23T13:57:30+00:00",
+    "fecha_cierre": "2026-11-24T07:57:30+00:00",
+    "veredicto": "NO RENTABLE",
+    "productos": [
+     {
+      "nombre": "GUANTES NITRILO TALLA M",
+      "cantidad": 100,
+      "unidad": "EA",
+      "descripcion": "Caja 100 unidades"
+     },
+     {
+      "nombre": "MASCARILLA QUIRURGICA",
+      "cantidad": 500,
+      "unidad": "EA",
+      "descripcion": null
+     },
+     {
+      "nombre": "ALCOHOL GEL 1 LITRO",
+      "cantidad": 60,
+      "unidad": "EA",
+      "descripcion": null
+     }
+    ],
+    "resultados_precio": {
+     "GUANTES NITRILO TALLA M": {
+      "query": "guantes nitrilo talla m",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (guantes nitrilo)",
+        "titulo": "[DEMO] guantes nitrilo talla m — oferta tienda 1",
+        "precio_clp": 2490,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (guantes nitrilo)",
+        "titulo": "[DEMO] guantes nitrilo talla m — oferta tienda 2",
+        "precio_clp": 2890,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (guantes nitrilo)",
+        "titulo": "[DEMO] guantes nitrilo talla m — oferta tienda 3",
+        "precio_clp": 3300,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     },
+     "MASCARILLA QUIRURGICA": {
+      "query": "mascarilla quirurgica",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (generico)",
+        "titulo": "[DEMO] mascarilla quirurgica — oferta tienda 1",
+        "precio_clp": 5000,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (generico)",
+        "titulo": "[DEMO] mascarilla quirurgica — oferta tienda 2",
+        "precio_clp": 6500,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (generico)",
+        "titulo": "[DEMO] mascarilla quirurgica — oferta tienda 3",
+        "precio_clp": 8000,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     },
+     "ALCOHOL GEL 1 LITRO": {
+      "query": "alcohol gel 1 litro",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (alcohol gel)",
+        "titulo": "[DEMO] alcohol gel 1 litro — oferta tienda 1",
+        "precio_clp": 3600,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (alcohol gel)",
+        "titulo": "[DEMO] alcohol gel 1 litro — oferta tienda 2",
+        "precio_clp": 4200,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (alcohol gel)",
+        "titulo": "[DEMO] alcohol gel 1 litro — oferta tienda 3",
+        "precio_clp": 4800,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     }
+    },
+    "mejor_cotizacion_neta": null
+   },
+   "analisis": {
+    "veredicto": "NO RENTABLE",
+    "margen": -4.1786,
+    "utilidad_estimada": -2590714.0,
+    "ingreso_neto": 620000.0,
+    "costo_adquisicion_neto": 3185714.0,
+    "flete_estimado": 25000.0,
+    "costo_total_neto": 3210714.0,
+    "cobertura_precios": 1.0,
+    "items_con_precio": 3,
+    "total_items": 3,
+    "estrategia_precio": "mediana",
+    "iva_usado": 0.19,
+    "riesgo_competencia": false,
+    "mejor_cotizacion_competencia": null,
+    "items": [
+     {
+      "nombre": "GUANTES NITRILO TALLA M",
+      "descripcion": "Caja 100 unidades",
+      "cantidad": 100.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 2429.0,
+      "total_linea_neto": 242857.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (guantes nitrilo)",
+        "titulo": "[DEMO] guantes nitrilo talla m — oferta tienda 1",
+        "precio_clp": 2490,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (guantes nitrilo)",
+        "titulo": "[DEMO] guantes nitrilo talla m — oferta tienda 2",
+        "precio_clp": 2890,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (guantes nitrilo)",
+        "titulo": "[DEMO] guantes nitrilo talla m — oferta tienda 3",
+        "precio_clp": 3300,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "guantes nitrilo talla m",
+      "errores_busqueda": []
+     },
+     {
+      "nombre": "MASCARILLA QUIRURGICA",
+      "descripcion": null,
+      "cantidad": 500.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 5462.0,
+      "total_linea_neto": 2731092.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (generico)",
+        "titulo": "[DEMO] mascarilla quirurgica — oferta tienda 1",
+        "precio_clp": 5000,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (generico)",
+        "titulo": "[DEMO] mascarilla quirurgica — oferta tienda 2",
+        "precio_clp": 6500,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (generico)",
+        "titulo": "[DEMO] mascarilla quirurgica — oferta tienda 3",
+        "precio_clp": 8000,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "mascarilla quirurgica",
+      "errores_busqueda": []
+     },
+     {
+      "nombre": "ALCOHOL GEL 1 LITRO",
+      "descripcion": null,
+      "cantidad": 60.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 3529.0,
+      "total_linea_neto": 211765.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (alcohol gel)",
+        "titulo": "[DEMO] alcohol gel 1 litro — oferta tienda 1",
+        "precio_clp": 3600,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (alcohol gel)",
+        "titulo": "[DEMO] alcohol gel 1 litro — oferta tienda 2",
+        "precio_clp": 4200,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (alcohol gel)",
+        "titulo": "[DEMO] alcohol gel 1 litro — oferta tienda 3",
+        "precio_clp": 4800,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "alcohol gel 1 litro",
+      "errores_busqueda": []
+     }
+    ]
+   }
+  },
+  {
+   "codigo": "900005-500-COT26",
+   "nombre": "Mobiliario de oficina para remodelación de sucursal",
+   "estado_codigo": "publicada",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-21T13:57:40+00:00",
+   "fecha_cierre": "2026-11-27T13:57:40+00:00",
+   "monto_disponible": 2100000,
+   "monto_disponible_clp": 2100000,
+   "organismo": "[DEMO] Servicio Público Inventado",
+   "region": 2,
+   "region_nombre": "Antofagasta",
+   "ofertas_recibidas": 2,
+   "productos": [
+    {
+     "nombre": "SILLA OFICINA GIRATORIA",
+     "cantidad": 20,
+     "unidad": "EA",
+     "descripcion": "Silla ergonómica con ruedas"
+    },
+    {
+     "nombre": "ESCRITORIO 120 CM",
+     "cantidad": 20,
+     "unidad": "EA",
+     "descripcion": null
+    }
+   ],
+   "mejor_cotizacion_neta": null,
+   "analisis_previo_utc": "2026-11-23T13:57:30+00:00",
+   "_previo": {
+    "codigo": "900005-500-COT26",
+    "demo": true,
+    "guardado_utc": "2026-11-23T13:57:30+00:00",
+    "fecha_cierre": "2026-11-27T13:57:30+00:00",
+    "veredicto": "NO RENTABLE",
+    "productos": [
+     {
+      "nombre": "SILLA OFICINA GIRATORIA",
+      "cantidad": 20,
+      "unidad": "EA",
+      "descripcion": "Silla ergonómica con ruedas"
+     },
+     {
+      "nombre": "ESCRITORIO 120 CM",
+      "cantidad": 20,
+      "unidad": "EA",
+      "descripcion": null
+     }
+    ],
+    "resultados_precio": {
+     "SILLA OFICINA GIRATORIA": {
+      "query": "silla oficina giratoria",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (silla)",
+        "titulo": "[DEMO] silla oficina giratoria — oferta tienda 1",
+        "precio_clp": 54990,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (silla)",
+        "titulo": "[DEMO] silla oficina giratoria — oferta tienda 2",
+        "precio_clp": 62990,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (silla)",
+        "titulo": "[DEMO] silla oficina giratoria — oferta tienda 3",
+        "precio_clp": 69990,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     },
+     "ESCRITORIO 120 CM": {
+      "query": "escritorio 120 cm",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (escritorio)",
+        "titulo": "[DEMO] escritorio 120 cm — oferta tienda 1",
+        "precio_clp": 89990,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (escritorio)",
+        "titulo": "[DEMO] escritorio 120 cm — oferta tienda 2",
+        "precio_clp": 97990,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (escritorio)",
+        "titulo": "[DEMO] escritorio 120 cm — oferta tienda 3",
+        "precio_clp": 109990,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     }
+    },
+    "mejor_cotizacion_neta": null
+   },
+   "analisis": {
+    "veredicto": "NO RENTABLE",
+    "margen": -0.3003,
+    "utilidad_estimada": -630546.0,
+    "ingreso_neto": 2100000.0,
+    "costo_adquisicion_neto": 2705546.0,
+    "flete_estimado": 25000.0,
+    "costo_total_neto": 2730546.0,
+    "cobertura_precios": 1.0,
+    "items_con_precio": 2,
+    "total_items": 2,
+    "estrategia_precio": "mediana",
+    "iva_usado": 0.19,
+    "riesgo_competencia": false,
+    "mejor_cotizacion_competencia": null,
+    "items": [
+     {
+      "nombre": "SILLA OFICINA GIRATORIA",
+      "descripcion": "Silla ergonómica con ruedas",
+      "cantidad": 20.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 52933.0,
+      "total_linea_neto": 1058655.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (silla)",
+        "titulo": "[DEMO] silla oficina giratoria — oferta tienda 1",
+        "precio_clp": 54990,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (silla)",
+        "titulo": "[DEMO] silla oficina giratoria — oferta tienda 2",
+        "precio_clp": 62990,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (silla)",
+        "titulo": "[DEMO] silla oficina giratoria — oferta tienda 3",
+        "precio_clp": 69990,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "silla oficina giratoria",
+      "errores_busqueda": []
+     },
+     {
+      "nombre": "ESCRITORIO 120 CM",
+      "descripcion": null,
+      "cantidad": 20.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 82345.0,
+      "total_linea_neto": 1646891.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (escritorio)",
+        "titulo": "[DEMO] escritorio 120 cm — oferta tienda 1",
+        "precio_clp": 89990,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (escritorio)",
+        "titulo": "[DEMO] escritorio 120 cm — oferta tienda 2",
+        "precio_clp": 97990,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (escritorio)",
+        "titulo": "[DEMO] escritorio 120 cm — oferta tienda 3",
+        "precio_clp": 109990,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "escritorio 120 cm",
+      "errores_busqueda": []
+     }
+    ]
+   }
+  },
+  {
+   "codigo": "900006-600-COT26",
+   "nombre": "Compra ágil equipamiento audiovisual sala de reuniones",
+   "estado_codigo": "publicada",
+   "estado_glosa": "Publicada",
+   "fecha_publicacion": "2026-11-23T03:57:40+00:00",
+   "fecha_cierre": "2026-11-24T19:57:40+00:00",
+   "monto_disponible": 380000,
+   "monto_disponible_clp": 380000,
+   "organismo": "[DEMO] Organismo de Prueba",
+   "region": 13,
+   "region_nombre": "Metropolitana",
+   "ofertas_recibidas": 4,
+   "productos": [
+    {
+     "nombre": "PARLANTE BLUETOOTH 20W",
+     "cantidad": 6,
+     "unidad": "EA",
+     "descripcion": null
+    },
+    {
+     "nombre": "CAMARA WEB FULL HD",
+     "cantidad": 6,
+     "unidad": "EA",
+     "descripcion": null
+    },
+    {
+     "nombre": "CABLE HDMI 2 METROS",
+     "cantidad": 10,
+     "unidad": "EA",
+     "descripcion": null
+    }
+   ],
+   "mejor_cotizacion_neta": null,
+   "analisis_previo_utc": "2026-11-23T13:57:30+00:00",
+   "_previo": {
+    "codigo": "900006-600-COT26",
+    "demo": true,
+    "guardado_utc": "2026-11-23T13:57:30+00:00",
+    "fecha_cierre": "2026-11-24T19:57:30+00:00",
+    "veredicto": "NO RENTABLE",
+    "productos": [
+     {
+      "nombre": "PARLANTE BLUETOOTH 20W",
+      "cantidad": 6,
+      "unidad": "EA",
+      "descripcion": null
+     },
+     {
+      "nombre": "CAMARA WEB FULL HD",
+      "cantidad": 6,
+      "unidad": "EA",
+      "descripcion": null
+     },
+     {
+      "nombre": "CABLE HDMI 2 METROS",
+      "cantidad": 10,
+      "unidad": "EA",
+      "descripcion": null
+     }
+    ],
+    "resultados_precio": {
+     "PARLANTE BLUETOOTH 20W": {
+      "query": "parlante bluetooth 20w",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (parlante)",
+        "titulo": "[DEMO] parlante bluetooth 20w — oferta tienda 1",
+        "precio_clp": 19990,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (parlante)",
+        "titulo": "[DEMO] parlante bluetooth 20w — oferta tienda 2",
+        "precio_clp": 24990,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (parlante)",
+        "titulo": "[DEMO] parlante bluetooth 20w — oferta tienda 3",
+        "precio_clp": 29990,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     },
+     "CAMARA WEB FULL HD": {
+      "query": "camara web full hd",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (camara)",
+        "titulo": "[DEMO] camara web full hd — oferta tienda 1",
+        "precio_clp": 45990,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (camara)",
+        "titulo": "[DEMO] camara web full hd — oferta tienda 2",
+        "precio_clp": 52990,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (camara)",
+        "titulo": "[DEMO] camara web full hd — oferta tienda 3",
+        "precio_clp": 59990,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     },
+     "CABLE HDMI 2 METROS": {
+      "query": "cable hdmi 2 metros",
+      "precios": [
+       {
+        "fuente": "tienda-demo-uno (cable)",
+        "titulo": "[DEMO] cable hdmi 2 metros — oferta tienda 1",
+        "precio_clp": 2490,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-dos (cable)",
+        "titulo": "[DEMO] cable hdmi 2 metros — oferta tienda 2",
+        "precio_clp": 3200,
+        "url": "",
+        "disponible": true
+       },
+       {
+        "fuente": "tienda-demo-tres (cable)",
+        "titulo": "[DEMO] cable hdmi 2 metros — oferta tienda 3",
+        "precio_clp": 3990,
+        "url": "",
+        "disponible": true
+       }
+      ],
+      "errores": []
+     }
+    },
+    "mejor_cotizacion_neta": null
+   },
+   "analisis": {
+    "veredicto": "NO RENTABLE",
+    "margen": -0.1712,
+    "utilidad_estimada": -65067.0,
+    "ingreso_neto": 380000.0,
+    "costo_adquisicion_neto": 420067.0,
+    "flete_estimado": 25000.0,
+    "costo_total_neto": 445067.0,
+    "cobertura_precios": 1.0,
+    "items_con_precio": 3,
+    "total_items": 3,
+    "estrategia_precio": "mediana",
+    "iva_usado": 0.19,
+    "riesgo_competencia": false,
+    "mejor_cotizacion_competencia": null,
+    "items": [
+     {
+      "nombre": "PARLANTE BLUETOOTH 20W",
+      "descripcion": null,
+      "cantidad": 6.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 21000.0,
+      "total_linea_neto": 126000.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (parlante)",
+        "titulo": "[DEMO] parlante bluetooth 20w — oferta tienda 1",
+        "precio_clp": 19990,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (parlante)",
+        "titulo": "[DEMO] parlante bluetooth 20w — oferta tienda 2",
+        "precio_clp": 24990,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (parlante)",
+        "titulo": "[DEMO] parlante bluetooth 20w — oferta tienda 3",
+        "precio_clp": 29990,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "parlante bluetooth 20w",
+      "errores_busqueda": []
+     },
+     {
+      "nombre": "CAMARA WEB FULL HD",
+      "descripcion": null,
+      "cantidad": 6.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 44529.0,
+      "total_linea_neto": 267176.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (camara)",
+        "titulo": "[DEMO] camara web full hd — oferta tienda 1",
+        "precio_clp": 45990,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (camara)",
+        "titulo": "[DEMO] camara web full hd — oferta tienda 2",
+        "precio_clp": 52990,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (camara)",
+        "titulo": "[DEMO] camara web full hd — oferta tienda 3",
+        "precio_clp": 59990,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "camara web full hd",
+      "errores_busqueda": []
+     },
+     {
+      "nombre": "CABLE HDMI 2 METROS",
+      "descripcion": null,
+      "cantidad": 10.0,
+      "unidad": "EA",
+      "precio_estimado_unit_neto": 2689.0,
+      "total_linea_neto": 26891.0,
+      "precios_encontrados": 3,
+      "fuentes": [
+       {
+        "fuente": "tienda-demo-uno (cable)",
+        "titulo": "[DEMO] cable hdmi 2 metros — oferta tienda 1",
+        "precio_clp": 2490,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-dos (cable)",
+        "titulo": "[DEMO] cable hdmi 2 metros — oferta tienda 2",
+        "precio_clp": 3200,
+        "url": ""
+       },
+       {
+        "fuente": "tienda-demo-tres (cable)",
+        "titulo": "[DEMO] cable hdmi 2 metros — oferta tienda 3",
+        "precio_clp": 3990,
+        "url": ""
+       }
+      ],
+      "query_busqueda": "cable hdmi 2 metros",
+      "errores_busqueda": []
+     }
+    ]
+   }
+  }
+ ]
+}

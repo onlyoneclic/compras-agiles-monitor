@@ -1,0 +1,194 @@
+[
+ {
+  "codigo": "900001-100-COT26",
+  "nombre": "Adquisición de material de escritorio para oficinas regionales",
+  "estado_codigo": "publicada",
+  "estado_glosa": "Publicada",
+  "fecha_publicacion": "2026-11-20T16:19:31+00:00",
+  "fecha_cierre": "2026-11-22T16:19:31+00:00",
+  "monto_disponible": 1450000,
+  "monto_disponible_clp": 1450000,
+  "organismo": "[DEMO] Servicio de Salud Ficticio",
+  "region": 13,
+  "region_nombre": "Metropolitana",
+  "ofertas_recibidas": 3,
+  "productos": [
+   {
+    "nombre": "CUADERNO UNIVERSITARIO 100 HOJAS",
+    "cantidad": 400,
+    "unidad": "EA",
+    "descripcion": "Cuaderno universitario tapa dura"
+   },
+   {
+    "nombre": "PAPEL BOND OFICIO 75 GR",
+    "cantidad": 200,
+    "unidad": "EA",
+    "descripcion": "Caja resma papel bond"
+   },
+   {
+    "nombre": "BOLIGRAFO TINTA AZUL",
+    "cantidad": 500,
+    "unidad": "EA",
+    "descripcion": null
+   }
+  ]
+ },
+ {
+  "codigo": "900002-200-COT26",
+  "nombre": "Compra ágil de insumos de impresión y toner",
+  "estado_codigo": "publicada",
+  "estado_glosa": "Publicada",
+  "fecha_publicacion": "2026-11-20T02:19:31+00:00",
+  "fecha_cierre": "2026-11-21T02:19:31+00:00",
+  "monto_disponible": 890000,
+  "monto_disponible_clp": 890000,
+  "organismo": "[DEMO] Municipalidad de Ejemplo",
+  "region": 5,
+  "region_nombre": "Valparaíso",
+  "ofertas_recibidas": 1,
+  "productos": [
+   {
+    "nombre": "TONER LASER NEGRO COMPATIBLE",
+    "cantidad": 12,
+    "unidad": "EA",
+    "descripcion": "Toner compatible hp"
+   },
+   {
+    "nombre": "TINTA IMPRESORA MULTIFUNCIONAL",
+    "cantidad": 10,
+    "unidad": "EA",
+    "descripcion": null
+   }
+  ]
+ },
+ {
+  "codigo": "900003-300-COT26",
+  "nombre": "Equipamiento computacional para personal nuevo",
+  "estado_codigo": "publicada",
+  "estado_glosa": "Publicada",
+  "fecha_publicacion": "2026-11-20T19:19:31+00:00",
+  "fecha_cierre": "2026-11-23T20:19:31+00:00",
+  "monto_disponible": 5400000,
+  "monto_disponible_clp": 5400000,
+  "organismo": "[DEMO] Dirección Regional de Ficción",
+  "region": 8,
+  "region_nombre": "Biobío",
+  "ofertas_recibidas": 0,
+  "productos": [
+   {
+    "nombre": "NOTEBOOK 15 PULGADAS i5",
+    "cantidad": 10,
+    "unidad": "EA",
+    "descripcion": "Notebook 8GB RAM 512GB SSD"
+   },
+   {
+    "nombre": "MOUSE INALAMBRICO",
+    "cantidad": 10,
+    "unidad": "EA",
+    "descripcion": null
+   },
+   {
+    "nombre": "TECLADO USB",
+    "cantidad": 10,
+    "unidad": "EA",
+    "descripcion": null
+   }
+  ]
+ },
+ {
+  "codigo": "900004-400-COT26",
+  "nombre": "Insumos de protección personal para personal de terreno",
+  "estado_codigo": "publicada",
+  "estado_glosa": "Publicada",
+  "fecha_publicacion": "2026-11-19T16:19:31+00:00",
+  "fecha_cierre": "2026-11-21T16:19:31+00:00",
+  "monto_disponible": 620000,
+  "monto_disponible_clp": 620000,
+  "organismo": "[DEMO] Corporación de Salud Demostración",
+  "region": 9,
+  "region_nombre": "Araucanía",
+  "ofertas_recibidas": 5,
+  "productos": [
+   {
+    "nombre": "GUANTES NITRILO TALLA M",
+    "cantidad": 100,
+    "unidad": "EA",
+    "descripcion": "Caja 100 unidades"
+   },
+   {
+    "nombre": "MASCARILLA QUIRURGICA",
+    "cantidad": 500,
+    "unidad": "EA",
+    "descripcion": null
+   },
+   {
+    "nombre": "ALCOHOL GEL 1 LITRO",
+    "cantidad": 60,
+    "unidad": "EA",
+    "descripcion": null
+   }
+  ]
+ },
+ {
+  "codigo": "900005-500-COT26",
+  "nombre": "Mobiliario de oficina para remodelación de sucursal",
+  "estado_codigo": "publicada",
+  "estado_glosa": "Publicada",
+  "fecha_publicacion": "2026-11-18T22:19:31+00:00",
+  "fecha_cierre": "2026-11-24T22:19:31+00:00",
+  "monto_disponible": 2100000,
+  "monto_disponible_clp": 2100000,
+  "organismo": "[DEMO] Servicio Público Inventado",
+  "region": 2,
+  "region_nombre": "Antofagasta",
+  "ofertas_recibidas": 2,
+  "productos": [
+   {
+    "nombre": "SILLA OFICINA GIRATORIA",
+    "cantidad": 20,
+    "unidad": "EA",
+    "descripcion": "Silla ergonómica con ruedas"
+   },
+   {
+    "nombre": "ESCRITORIO 120 CM",
+    "cantidad": 20,
+    "unidad": "EA",
+    "descripcion": null
+   }
+  ]
+ },
+ {
+  "codigo": "900006-600-COT26",
+  "nombre": "Compra ágil equipamiento audiovisual sala de reuniones",
+  "estado_codigo": "publicada",
+  "estado_glosa": "Publicada",
+  "fecha_publicacion": "2026-11-20T12:19:31+00:00",
+  "fecha_cierre": "2026-11-22T04:19:31+00:00",
+  "monto_disponible": 380000,
+  "monto_disponible_clp": 380000,
+  "organismo": "[DEMO] Organismo de Prueba",
+  "region": 13,
+  "region_nombre": "Metropolitana",
+  "ofertas_recibidas": 4,
+  "productos": [
+   {
+    "nombre": "PARLANTE BLUETOOTH 20W",
+    "cantidad": 6,
+    "unidad": "EA",
+    "descripcion": null
+   },
+   {
+    "nombre": "CAMARA WEB FULL HD",
+    "cantidad": 6,
+    "unidad": "EA",
+    "descripcion": null
+   },
+   {
+    "nombre": "CABLE HDMI 2 METROS",
+    "cantidad": 10,
+    "unidad": "EA",
+    "descripcion": null
+   }
+  ]
+ }
+]

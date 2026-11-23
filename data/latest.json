@@ -1,0 +1,21 @@
+{
+ "corrida": "2026-11-23_1357",
+ "ruta": "data/runs/2026-11-23_1357",
+ "generado_utc": "2026-11-23T13:57:40+00:00",
+ "resumen": {
+  "demo": true,
+  "fuente": "demo (datos sintéticos)",
+  "generado_utc": "2026-11-23T13:57:40+00:00",
+  "ruta_corrida": "data/runs/2026-11-23_1357",
+  "nuevas_analizadas": 0,
+  "reutilizadas": 6,
+  "total": 6,
+  "por_veredicto": {
+   "RENTABLE": 3,
+   "NO RENTABLE": 3
+  },
+  "monto_total_disponible": 10840000,
+  "monto_rentable": 7740000,
+  "utilidad_potencial": 2731639.0
+ }
+}

@@ -1,0 +1,65 @@
+# =============================================================
+# Monitor de Compras Ágiles — configuración principal
+# El ticket NUNCA va aquí: se lee de la variable de entorno MP_TICKET
+# (vea .env.example). Documentación de cada clave en el README.
+# =============================================================
+
+mercado_publico:
+  base_url: https://api2.mercadopublico.cl
+  ticket_env: MP_TICKET
+  estados: [publicada]          # vigentes = publicadas (abiertas, recibiendo cotizaciones)
+  ordenar_por: FechaPublicacion # FechaPublicacion | FechaUltimaModificacion
+  tamanio_pagina: 50            # máximo permitido por la API
+  max_paginas: 6                # 6 x 50 = hasta 300 CAs en el listado
+  max_detalles: 30              # detalles consultados (1 request c/u de la cuota)
+  orden_detalles: monto         # monto | cierre | publicado
+
+ingesta:
+  fecha_desde: null             # ej: "2026-11-01T00:00:00Z"; null = todas las vigentes
+  solo_cambios_ultimas_horas: 0 # >0 = sincronización incremental (ttl de cambios)
+
+pricing:
+  cache_horas: 20               # no repetir la misma búsqueda en 20 horas
+  cache_dir: .cache/prices
+  timeout_segundos: 15
+  max_items_por_ca: 8           # productos consultados por CA (los de mayor relevancia = orden de la API)
+  max_workers: 4
+  proveedores:
+    solotodo:
+      activado: true            # API pública chilena (fuerte en electrónica)
+      max_resultados: 5
+      timeout_segundos: 25
+      reintentos: 2
+    mercadolibre:
+      activado: false           # requiere token; defina ML_TOKEN y active
+      max_resultados: 5
+    jsonld:                     # tiendas HTML con schema.org (configurable)
+      activado: false
+      tiendas: []
+      #  - nombre: paris
+      #    activado: true
+      #    url_busqueda: "https://www.paris.cl/search?text={query}"
+      #    dominio: "https://www.paris.cl"
+
+rentabilidad:
+  iva: 0.19                     # IVA chileno
+  monto_disponible_es_neto: true   # el monto de la CA se considera neto
+  precios_tienda_incluyen_iva: true # precios de tiendas son al público (con IVA)
+  estrategia: mediana           # minimo | percentil_25 | mediana | promedio
+  flete_estimado_clp: 25000     # costo de envío estimado por compra
+  costo_transaccion_pct: 0.0    # comisión de plataforma/banco sobre la compra
+  margen_rentable: 0.10         # umbral para marcar RENTABLE (10%)
+  cobertura_minima: 0.6         # % de ítems con precio para emitir veredicto
+  alerta_competencia_pct: 0.90  # mejor cotización ≤ 90% de su costo => riesgo
+  reutilizar_analisis: true     # procesamiento incremental: las CAs ya evaluadas
+                                #   NO se vuelven a consultar (sin cuota ni búsquedas);
+                                #   use --reanalizar para forzar todo de nuevo
+  reintentar_sin_datos: true    # las que quedaron SIN DATOS se reintentan en
+                                #   corridas siguientes (podrían tener precios nuevos)
+
+salida:
+  dir_datos: data
+  plantilla: web/dashboard_template.html
+  archivo_dashboard: web/index.html
+  historial_dias: 60
+  conservar_corridas: 30

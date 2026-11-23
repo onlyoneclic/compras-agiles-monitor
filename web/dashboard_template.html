@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monitor de Compras Ágiles — Oportunidades rentables</title>
+<style>
+  :root{
+    --bg:#f4f6fa; --card:#ffffff; --ink:#1a2233; --muted:#5b6472;
+    --line:#e3e7ee; --brand:#0e5fa4; --brand-soft:#e8f1fa;
+    --ok:#15803d; --ok-bg:#e7f6ec; --warn:#b45309; --warn-bg:#fdf3e3;
+    --bad:#b91c1c; --bad-bg:#fdeaea; --na:#5b6472; --na-bg:#eef0f3;
+    --radius:14px; --shadow:0 1px 3px rgba(15,30,60,.08);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size:clamp(14px,1.6vw,16px); line-height:1.45;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:clamp(12px,3vw,28px)}
+
+  header.top{display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;justify-content:space-between}
+  h1{font-size:clamp(1.25rem,4vw,1.7rem);margin:0}
+  .sub{color:var(--muted);font-size:.9rem}
+
+  .banner-demo{
+    margin-top:12px;padding:10px 14px;border-radius:10px;
+    background:#fff7d6;border:1px solid #e6c94c;color:#7a5c00;font-size:.9rem;
+    display:none;
+  }
+  .banner-demo.visible{display:block}
+
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:16px}
+  .kpi{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:12px 14px}
+  .kpi .n{font-size:clamp(1.1rem,3vw,1.5rem);font-weight:700}
+  .kpi .l{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+  .kpi.ok .n{color:var(--ok)} .kpi.warn .n{color:var(--warn)}
+  .kpi.bad .n{color:var(--bad)} .kpi.na .n{color:var(--na)} .kpi.brand .n{color:var(--brand)}
+
+  .controles{margin-top:16px;display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+  .controles label{font-size:.75rem;color:var(--muted);display:block;margin-bottom:4px;text-transform:uppercase;letter-spacing:.4px}
+  .controles input[type="search"],.controles select{
+    width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:10px;
+    background:#fff;font-size:.92rem;color:var(--ink)
+  }
+  .controles .slider{display:flex;align-items:center;gap:8px}
+  .controles input[type="range"]{flex:1;accent-color:var(--brand)}
+  #valorMargen{font-weight:700;min-width:4.2ch;text-align:right}
+
+  .lista{margin-top:18px;display:grid;gap:14px}
+  .ca{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+  .ca-cab{padding:14px 16px;cursor:pointer;display:block}
+  .ca-top{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .codigo{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.82rem;
+    background:var(--brand-soft);color:var(--brand);padding:2px 8px;border-radius:8px}
+  .chip{font-size:.72rem;font-weight:700;padding:3px 9px;border-radius:999px;text-transform:uppercase;letter-spacing:.4px}
+  .chip.RENTABLE{background:var(--ok-bg);color:var(--ok)}
+  .chip.MARGINAL{background:var(--warn-bg);color:var(--warn)}
+  .chip.NO_RENTABLE{background:var(--bad-bg);color:var(--bad)}
+  .chip.SIN_DATOS{background:var(--na-bg);color:var(--na)}
+  .chip.risk{background:#fbe4e4;color:#8f1d1d;border:1px solid #ecc}
+  .chip.demo{background:#fff7d6;color:#7a5c00;border:1px solid #e6c94c}
+  .ca-nombre{margin:8px 0 2px;font-size:1.02rem;font-weight:700}
+  .ca-org{color:var(--muted);font-size:.85rem}
+  .ca-nums{display:grid;gap:8px;margin-top:10px;grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
+  .num .l{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.3px}
+  .num .v{font-weight:700;font-size:.95rem}
+  .num .v.monto{color:var(--brand)}
+  .barra{height:8px;background:var(--na-bg);border-radius:999px;margin-top:10px;overflow:hidden}
+  .barra>span{display:block;height:100%;border-radius:999px}
+  .pie-cab{display:flex;flex-wrap:wrap;gap:6px;justify-content:space-between;margin-top:10px;font-size:.8rem;color:var(--muted)}
+  .detalle{border-top:1px dashed var(--line);padding:14px 16px;display:none}
+  .ca.abierta .detalle{display:block}
+  h3.det{font-size:.85rem;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin:14px 0 8px}
+  .tabla-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  table.items{width:100%;border-collapse:collapse;font-size:.86rem;min-width:520px}
+  table.items th{background:var(--na-bg);text-align:left;padding:7px 9px;font-size:.72rem;text-transform:uppercase;letter-spacing:.4px;color:var(--muted);white-space:nowrap}
+  table.items td{padding:8px 9px;border-top:1px solid var(--line);vertical-align:top}
+  .precios-mini{font-size:.78rem;color:var(--muted)}
+  .fuentes li{margin:2px 0;font-size:.8rem;word-break:break-word}
+  .fuentes a{color:var(--brand);text-decoration:none}
+  .fuentes a:hover{text-decoration:underline}
+  .caja-costos{display:grid;gap:6px;grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}
+  .linea-cost{background:var(--brand-soft);border-radius:10px;padding:8px 12px;font-size:.86rem}
+  .linea-cost b{display:block;font-size:.95rem}
+  .nota{font-size:.8rem;color:var(--muted);background:var(--na-bg);border-radius:10px;padding:10px 12px;margin-top:12px}
+  .sin-resultados{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:28px;text-align:center;color:var(--muted)}
+  footer{margin-top:26px;color:var(--muted);font-size:.8rem}
+  footer .box{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:14px 16px}
+  footer h2{font-size:.9rem;margin:0 0 6px;color:var(--ink)}
+  footer ul{margin:6px 0 0;padding-left:18px}
+  .copiar{border:1px solid var(--line);background:#fff;border-radius:8px;font-size:.72rem;padding:2px 8px;cursor:pointer;color:var(--muted)}
+  .copiar:hover{border-color:var(--brand);color:var(--brand)}
+  @media (max-width:640px){
+    .ca-cab{padding:12px}
+    .detalle{padding:12px}
+    .kpis{grid-template-columns:repeat(2,1fr)}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>📊 Monitor de Compras Ágiles</h1>
+      <div class="sub" id="subEncabezado">Oportunidades vigentes en Mercado Público (Chile) con estimación de rentabilidad</div>
+    </div>
+    <div class="sub" id="generado"></div>
+  </header>
+
+  <div class="banner-demo" id="bannerDemo">
+    <b>MODO DEMOSTRACIÓN:</b> estos datos son sintéticos (organismos y códigos ficticios,
+    precios de ejemplo). Ejecute <code>python -m cam_monitor run</code> con su
+    <code>MP_TICKET</code> para ver datos reales.
+  </div>
+
+  <section class="kpis" id="kpis"></section>
+
+  <section class="controles">
+    <div>
+      <label for="busqueda">Buscar</label>
+      <input type="search" id="busqueda" placeholder="producto, organismo, código…">
+    </div>
+    <div>
+      <label for="filtroVeredicto">Veredicto</label>
+      <select id="filtroVeredicto">
+        <option value="">Todos</option>
+        <option value="RENTABLE">Rentables</option>
+        <option value="MARGINAL">Marginales</option>
+        <option value="NO_RENTABLE">No rentables</option>
+        <option value="SIN_DATOS">Sin datos</option>
+      </select>
+    </div>
+    <div>
+      <label for="filtroRegion">Región</label>
+      <select id="filtroRegion">
+        <option value="">Todas</option>
+      </select>
+    </div>
+    <div>
+      <label for="sliderMargen">Margen mínimo</label>
+      <div class="slider">
+        <input type="range" id="sliderMargen" min="-20" max="100" step="5" value="-20">
+        <span id="valorMargen">—</span>
+      </div>
+    </div>
+    <div>
+      <label for="orden">Ordenar por</label>
+      <select id="orden">
+        <option value="margen">Margen (mayor primero)</option>
+        <option value="monto">Monto disponible (mayor primero)</option>
+        <option value="cierre">Cierre (más próximo primero)</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="lista" id="lista"></section>
+  <div class="sin-resultados" id="sinResultados" style="display:none">
+    No hay compras que cumplan los filtros seleccionados.
+  </div>
+
+  <footer>
+    <div class="box">
+      <h2>Cómo leer los resultados</h2>
+      <div id="supuestos"></div>
+      <ul>
+        <li><b>RENTABLE</b>: margen estimado ≥ umbral configurado. <b>MARGINAL</b>: utilidad positiva pero bajo el umbral. <b>NO RENTABLE</b>: el costo estimado supera el monto ofrecido.</li>
+        <li>Los precios se obtienen de tiendas nacionales como referencia de mercado (precio al público); el costo neto estimado les descuenta el IVA.</li>
+        <li><b>Riesgo competencia</b>: ya existe una cotización en la CA por debajo del costo estimado — ganarla exigiría quedar bajo ese precio.</li>
+        <li>Verifique siempre la ficha en mercadopublico.cl antes de cotizar: esta estimación es una ayuda de decisión, no una garantía.</li>
+      </ul>
+      <p style="margin:8px 0 0" id="pieFuente"></p>
+    </div>
+  </footer>
+</div>
+
+<script>
+window.__DATA__ = __DATA_PLACEHOLDER__;
+</script>
+<script>
+(function(){
+  "use strict";
+  var DATA = window.__DATA__ || {meta:{},resumen:{},compras:[]};
+  var compras = DATA.compras || [];
+
+  // ---------- utilidades
+  function fmtCLP(n){
+    if(n===null||n===undefined||isNaN(n)) return "—";
+    return "$"+Math.round(n).toString().replace(/\B(?=(\d{3})+(?!\d))/g,".")+" CLP";
+  }
+  function pct(m){ if(m===null||m===undefined||isNaN(m)) return "—"; return (m*100).toFixed(1)+"%"; }
+  function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g,function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  function fechaCorta(iso){
+    if(!iso) return "—";
+    try{ return new Date(iso).toLocaleDateString("es-CL",{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"});}
+    catch(e){ return iso; }
+  }
+  function diasRestantes(iso){
+    if(!iso) return null;
+    var ms = new Date(iso) - new Date();
+    if(isNaN(ms)) return null;
+    return Math.floor(ms/86400000);
+  }
+  function colorMargen(m){
+    if(m===null||m===undefined) return "var(--na)";
+    if(m>=0.10) return "var(--ok)";
+    if(m>=0) return "var(--warn)";
+    return "var(--bad)";
+  }
+  function copiarTexto(txt,btn){
+    if(navigator.clipboard){ navigator.clipboard.writeText(txt).then(function(){
+      btn.textContent="¡copiado!"; setTimeout(function(){btn.textContent="copiar";},1500);
+    });}
+  }
+
+  // ---------- metadatos
+  var meta = DATA.meta||{};
+  if(meta.demo){ document.getElementById("bannerDemo").classList.add("visible"); }
+  document.getElementById("generado").textContent =
+    "Generado: " + (meta.generado? new Date(meta.generado).toLocaleString("es-CL") : "—");
+
+  // ---------- KPIs
+  var res = DATA.resumen||{}, pv = res.por_veredicto||{};
+  function kpi(clase,valor,titulo){
+    return '<div class="kpi '+clase+'"><div class="n">'+valor+'</div><div class="l">'+titulo+'</div></div>';
+  }
+  document.getElementById("kpis").innerHTML =
+    kpi("brand", res.total!=null?res.total:"—", "CA analizadas") +
+    kpi("ok", pv["RENTABLE"]||0, "Rentables") +
+    kpi("warn", pv["MARGINAL"]||0, "Marginales") +
+    kpi("bad", pv["NO RENTABLE"]||0, "No rentables") +
+    kpi("na", pv["SIN DATOS"]||0, "Sin datos") +
+    kpi("brand", fmtCLP(res.monto_total_disponible), "Monto total disponible") +
+    kpi("ok", fmtCLP(res.utilidad_potencial), "Utilidad potencial (rentables)");
+
+  // ---------- supuestos (del propio dataset)
+  var comprasConSup = compras.filter(function(c){return c.analisis;});
+  var sup = comprasConSup.length? comprasConSup[0].analisis : null;
+  document.getElementById("supuestos").innerHTML =
+    "Supuestos de esta corrida: IVA " + (sup? (sup.iva_usado*100).toFixed(0) : "19") + "%" +
+    " descontado de los precios de tienda; monto disponible tratado como <b>neto</b>;" +
+    " estrategia de precio: <b>" + (sup? sup.estrategia_precio : "mediana") + "</b>;" +
+    " flete estimado fijo por compra; no incluye costos de su empresa (transporte dedicado, garantías, boleta/honorarios).";
+
+  document.getElementById("pieFuente").innerHTML =
+    "Fuente: " + esc(meta.fuente||"—") + " · corrida " + esc(meta.ruta_corrida||"—") +
+    (meta.reutilizadas
+      ? " · " + meta.reutilizadas + " CA reutilizadas de corridas anteriores (sin reconsultar precios)"
+      : "");
+
+  // ---------- filtros
+  var busqueda = document.getElementById("busqueda");
+  var filtroV = document.getElementById("filtroVeredicto");
+  var filtroR = document.getElementById("filtroRegion");
+  var slider = document.getElementById("sliderMargen");
+  var valorM = document.getElementById("valorMargen");
+  var orden = document.getElementById("orden");
+
+  // Regiones presentes en los datos (ordenadas por código; "none" al final)
+  function claveRegion(c){ return (c.region===null||c.region===undefined)? "none" : String(c.region); }
+  (function poblarRegiones(){
+    var unicas = {};
+    compras.forEach(function(c){
+      var k = claveRegion(c);
+      if(!(k in unicas)){
+        unicas[k] = (k==="none")? "Sin región" : (c.region_nombre || ("Región "+k));
+      }
+    });
+    Object.keys(unicas).sort(function(a,b){
+      if(a==="none") return 1;
+      if(b==="none") return -1;
+      return Number(a)-Number(b);
+    }).forEach(function(k){
+      var opt = document.createElement("option");
+      opt.value = k;
+      opt.textContent = unicas[k];
+      filtroR.appendChild(opt);
+    });
+  })();
+
+  try{
+    var guardado = localStorage.getItem("camMargen");
+    if(guardado!==null) slider.value = guardado;
+  }catch(e){}
+  function refrescarSlider(){
+    var v = parseInt(slider.value,10);
+    valorM.textContent = (v<=-20? "—" : v+"%");
+  }
+  refrescarSlider();
+  slider.addEventListener("input",function(){ refrescarSlider(); render(); try{localStorage.setItem("camMargen",slider.value);}catch(e){} });
+  [busqueda,filtroV,filtroR,orden].forEach(function(el){ el.addEventListener("input",render); el.addEventListener("change",render); });
+
+  // ---------- render
+  function veredictoClase(v){ return v==="NO RENTABLE"? "NO_RENTABLE" : v; }
+
+  function tarjeta(c){
+    var a = c.analisis||{};
+    var v = a.veredicto||"SIN DATOS";
+    var m = a.margen;
+    var dias = diasRestantes(c.fecha_cierre);
+    var textoCierre = dias===null? "cierre: —"
+      : (dias>1? "cierra en "+dias+" días" : (dias===1? "¡cierra mañana!" : "¡cierra hoy!"));
+    var riesgo = a.riesgo_competencia
+      ? '<span class="chip risk">⚠ riesgo competencia</span>' : "";
+    var demoChip = meta.demo? '<span class="chip demo">demo</span>' : "";
+    var items = a.items||[];
+    var filas = items.map(function(it){
+      var fuentes = (it.fuentes||[]).map(function(f){
+        var precio = f.precio_clp? " "+fmtCLP(f.precio_clp) : "";
+        var enlace = f.url
+          ? '<a href="'+esc(f.url)+'" target="_blank" rel="noopener noreferrer">'+esc(f.titulo||"ver")+'</a>'+precio
+          : esc(f.titulo||"—")+precio+' <span style="color:var(--muted)">(sin enlace)</span>';
+        return '<li>'+esc(f.fuente||"?")+': '+enlace+'</li>';
+      }).join("");
+      return '<tr>'+
+        '<td><b>'+esc(it.nombre)+'</b>'+
+          (it.descripcion? '<div class="precios-mini">'+esc(it.descripcion)+'</div>':"")+
+          (fuentes? '<ul class="fuentes">'+fuentes+'</ul>' :
+            '<div class="precios-mini">sin precios encontrados'+(it.errores_busqueda&&it.errores_busqueda.length? " ("+esc(it.errores_busqueda[0]).slice(0,80)+")":"")+'</div>')+
+        '</td>'+
+        '<td>'+esc((it.cantidad!=null? it.cantidad : "—")+" "+(it.unidad||""))+'</td>'+
+        '<td>'+fmtCLP(it.precio_estimado_unit_neto)+'</td>'+
+        '<td>'+fmtCLP(it.total_linea_neto)+'</td>'+
+        '<td class="precios-mini">'+(it.precios_encontrados||0)+'</td>'+
+      '</tr>';
+    }).join("");
+
+    return '<article class="ca" data-veredicto="'+veredictoClase(v)+'" data-margen="'+(m==null?-99:m)+'" data-monto="'+(c.monto_disponible_clp||0)+'" data-cierre="'+(c.fecha_cierre||"")+'">'+
+      '<div class="ca-cab">'+
+        '<div class="ca-top">'+
+          '<span class="codigo">'+esc(c.codigo)+'</span>'+
+          '<span class="chip '+veredictoClase(v)+'">'+esc(v)+'</span>'+
+          riesgo+demoChip+
+        '</div>'+
+        '<div class="ca-nombre">'+esc(c.nombre)+'</div>'+
+        '<div class="ca-org">'+esc(c.organismo||"")+' · '+esc(c.region_nombre||"región s/d")+
+          ' · <b>'+esc(a.items_con_precio||0)+'/'+esc(a.total_items||0)+'</b> ítems con precio'+
+          ' · '+esc(c.ofertas_recibidas!=null? c.ofertas_recibidas+" ofertas recibidas" : "ofertas s/d")+'</div>'+
+        '<div class="ca-nums">'+
+          '<div class="num"><div class="l">Monto disponible</div><div class="v monto">'+fmtCLP(c.monto_disponible_clp)+'</div></div>'+
+          '<div class="num"><div class="l">Margen estimado</div><div class="v" style="color:'+colorMargen(m)+'">'+pct(m)+'</div></div>'+
+          '<div class="num"><div class="l">Utilidad estimada</div><div class="v">'+fmtCLP(a.utilidad_estimada)+'</div></div>'+
+          '<div class="num"><div class="l">Costo estimado (neto)</div><div class="v">'+fmtCLP(a.costo_total_neto)+'</div></div>'+
+        '</div>'+
+        '<div class="barra" title="margen estimado"><span style="width:'+Math.max(2,Math.min(100,(m==null?0:(m+0.2))*100))+'%;background:'+colorMargen(m)+'"></span></div>'+
+        '<div class="pie-cab"><span>Publicado: '+fechaCorta(c.fecha_publicacion)+' · '+esc(textoCierre)+'</span>'+
+          '<span>abrir detalle ▾</span></div>'+
+      '</div>'+
+      '<div class="detalle">'+
+        '<h3 class="det">Productos y precios de referencia</h3>'+
+        '<div class="tabla-scroll"><table class="items">'+
+          '<thead><tr><th>Producto (fuentes)</th><th>Cant.</th><th>Est. unit. neto</th><th>Est. línea</th><th>Nº</th></tr></thead>'+
+          '<tbody>'+(filas||'<tr><td colspan="5">Sin productos (detalle no disponible)</td></tr>')+'</tbody>'+
+        '</table></div>'+
+        '<h3 class="det">Estructura de costos</h3>'+
+        '<div class="caja-costos">'+
+          '<div class="linea-cost">Ingreso neto (monto CA)<b>'+fmtCLP(a.ingreso_neto)+'</b></div>'+
+          '<div class="linea-cost">Costo adquisición<b>'+fmtCLP(a.costo_adquisicion_neto)+'</b></div>'+
+          '<div class="linea-cost">Flete estimado<b>'+fmtCLP(a.flete_estimado)+'</b></div>'+
+          '<div class="linea-cost">Costo total<b>'+fmtCLP(a.costo_total_neto)+'</b></div>'+
+          '<div class="linea-cost">Utilidad<b style="color:'+colorMargen(m)+'">'+fmtCLP(a.utilidad_estimada)+' ('+pct(m)+')</b></div>'+
+        '</div>'+
+        (a.mejor_cotizacion_competencia?
+          '<div class="nota">⚠ La CA ya registra cotizaciones de proveedores; la mejor cotización neta es <b>'+
+          fmtCLP(a.mejor_cotizacion_competencia)+'</b>. Si debe competir contra ese precio, revise si su costo permite igualarlo.</div>':"")+
+        '<div class="nota">Código de la CA: <b>'+esc(c.codigo)+'</b> <button class="copiar" type="button">copiar</button> — búsquelo en <a href="https://www.mercadopublico.cl" target="_blank" rel="noopener noreferrer">mercadopublico.cl</a> para revisar la ficha oficial antes de cotizar.'+
+        '</div>'+
+      '</div>'+
+    '</article>';
+  }
+
+  function aplicarFiltros(){
+    var texto = busqueda.value.trim().toLowerCase();
+    var fv = filtroV.value;
+    var fr = filtroR.value;
+    var umbral = parseInt(slider.value,10)/100;
+    var min = (parseInt(slider.value,10) <= -20)? null : umbral;
+
+    var filtradas = compras.filter(function(c){
+      var a = c.analisis||{};
+      var v = veredictoClase(a.veredicto||"SIN_DATOS");
+      if(fv && v!==fv) return false;
+      if(fr && claveRegion(c)!==fr) return false;
+      if(min!==null && (a.margen===null||a.margen===undefined || a.margen<min)) return false;
+      if(texto){
+        var blob = [c.codigo,c.nombre,c.organismo,c.region_nombre]
+          .concat((a.items||[]).map(function(i){return i.nombre;}))
+          .join(" ").toLowerCase();
+        if(blob.indexOf(texto)===-1) return false;
+      }
+      return true;
+    });
+
+    var modo = orden.value;
+    filtradas.sort(function(x,y){
+      var ax=x.analisis||{}, ay=y.analisis||{};
+      if(modo==="monto") return (y.monto_disponible_clp||0)-(x.monto_disponible_clp||0);
+      if(modo==="cierre"){
+        var fx=x.fecha_cierre? new Date(x.fecha_cierre).getTime() : Infinity;
+        var fy=y.fecha_cierre? new Date(y.fecha_cierre).getTime() : Infinity;
+        return fx-fy;
+      }
+      var mx=(ax.margen===null||ax.margen===undefined)? -99 : ax.margen;
+      var my=(ay.margen===null||ay.margen===undefined)? -99 : ay.margen;
+      return my-mx;
+    });
+    return filtradas;
+  }
+
+  var lista = document.getElementById("lista");
+  lista.addEventListener("click",function(ev){
+    var cab = ev.target.closest(".ca-cab");
+    if(!cab || ev.target.classList.contains("copiar")) return;
+    cab.parentElement.classList.toggle("abierta");
+  });
+  lista.addEventListener("click",function(ev){
+    if(ev.target.classList.contains("copiar")){
+      var codigo = ev.target.closest(".nota").querySelector("b").textContent;
+      copiarTexto(codigo, ev.target);
+    }
+  });
+
+  function render(){
+    var filtradas = aplicarFiltros();
+    lista.innerHTML = filtradas.map(tarjeta).join("");
+    document.getElementById("sinResultados").style.display = filtradas.length? "none":"block";
+  }
+  render();
+})();
+</script>
+</body>
+</html>

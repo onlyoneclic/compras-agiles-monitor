@@ -75,6 +75,17 @@ class MotorPrecios:
                 logger.warning("Tienda jsonld '%s' no se pudo inicializar: %s",
                                tienda.get("nombre"), exc)
 
+        for tienda in cfg_provs.get("vtex", {}).get("tiendas", []) or []:
+            if not tienda.get("activado", True):
+                continue
+            try:
+                from .vtex import VtexStoreProvider
+
+                proveedores.append(VtexStoreProvider(tienda))
+            except Exception as exc:
+                logger.warning("Tienda vtex '%s' no se pudo inicializar: %s",
+                               tienda.get("nombre"), exc)
+
         logger.info("Proveedores de precios activos: %s",
                     [p.nombre for p in proveedores] or "ninguno")
         return proveedores

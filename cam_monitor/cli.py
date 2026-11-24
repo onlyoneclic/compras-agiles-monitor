@@ -152,6 +152,22 @@ def _cmd_corrida(config, demo: bool, sin_cache: bool, reanalizar: bool = False) 
     if not demo:
         nuevas = enriquecer_con_detalle(client, nuevas, config)
 
+    # 1d) Adjuntos en PDF (CAs sin productos en la API) ----------------------
+    #     La API no expone la URL de los documentos; se abre la ficha con un
+    #     navegador headless y se extraen los ítems del PDF por OCR. Si el
+    #     sitio bloquea al runner o no hay navegador, sigue sin detalle.
+    pendientes_adj = [c for c in nuevas
+                      if not (c.get("productos") or []) and (c.get("documentos") or [])]
+    if pendientes_adj and bool(config.get("buscador.descargar_adjuntos", True)):
+        try:
+            from .buscador import completar_con_adjuntos
+
+            ok_adj = completar_con_adjuntos(pendientes_adj, config)
+            logger.info("Adjuntos de ficha procesados: %d de %d pendientes",
+                        ok_adj, len(pendientes_adj))
+        except Exception as exc:
+            logger.warning("Descarga de adjuntos no disponible: %s", exc)
+
     almacen.guardar("publicadas.json", compras)
 
     # 2) Pricing -------------------------------------------------------------

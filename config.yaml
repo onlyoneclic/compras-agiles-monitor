@@ -17,6 +17,14 @@ mercado_publico:
 ingesta:
   fecha_desde: null             # ej: "2026-11-01T00:00:00Z"; null = todas las vigentes
   solo_cambios_ultimas_horas: 0 # >0 = sincronización incremental (ttl de cambios)
+  carpeta_adjuntos: adjuntos    # plan B: PDF subido a mano como adjuntos/{codigo}.pdf
+
+buscador:
+  descargar_adjuntos: true      # abrir la ficha con navegador headless y extraer
+                                #   los ítems del PDF adjunto por OCR (ver README)
+  dir_salida: data/adjuntos     # caché por CA ({codigo}.json) con lo extraído
+  max_cas_por_corrida: 5        # límite de fichas a abrir por corrida
+  timeout_ms: 45000
 
 pricing:
   cache_horas: 20               # no repetir la misma búsqueda en 20 horas

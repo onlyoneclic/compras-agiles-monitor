@@ -147,7 +147,8 @@ Beneficios prácticos:
 | Proveedor     | Tipo                | Estado por defecto | Notas |
 |---------------|---------------------|--------------------|-------|
 | `solotodo`    | API pública chilena | ✅ activado        | Agrega decenas de tiendas; fuerte en electrónica |
-| `mercadolibre`| API oficial (token) | ⛔ opcional        | Active + `ML_TOKEN` |
+| `mercadolibre`| API oficial (token automático) | ✅ activado        | Requiere secrets `ML_CLIENT_ID` + `ML_CLIENT_SECRET` (app en developers.mercadolibre.cl); si faltan, se omite con aviso |
+| `vtex` (easy, jumbo) | API pública VTEX (`{cuenta}.myvtex.com`) | ✅ activado | JSON estable sin scraping: Easy (ferretería/hogar) y Jumbo (aseo/oficina) |
 | `jsonld`      | HTML con schema.org | ⛔ opcional        | Cualquier tienda configurable (Paris, Sodimac…) |
 
 Para **agregar una tienda** con JSON-LD (muchas e-commerce chilenas emiten
@@ -177,30 +178,19 @@ Para una tienda con **API propia**, herede de `PriceProvider`
 
 ## ⏰ Automatización diaria
 
-### Opción A — GitHub Actions + GitHub Pages (incluida)
+### Opción A — GitHub Actions (incluida)
 
 `.github/workflows/monitor.yml` corre el monitor **todos los días 13:30 UTC**
-(10:30 en Chile), guarda el resultado en el repo y **publica el dashboard en
-GitHub Pages**, con link público para compartir:
-
-`https://TU_USUARIO.github.io/compras-agiles-monitor/`
+(10:30 en Chile) y guarda el resultado en el repo.
 
 Setup:
 
-1. Suba el proyecto a su GitHub (repo **público**: Pages es gratis solo si el
-   repo es público).
-2. **Settings → Pages → Build and deployment → Source: *GitHub Actions***
-   (una sola vez).
-3. Pestaña *Actions* → *Monitor Compras Ágiles* → **Run workflow**: la primera
-   corrida publica el dashboard **DEMO** (aunque aún no configure el ticket),
-   y el sitio queda en línea con el link de arriba.
-4. Para datos reales: **Settings → Secrets and variables → Actions → New
-   secret**, nombre `MP_TICKET`, valor su ticket. Corra *Run workflow* otra
-   vez; desde entonces todo es automático (y diario).
-
-Si un día la corrida falla (cuota, API caída), el link sigue mostrando el
-último dashboard publicado; el detalle completo de cada corrida queda como
-*artifact* durante 14 días.
+1. Suba el proyecto a su GitHub.
+2. En el repo: **Settings → Secrets and variables → Actions → New secret**,
+   nombre `MP_TICKET`, valor su ticket.
+3. Activa el workflow (la primera corrida puede dispararse manualmente desde
+   la pestaña *Actions* → *Run workflow*).
+4. Opcional: publique `web/` con **GitHub Pages** para ver el dashboard online.
 
 ### Opción B — Cron local / servidor
 

@@ -2522,5 +2522,1082 @@
    }
   },
   "mejor_cotizacion_neta": null
+ },
+ "1057062-559-COT26": {
+  "codigo": "1057062-559-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-26 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 82101601,
+    "nombre": "Publicidad en radio",
+    "descripcion": "El oferente deberá diseñar, implementar y administrar un plan de medios radial para la estrategia de posicionamiento del Sistema de Universidades del Estado de Chile. según especificaciones técnicas",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   },
+   {
+    "codigo_producto": 82101603,
+    "nombre": "Publicidad en Internet",
+    "descripcion": "El oferente deberá diseñar, implementar y administrar un plan de medios digital para apoyar la estrategia de posicionamiento del Sistema de Universidades del Estado de Chile. según especificaciones técnicas",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Publicidad en radio": {
+    "query": "publicidad en radio",
+    "precios": [],
+    "errores": []
+   },
+   "Publicidad en Internet": {
+    "query": "publicidad en internet",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2721-603-COT26": {
+  "codigo": "2721-603-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 13:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 43201611,
+    "nombre": "Soportes de computador",
+    "descripcion": "DHI-EVS50116S-R-V2 STORAGE NVR DAHUA O SIMILAR, SE REQUIERE HADWARE SEGUN LAS EE.TT ADJUNTAS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 43201611,
+    "nombre": "Soportes de computador",
+    "descripcion": "DHI-NVD1605DU-41-8K-2U2H O SIMILAR MATRIZ DE VIDEO",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Soportes de computador": {
+    "query": "soportes de computador",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "889473-2823-COT26": {
+  "codigo": "889473-2823-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 82121505,
+    "nombre": "Impresión promocional o publicitaria",
+    "descripcion": "Adquisición de 40 paneles araña rectos 3x3, sin laterales, de 225 x 230 cm, destinados a las carreras, Escuelas y Admisión UOH. Confeccionados en tela Dubai de 220 g, sin unión de paños ni costuras visibles, con impresión por sublimación de alta definición (hasta 1.440p). Incluyen velcro cosido para fijación a la estructura y bolso de transporte. Adjunta cotización / Considerar despacho.",
+    "cantidad": 40.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Impresión promocional o publicitaria": {
+    "query": "impresión promocional o publicitaria",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1057379-176-COT26": {
+  "codigo": "1057379-176-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-26 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 55121712,
+    "nombre": "Señales orientadoras",
+    "descripcion": "Renovación exclusiva de gráfica del tótem existente\n199 cm alto × 99,5 cm ancho\n\nel tótem existe y su panel rígido está utilizable. Solo se requiere retirar el vinilo deteriorado, preparar la superficie y aplicar la nueva gráfica, conservando panel, estructura, base y anclajes.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 55121712,
+    "nombre": "Señales orientadoras",
+    "descripcion": "Tótem nuevo con anclajes, sin instalación\n160 cm alto × 80 cm ancho aprox.\n\nse requiere fabricación y entrega del tótem terminado, con mecanismos de anclaje e instrucciones. No incluye instalación ni fundaciones, que serán gestionadas por el Hospital.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 55121727,
+    "nombre": "Letreros",
+    "descripcion": "Letrero LED 2 instalado\n115 cm alto × 200 cm ancho",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 55121727,
+    "nombre": "Letreros",
+    "descripcion": "Carta de Derechos y Deberes instalada\n121 cm alto × 125 cm ancho",
+    "cantidad": 3.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 55121727,
+    "nombre": "Letreros",
+    "descripcion": "Atención Preferente instalada\n70 cm alto × 50 cm ancho",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 55121727,
+    "nombre": "Letreros",
+    "descripcion": "Cuidados Paliativos instalada\n70 cm alto × 50 cm ancho",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 55121727,
+    "nombre": "Letreros",
+    "descripcion": "Derechos en Salud Mental instalada\n70 cm alto × 50 cm ancho",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 55121727,
+    "nombre": "Letreros",
+    "descripcion": "Letrero LED 1 instalado\n120 cm alto × 210 cm ancho",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Señales orientadoras": {
+    "query": "señales orientadoras",
+    "precios": [],
+    "errores": []
+   },
+   "Letreros": {
+    "query": "letreros letrero led 2 instalado 115 cm alto 200 cm ancho",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1953-505-COT26": {
+  "codigo": "1953-505-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-12-01 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 30171906,
+    "nombre": "Marcos para ventanas fijas",
+    "descripcion": "SERVICIO DE REEMPLAZO VENTANAS CENTRO DE TRATAMIENTOS DE ADICCIONES DEL C.P VALPARAISO, SEGUN ESPECIFICACIONES TECNICAS DETALLADAS EN REQUERIMIENTO ADJUNTO N°522, VISITA A TERRENO OBLIGATORIA JUEVES 26 DE NOVIEMBRE 2026 A LAS 11:00 HRS EN DEPENDENCIAS DEL CP VALPARAISO UBICADO EN CAMINO LA POLVORA 665 VALPARAÍSO",
+    "cantidad": 1.0,
+    "unidad": "000"
+   }
+  ],
+  "resultados_precio": {
+   "Marcos para ventanas fijas": {
+    "query": "marcos para ventanas fijas",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "5684-486-COT26": {
+  "codigo": "5684-486-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-26 18:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 40101703,
+    "nombre": "Enfriadores por evaporación",
+    "descripcion": "Suministro de equipo Evaporativo portátil de 13000 M3/H\nVer especificaciones adjuntas",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Enfriadores por evaporación": {
+    "query": "enfriadores por evaporación",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2424-2230-COT26": {
+  "codigo": "2424-2230-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-26 08:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 86111604,
+    "nombre": "Capacitación a empleados",
+    "descripcion": "SE REQUIERE EL SERVICIO DEL PLAN DE GESTIÓN SOCIAL BARRIO OLIVAR SUR SEGÚN FICHA TÉCNICA ADJUNTA. EL OFERENTE DEBERÁ DAR CUMPLIMIENTO A LAS PRESENTES BASES TÉCNICAS Y ADJUNTAR (CON DATOS DE CONTACTO) ANEXO TÉCNICO DETALLADO. EL OFERENTE DEBERÁ ADJUNTAR ANEXO ECONÓMICO Y DETALLE TÉCNICO Y UNA VEZ EMITIDA LA ORDEN DE COMPRA SE COORDINARÁ CON LA PERSONA ENCARGADA DE LA EJECUCION DEL PROYECTO. NOTA: NO SE ACEPTARÁN OFERTAS QUE SUPEREN EL PLAZO DE ENTREGA ESTABLECIDO.",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Capacitación a empleados": {
+    "query": "capacitación a empleados",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "711-240-COT26": {
+  "codigo": "711-240-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-27 11:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 25172112,
+    "nombre": "Sistemas de control de la estabilidad del vehículo",
+    "descripcion": "SERVICIO DE MANTENCIÓN PREVENTIVA DE VEHÍCULOS",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Sistemas de control de la estabilidad del vehículo": {
+    "query": "sistemas de control de la estabilidad del vehículo",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2318-759-COT26": {
+  "codigo": "2318-759-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-27 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 83112503,
+    "nombre": "Derechos de paso para el tránsito por sistemas de semicircuitos, procesamiento de datos distribuidos (DDP) y administración de arriendos",
+    "descripcion": "Servicio de Arriendo y mantención de Equipo Gabinete  Psicotécnico por un periodo de 14 meses.",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Derechos de paso para el tránsito por sistemas de semicircuitos, procesamiento de datos distribuidos (DDP) y administración de arriendos": {
+    "query": "derechos de paso para el tránsito por sistemas de semicircuitos procesamiento de datos distribuidos ddp y administración de arriendos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1078177-1079-COT26": {
+  "codigo": "1078177-1079-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 11:45",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 26111707,
+    "nombre": "Baterías de plomo-ácido",
+    "descripcion": "BATERIA 7,5 Amp 12V, CONFORME ANEXO NRO. 2 ADJUNTO, DE IGUAL MANERA ADJUNTAR PATENTE COMERCIAL VIGENTE.",
+    "cantidad": 95.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Baterías de plomo-ácido": {
+    "query": "baterías de plomo ácido",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1057501-4016-COT26": {
+  "codigo": "1057501-4016-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 11:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42143101,
+    "nombre": "Catéteres o kits intrauterinos",
+    "descripcion": "20-340-050-374-00 AMNIOTOMO DESECHABLE (100 UD X CAJA)",
+    "cantidad": 2.0,
+    "unidad": "BX"
+   }
+  ],
+  "resultados_precio": {
+   "Catéteres o kits intrauterinos": {
+    "query": "catéteres o kits intrauterinos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2762-798-COT26": {
+  "codigo": "2762-798-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 11:22",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 86101808,
+    "nombre": "Desarrollo de recursos humanos en el sector público",
+    "descripcion": "curso intervenciones psicosociales y estrategias terapéuticas (50 cupos y realización 9/12/26 obligatorio) se adjunta especificación técnicas",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 90101604,
+    "nombre": "Concesionarios de casino de comida",
+    "descripcion": "coffe break (50 cupos y realización 9/12/26 obligatorio) se adjunta especificación técnicas",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Desarrollo de recursos humanos en el sector público": {
+    "query": "desarrollo de recursos humanos en el sector público",
+    "precios": [],
+    "errores": []
+   },
+   "Concesionarios de casino de comida": {
+    "query": "concesionarios de casino de comida",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2721-600-COT26": {
+  "codigo": "2721-600-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 11:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 11162111,
+    "nombre": "Malla",
+    "descripcion": "MALLA GALVANIZADA CERCO ELECTROSOLDADO 1G 1.85X3.0M - ALAMBRE 3.8MM",
+    "cantidad": 20.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 11162111,
+    "nombre": "Malla",
+    "descripcion": "MALLA ELECTROSOLDADA TIPO ACMA C-139, PANEL DE 5X2.60M",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 11162111,
+    "nombre": "Malla",
+    "descripcion": "RED DE VOLIBOL ESTANDAR 9.5X1M",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 31162301,
+    "nombre": "Perfiles de montaje",
+    "descripcion": "PERFILES TUBULAR REDONDO 2\"X1.5MM",
+    "cantidad": 8.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 31162301,
+    "nombre": "Perfiles de montaje",
+    "descripcion": "PUENTE DE ADHERENCIA PARA HORMIGON, BIDON DE 4.5 LITROS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 31162301,
+    "nombre": "Perfiles de montaje",
+    "descripcion": "MEMBRANA DE CURADO PARA HORMIGON BIDON DE 4.5 LITROS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 31201528,
+    "nombre": "Cinta de montaje",
+    "descripcion": "CINTA DE ENMASCARAR 48MM X 40 M",
+    "cantidad": 100.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 31211604,
+    "nombre": "Diluyentes para pinturas",
+    "descripcion": "DILUYENTE FORMATO 5 LITROS",
+    "cantidad": 4.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 31211704,
+    "nombre": "Selladores",
+    "descripcion": "SELLADOR DE JUNTAS DE POLIURETANO 300 ML",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 31211904,
+    "nombre": "Brochas",
+    "descripcion": "BROCHA 3\" X 5/8\"",
+    "cantidad": 5.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 31211904,
+    "nombre": "Brochas",
+    "descripcion": "BROCHA 2\"X 5/8\"",
+    "cantidad": 5.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 31211906,
+    "nombre": "Rodillos de pintar",
+    "descripcion": "RODILLO 9\" DE POLIAMIDA TEXTURIZADA PELO CORTO",
+    "cantidad": 15.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 31211906,
+    "nombre": "Rodillos de pintar",
+    "descripcion": "RODILLO 2\" DE POLIAMIDA PARA TRAZO",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 31211908,
+    "nombre": "Pistolas de pintar",
+    "descripcion": "PISLOTA PULVERIZADORA NEUMATICA HVLP (ALTO VOLUMEN Y BAJA PRESION)\nSEGUN TERMINOS DE REFERENCIA ADJUNTO",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 49161607,
+    "nombre": "Raquetas de tenis",
+    "descripcion": "SET DE 2 RAQUETAS DE TENIS CON PELOTA INCLUIDA",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 49161608,
+    "nombre": "Pelotas de voleibol",
+    "descripcion": "PELOTA DE VOLEIBOL",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 49161703,
+    "nombre": "Discos",
+    "descripcion": "DISCO DE CORTE 4 1/2\" X 3/64\" X 7/8\" (115MM X 1MM X22.23MM) PARA METAL (O EQUIVALENTE)",
+    "cantidad": 150.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 49161703,
+    "nombre": "Discos",
+    "descripcion": "DISCO DE DESBATE 4 1/2\"",
+    "cantidad": 50.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60121001,
+    "nombre": "Pinturas",
+    "descripcion": "PINTURA ESMALTE SINTETICO COLOR AZUL PACIFICO, FORMATO TINETA",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60121001,
+    "nombre": "Pinturas",
+    "descripcion": "PINTURA ESMALTE SINTETICO COLOR BLANCO, FORMATO GALON",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60121001,
+    "nombre": "Pinturas",
+    "descripcion": "PINTURA CRILICA MONOCOMPONENTE DE GRADO PROFESIONAL PARA PAVIMENTOS DEPORTIVOS EXTERIORES, FORMULADA CON RESINAS DE ALTA RESISTENCIA UV, DESGASTE POR ABRASIÓN Y TRAFICO PEATONAL INTENSO. FORMATO TINETA DE 19L, RENDIMIENTO TEORICO DE AL MENOS 50M2 COLOR AZUL",
+    "cantidad": 21.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60121001,
+    "nombre": "Pinturas",
+    "descripcion": "PINTURA CRILICA MONOCOMPONENTE DE GRADO PROFESIONAL PARA PAVIMENTOS DEPORTIVOS EXTERIORES, FORMULADA CON RESINAS DE ALTA RESISTENCIA UV, DESGASTE POR ABRASIÓN Y TRAFICO PEATONAL INTENSO. FORMATO TINETA DE 19L, RENDIMIENTO TEORICO DE AL MENOS 50M2 COLOR ROJO",
+    "cantidad": 4.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60121001,
+    "nombre": "Pinturas",
+    "descripcion": "PINTURA CRILICA MONOCOMPONENTE DE GRADO PROFESIONAL PARA PAVIMENTOS DEPORTIVOS EXTERIORES, FORMULADA CON RESINAS DE ALTA RESISTENCIA UV, DESGASTE POR ABRASIÓN Y TRAFICO PEATONAL INTENSO. FORMATO TINETA DE 19L, RENDIMIENTO TEORICO DE AL MENOS 50M2, COLOR CELETE O MORADO",
+    "cantidad": 4.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60121001,
+    "nombre": "Pinturas",
+    "descripcion": "PINTURA CRILICA MONOCOMPONENTE DE GRADO PROFESIONAL PARA PAVIMENTOS DEPORTIVOS EXTERIORES, FORMULADA CON RESINAS DE ALTA RESISTENCIA UV, DESGASTE POR ABRASIÓN Y TRAFICO PEATONAL INTENSO. FORMATO TINETA DE 19L, RENDIMIENTO TEORICO DE AL MENOS 50M2 COLOR GRIS",
+    "cantidad": 11.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Malla": {
+    "query": "malla suministro con instalación de toldo de malla hdpe en jardín infantil las flores de la comuna de tierra amarilla región de atacama considera la instalación de un toldo del tipo trapecio en sector patio huerto malla de 68 84 m² según medición preliminar del croquis cubierta de malla hdpe tipo trapecio soportada por pilares metálicos según especificaciones técnicas adjuntas",
+    "precios": [],
+    "errores": []
+   },
+   "Perfiles de montaje": {
+    "query": "perfiles de montaje",
+    "precios": [],
+    "errores": []
+   },
+   "Cinta de montaje": {
+    "query": "cinta de montaje",
+    "precios": [],
+    "errores": []
+   },
+   "Diluyentes para pinturas": {
+    "query": "diluyentes para pinturas",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1057489-472-COT26": {
+  "codigo": "1057489-472-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 11:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42203403,
+    "nombre": "Juegos o catéteres introductores vasculares intervencionales o diagnósticos",
+    "descripcion": "INTRODUCTOR ARTERIAL TIPO DEFLECT BRAIDIN DIFERENTES MEDIDAS",
+    "cantidad": 5.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Juegos o catéteres introductores vasculares intervencionales o diagnósticos": {
+    "query": "juegos o catéteres introductores vasculares intervencionales o diagnósticos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2297-1561-COT26": {
+  "codigo": "2297-1561-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 15:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 43211701,
+    "nombre": "Equipo de lector de código de barras",
+    "descripcion": "PROVISION E INSTALACION DE SISTEMA PORTAL LECTOR DE PATENTES Y CONTROL DE ACCESO VEHICULAR.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Equipo de lector de código de barras": {
+    "query": "equipo de lector de código de barras",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "889473-2820-COT26": {
+  "codigo": "889473-2820-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 78121601,
+    "nombre": "Servicios de flete",
+    "descripcion": "Servicio de transporte terrestre para traslado de hasta 20 sillas, 20 atriles, mobiliario, equipamiento escénico y equipo de producción de hasta 6 personas, para presentaciones de la Orquesta de Cámara UOH. Considera bolsa de 3.000 kilómetros, carga, descarga, montaje y desmontaje básico. Incluye conductor, combustible, peajes, seguros y personal de apoyo. Requiere vehículos y documentación vigentes, experiencia acreditada y disponibilidad en días hábiles, fines de semana y horario vespertino.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Servicios de flete": {
+    "query": "servicios de flete",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "846-32-COT26": {
+  "codigo": "846-32-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-27 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 11162111,
+    "nombre": "Malla",
+    "descripcion": "SUMINISTRO (CON INSTALACIÓN) DE TOLDO DE MALLA HDPE, EN JARDÍN INFANTIL LAS FLORES DE LA COMUNA DE TIERRA AMARILLA, REGIÓN DE ATACAMA” CONSIDERA LA INSTALACIÓN DE UN TOLDO DEL TIPO TRAPECIO. EN SECTOR PATIO HUERTO. \nMalla de 68,84 m², Según medición preliminar del croquis, cubierta de malla HDPE tipo trapecio, soportada por pilares metálicos.\nSegún especificaciones técnicas adjuntas.",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Malla": {
+    "query": "malla suministro con instalación de toldo de malla hdpe en jardín infantil las flores de la comuna de tierra amarilla región de atacama considera la instalación de un toldo del tipo trapecio en sector patio huerto malla de 68 84 m² según medición preliminar del croquis cubierta de malla hdpe tipo trapecio soportada por pilares metálicos según especificaciones técnicas adjuntas",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1210674-122-COT26": {
+  "codigo": "1210674-122-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-26 11:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 72102305,
+    "nombre": "Servicios de reparación, mantenimiento o reparación de aire acondicionado",
+    "descripcion": "Se solicita favor ofertar por el valor total IVA incluido presupuestado en la compra ágil, esto debido a que no se puede editar el monto y se pagara por equipo revisado, el valor a considerar para los pagos será el valor ofertado en su Anexo económico adjunto y para la evaluación se considerara la sumatorio de menor valor neto. Por ultimo se recuerda leer y revisar bien la documentación y adjuntar lo solicitado.",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Servicios de reparación, mantenimiento o reparación de aire acondicionado": {
+    "query": "servicios de reparación mantenimiento o reparación de aire acondicionado",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1703-470-COT26": {
+  "codigo": "1703-470-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-26 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 72101607,
+    "nombre": "Instalación o reparación de paredes",
+    "descripcion": "BODEGA DE FARMACOS (ESPACIO DE MESÓN DE ENTREGA INSUMOS)\nInstalación de cerámica/porcelanato, construcción de mesón de entrega de insumos plegable (se plegara con el fin de permitir el\nacceso de palets de mercadería) instalación de cadena a piso con riel, modificación de portón actual para cambiar a corredera sobre\nriel, preparación de muro dañado para aplicación de bloqueador de humedad, enlucido de muro y pintura de terminación, instalación de 2 paneles led 120x60, de celosías en sector muro.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Instalación o reparación de paredes": {
+    "query": "instalación o reparación de paredes",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "690263-53-COT26": {
+  "codigo": "690263-53-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-26 15:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42143502,
+    "nombre": "Dispositivos de irrigación nasal o accesorios",
+    "descripcion": "Protector Nasal\tAlmohadilla nasal, accesorio para proteger la irritación de la piel compatible con equipo RESMED",
+    "cantidad": 30.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42272213,
+    "nombre": "Mascarillas o correas de presión positiva continua en la vía aérea (CPAP)",
+    "descripcion": "Mascara Nasal para terapia de CPAP Talla L (4) \nTalla XL (4)\nTipo: Máscara nasal para terapia de presión positiva continua (CPAP), Auto CPAP y BiPAP.\nArnés: Arnés ajustable de material textil suave , que proporcione estabilidad, comodidad y adecuada distribución de la presión durante el uso prolongado.",
+    "cantidad": 8.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42272213,
+    "nombre": "Mascarillas o correas de presión positiva continua en la vía aérea (CPAP)",
+    "descripcion": "Mascarilla Oronasal sin puente:Talla L (10), Talla M (10)\nTipo: Máscara oronasal de contacto mínimo para terapia CPAP, Auto CPAP y BiPAP.\nDiseño: Máscara oronasal de contacto mínimo, con sellado bajo la nariz y sobre la boca, que reduzca el contacto con el rostro y proporcione comodidad durante la terapia.",
+    "cantidad": 20.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42272213,
+    "nombre": "Mascarillas o correas de presión positiva continua en la vía aérea (CPAP)",
+    "descripcion": "Mascarilla Full face Talla M (5)\nTipo: Máscara facial total para terapia CPAP, Auto CPAP y BiPAP.\n\nCobertura: Máscara facial total que cubra completamente la boca, la nariz y los ojos, destinada a pacientes que requieran una interfaz de cobertura total para la administración de presión positiva.",
+    "cantidad": 5.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Dispositivos de irrigación nasal o accesorios": {
+    "query": "dispositivos de irrigación nasal o accesorios",
+    "precios": [],
+    "errores": []
+   },
+   "Mascarillas o correas de presión positiva continua en la vía aérea (CPAP)": {
+    "query": "mascarillas o correas de presión positiva continua en la vía aérea cpap",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "800-7824-COT26": {
+  "codigo": "800-7824-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 11:20",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 41116002,
+    "nombre": "Reactivos de analizadores de banco de sangre",
+    "descripcion": "SUMINISTRO DE DETERMINACIONES DE HEMOGRAMA CON RECUENTO *FAVOR LEER DETALLE DE REQUERIMIENTO ADJUNTO EN ESTA PUBLICACION Y ADJUNTAR COTIZACION FORMAL DETALLADA DE LOS PRODUCTOS SOLICITADOS*",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Reactivos de analizadores de banco de sangre": {
+    "query": "reactivos de analizadores de banco de sangre",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1057402-1514-COT26": {
+  "codigo": "1057402-1514-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 80111613,
+    "nombre": "Mano de obra temporal",
+    "descripcion": "COMPRA DE SERVICIOS DE HORAS DE PROFESIONALES PARA PROGRAMA DE UNIVERSALIZACIÓN EN ATENCIÓN PRIMARIA AÑO 2026 Y COMPRA DE SERCICIOS FIT AÑO 2026",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Mano de obra temporal": {
+    "query": "mano de obra temporal",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "619-138-COT26": {
+  "codigo": "619-138-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-26 11:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 43231507,
+    "nombre": "Programas de gestión de proyectos",
+    "descripcion": "Licencia Proactivanet de acuerdo a detalle de documento adjunto",
+    "cantidad": 400.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Programas de gestión de proyectos": {
+    "query": "programas de gestión de proyectos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2328-1475-COT26": {
+  "codigo": "2328-1475-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-27 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 60102301,
+    "nombre": "Libros de actividades de lectura",
+    "descripcion": "CALIGRAFIX CALIBOTS PRESCHOOL NT1",
+    "cantidad": 32.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60102301,
+    "nombre": "Libros de actividades de lectura",
+    "descripcion": "CALIGRAFIX JUGANDO CON LOS CUENTOS NT1",
+    "cantidad": 32.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60102301,
+    "nombre": "Libros de actividades de lectura",
+    "descripcion": "CALIGRAFIX TRAZOS Y LETRAS NT1",
+    "cantidad": 32.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60102301,
+    "nombre": "Libros de actividades de lectura",
+    "descripcion": "CALIGRAFIX LOGICA Y NUMEROS NT1",
+    "cantidad": 32.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60102301,
+    "nombre": "Libros de actividades de lectura",
+    "descripcion": "CALIGRAFIX CALIBOTS PRESCHOOL NT2",
+    "cantidad": 64.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60102301,
+    "nombre": "Libros de actividades de lectura",
+    "descripcion": "CALIGRAFIX JUGANDO CON LOS CUENTOS NT2",
+    "cantidad": 64.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60102301,
+    "nombre": "Libros de actividades de lectura",
+    "descripcion": "CALIGRAFIX TRAZOS Y LETRAS NT2",
+    "cantidad": 64.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60102301,
+    "nombre": "Libros de actividades de lectura",
+    "descripcion": "CALIGRAFIX LÓGICA Y NÚMEROS NT2",
+    "cantidad": 64.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60102301,
+    "nombre": "Libros de actividades de lectura",
+    "descripcion": "CALIGRAFIX CUADRICULA 5X5 MM 1°BÁSICO 1°SEMESTRE UNIDAD",
+    "cantidad": 114.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60102301,
+    "nombre": "Libros de actividades de lectura",
+    "descripcion": "CALIGRAFIX CUADRICULA 5X5 MM 1°BÁSICO 2°SEMESTRE UNIDAD",
+    "cantidad": 114.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 60102301,
+    "nombre": "Libros de actividades de lectura",
+    "descripcion": "CALIGRAFIX VERTICAL 2° BÁSICO UNIDAD",
+    "cantidad": 114.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Libros de actividades de lectura": {
+    "query": "libros de actividades de lectura",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1425773-56-COT26": {
+  "codigo": "1425773-56-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 13:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 90111502,
+    "nombre": "Hostales y moteles",
+    "descripcion": "4 DIAS DE ALOJAMIENTO -CANTIDAD 50 PERSONAS DESDE EL DIA 12 CHECK IN AL 16 CHECK OUT  DE DICIEMBRE 2026.ENTRE HABITACIONES DOBLES Y TRIPLES INCLUIDOS CON BAÑOS INDEPENDIENTE .   ZONA  ECO FRIENDLY ZONA VERDE-AIRE ACONDICIONADO-ESTACIONAMIENTO. LOCALIZACIÓN CERCA DE SANTIAGO-CENTRO  Y METRO. ACCESO A CUSTODIA DE EQUIPOS E INSTRUMENTOS.ADJUNTAR IMAGENES DEL HOTEL Y SUS HABITACIONES",
+    "cantidad": 4.0,
+    "unidad": "DAY"
+   }
+  ],
+  "resultados_precio": {
+   "Hostales y moteles": {
+    "query": "hostales y moteles",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2409-2015-COT26": {
+  "codigo": "2409-2015-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 16:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 44122001,
+    "nombre": "Archivadores de fichas",
+    "descripcion": "SE REQUIERE DE LISTADO COMPLETO DE MATERIAL DE OFICINA PARA JARDINES VTF, SEGUN DETALLE EN ESPECIFICACIONES TECNICAS Y ANEXO ECONOMICO ADJUNTO.Los precios totales ofertados deben coincidir con el precio total ofertado de la plataforma. \nCualquier discrepancia o el incumplimiento de estos requisitos resultará una oferta inadmisible y será marginada de la evaluación",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Archivadores de fichas": {
+    "query": "archivadores de fichas",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2409-2018-COT26": {
+  "codigo": "2409-2018-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 43212110,
+    "nombre": "Impresoras multifunción o multifuncionales",
+    "descripcion": "ADQUISICIÓN DE FOTOCOPIADORAS PARA ESCUELA G-914 EL AMANECER DE DUQUECO. DE ACUERDO A ESPECIFICACIONES TÉCNICAS ANEXAS. DEBE PRESENTAR ANEXO ECONOMICO O COTIZACION DETALLADA POR LA TOTALIDAD DE PRODUCTOS REQUERIDOS E INDICAR PLAZO DE ENTREGA (DE OMITIRSE, SE ASUMIRÁ EL PLAZO MÁXIMO ESTIPULADO PARA ESTA COMPRA) Y EL VALOR DE DESPACHO DEBE ESTAR INCLUIDO EN EL VALOR DE LAS ESPECIES OFERTADAS. EL INCUMPLIMIENTO DE CUALQUIERA DE ESTOS PUNTOS SERÁ MOTIVO DE RECHAZO Y LA OFERTA QUEDARÁ FUERA DE BASES.",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Impresoras multifunción o multifuncionales": {
+    "query": "impresoras multifunción o multifuncionales",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "4605-85-COT26": {
+  "codigo": "4605-85-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 19:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 73141707,
+    "nombre": "Servicios de fabricación de trajes, chaquetas o abrigos tejidos",
+    "descripcion": "ADQUISICIÓN DE 270 CORTAVIENTOS INSTITUCIONALES, PERSONALIZADOS CON LOGOS DEL SERVIU REGIÓN DEL MAULE, MEDIANTE TÉCNICA DE SERIGRAFÍA, PARA FUNCIONARIOS DE LA INSTITUCIÓN.",
+    "cantidad": 270.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Servicios de fabricación de trajes, chaquetas o abrigos tejidos": {
+    "query": "servicios de fabricación de trajes chaquetas o abrigos tejidos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1175-555-COT26": {
+  "codigo": "1175-555-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-26 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 40101827,
+    "nombre": "Calentadores de fibra cerámica",
+    "descripcion": "Se requiere adquirir 08 Calentadores de ópticas para el Complejo Asistencial Padre Las Casas, según especificaciones adjuntas. \nSe debe adjuntar ficha técnica y/o catalogo y Anexo: AUSENCIA DE INHABILIDADES Y CONFLICTOS DE INTERÉS DE FUNCIONARIOS PUBLICOS DEL SERVICIO DE SALUD ARAUCANIA SUR Y SUS ESTABLECIMIENTOS DEPENDIENTES",
+    "cantidad": 8.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Calentadores de fibra cerámica": {
+    "query": "calentadores de fibra cerámica",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "3885-403-COT26": {
+  "codigo": "3885-403-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:38:02+00:00",
+  "fecha_cierre": "2026-11-25 11:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 52152010,
+    "nombre": "Termos domésticos",
+    "descripcion": "Termos de acero inoxidable capacidad 500ml, que su tapa sirva de vaso, variedad de colores, cada uno envuelto en su respectiva bolsa de regalo (plástico o papel Kraft o equivalente). Entregar 4 diciembre a las 11:00 en blanco en calada 239",
+    "cantidad": 1000.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Termos domésticos": {
+    "query": "termos domésticos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
  }
 }

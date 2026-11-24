@@ -34,6 +34,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Instalar OCR para PDFs adjuntos (solo si la carpeta adjuntos/ tiene PDFs)
+        if: hashFiles('adjuntos/**') != ''
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-spa poppler-utils
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -41,6 +47,12 @@ jobs:
 
       - name: Instalar dependencias
         run: pip install -r requirements.txt
+
+      - name: Instalar navegador para descarga automática de adjuntos (best-effort)
+        continue-on-error: true
+        run: |
+          pip install playwright
+          python -m playwright install chromium --with-deps
 
       - name: Correr monitor (demo si no hay ticket)
         run: |

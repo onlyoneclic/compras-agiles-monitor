@@ -176,6 +176,47 @@ Para una tienda con **API propia**, herede de `PriceProvider`
 
 ---
 
+## 📋 CAs con detalle en PDF escaneado (descarga automática)
+
+Algunas CAs no traen productos en la API: el detalle está solo en un **PDF
+adjunto** de la ficha (por ejemplo, un listado DIDECO escaneado). Como la API
+no expone la URL de descarga de esos documentos (verificado: solo entrega
+`documentos[].id/nombre`), el monitor los obtiene con un navegador headless
+(Playwright, instalado best-effort por el workflow):
+
+1. Tras la ingesta detecta las CAs sin productos pero con `documentos[]`.
+2. Abre `buscador.mercadopublico.cl/ficha?code={codigo}`, espera el render
+   del SPA y captura los PDF que la página carga o enlaza (máx. 2 por CA).
+3. Descarga el PDF, aplica OCR (tesseract) y agrega las líneas como
+   productos (máx. `pricing.max_items_por_ca`). El origen queda marcado como
+   `detalle_fuente = "buscador"` con caché en `data/adjuntos/{codigo}.json`.
+4. En la misma corrida esos ítems reciben precios y análisis.
+
+Si CloudFront bloquea al runner o el navegador no está disponible, la corrida
+sigue sin detalle para esa CA y el dashboard muestra el aviso.
+
+### Verificar si Actions puede leer la ficha (2 minutos)
+
+Corra el workflow **"Experimento — ¿puede Actions leer
+buscador.mercadopublico.cl?"** (pestaña Actions → Run workflow). El log dirá
+si el acceso es 200 (descarga automática funcionará) o 403 (CloudFront
+también bloquea a los runners). Contexto: el bloqueo detectado desde
+servidores externos es de CloudFront y depende de la región/IP de origen;
+los runners de GitHub salen de IPs de EE.UU., así que puede que pasen.
+
+### Plan B — PDF manual (si el experimento da 403)
+
+1. Abra la ficha en su navegador y descargue el PDF de la sección **Adjuntos**.
+2. En GitHub: **Add file → Upload files** y súbalo a la carpeta `adjuntos/`
+   con el nombre exacto `{codigo}.pdf` (ej: `adjuntos/2436-1903-COT26.pdf`).
+3. La siguiente corrida lo lee con OCR (`detalle_fuente = "pdf-ocr"`).
+
+El OCR es *best-effort*: en escaneos de buena calidad recupera la gran mayoría
+de las filas, pero puede omitir o confundir alguna cantidad. Revise las
+cantidades antes de cotizar.
+
+---
+
 ## ⏰ Automatización diaria
 
 ### Opción A — GitHub Actions (incluida)

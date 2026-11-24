@@ -48,6 +48,12 @@ rentabilidad:
   estrategia: mediana           # minimo | percentil_25 | mediana | promedio
   flete_estimado_clp: 25000     # costo de envío estimado por compra
   costo_transaccion_pct: 0.0    # comisión de plataforma/banco sobre la compra
+  usar_cotizaciones_api: true   # SIN cobertura de tiendas: estimar con la mejor
+                                #   cotización neta de proveedores ya registrada en
+                                #   la CA (cubre rubros no-electrónicos sin scraping)
+  margen_proveedor_estimado: 0.15 # margen que asumimos cobran las proveedoras
+                                  #   sobre su costo real (para estimar el costo)
+  descuento_para_ganar: 0.02    # % bajo la mejor cotización para adjudicarse
   margen_rentable: 0.10         # umbral para marcar RENTABLE (10%)
   cobertura_minima: 0.6         # % de ítems con precio para emitir veredicto
   alerta_competencia_pct: 0.90  # mejor cotización ≤ 90% de su costo => riesgo

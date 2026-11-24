@@ -14,7 +14,9 @@ eso `max_detalles` es configurable (ver config.yaml).
 
 from __future__ import annotations
 
+import json
 import logging
+import os
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 
@@ -125,6 +127,8 @@ def enriquecer_con_detalle(
             enriquecidas.append(ca)
             continue
         enriquecidas.append(_combinar(ca, det))
+        if not ca.get("productos"):
+            _intentar_adjunto_pdf(ca, config)
         logger.info(
             "Detalle %s: %d productos, %s CLP",
             ca["codigo"],
@@ -170,8 +174,13 @@ def _combinar(ca: Dict[str, Any], detalle: Dict[str, Any]) -> Dict[str, Any]:
         if valor is not None and (mejor_cotizacion is None or valor < mejor_cotizacion):
             mejor_cotizacion = valor
 
+    documentos = [
+        {"id": d.get("id"), "nombre": (d.get("nombre") or "")}
+        for d in (detalle.get("documentos") or []) if isinstance(d, dict)
+    ]
     ca.update(
         {
+            "documentos": documentos,
             "descripcion": (detalle.get("descripcion") or "").strip() or None,
             "direccion_entrega": entrega.get("direccion_entrega") or None,
             "plazo_entrega_dias": _a_float(entrega.get("plazo_entrega_dias"), None),
@@ -184,6 +193,54 @@ def _combinar(ca: Dict[str, Any], detalle: Dict[str, Any]) -> Dict[str, Any]:
         }
     )
     return ca
+
+
+def _intentar_adjunto_pdf(ca: Dict[str, Any], config: Config) -> None:
+    """Sin productos en la API: intenta extraerlos de adjuntos/{codigo}.pdf (OCR).
+
+    El usuario descarga el PDF adjunto desde la ficha en buscador.mercadopublico.cl
+    y lo sube al repositorio con el nombre {codigo}.pdf (ej: adjuntos/
+    2436-1903-COT26.pdf). Si el OCR no rinde líneas, la CA queda sin productos
+    y el dashboard muestra el aviso de adjunto disponible.
+    """
+    carpeta = config.get("ingesta.carpeta_adjuntos", "adjuntos")
+
+    # 1) Caché del descargador automático (cam_monitor/buscador.py).
+    ruta_json = os.path.join(config.get("buscador.dir_salida", "data/adjuntos"),
+                             "%s.json" % ca["codigo"])
+    if os.path.isfile(ruta_json):
+        try:
+            with open(ruta_json, "r", encoding="utf-8") as fh:
+                items = json.load(fh).get("items") or []
+            if items:
+                ca["productos"] = items
+                ca["detalle_fuente"] = "buscador"
+                logger.info("Detalle %s: %d productos desde la caché del "
+                            "buscador", ca["codigo"], len(items))
+                return
+        except Exception as exc:
+            logger.warning("Caché de buscador ilegible para %s: %s",
+                           ca["codigo"], exc)
+
+    # 2) PDF subido manualmente al repositorio (plan B).
+    ruta = os.path.join(carpeta, "%s.pdf" % ca["codigo"])
+    if not os.path.isfile(ruta):
+        return
+    try:
+        from .pdf_items import extraer_items_pdf
+
+        max_items = int(config.get("pricing.max_items_por_ca", 8))
+        items = extraer_items_pdf(ruta, max_items=max_items)
+    except Exception as exc:  # tesseract/pdftoppm ausentes, PDF corrupto, etc.
+        logger.warning("OCR falló para el adjunto de %s: %s", ca["codigo"], exc)
+        return
+    if items:
+        ca["productos"] = items
+        ca["detalle_fuente"] = "pdf-ocr"
+        logger.info("Detalle %s: %d productos extraídos del PDF adjunto",
+                    ca["codigo"], len(items))
+    else:
+        logger.warning("El PDF adjunto de %s no rindió filas de producto", ca["codigo"])
 
 
 # ------------------------------------------------------------------ helpers

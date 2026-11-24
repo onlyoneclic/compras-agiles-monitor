@@ -1344,5 +1344,667 @@
    }
   },
   "mejor_cotizacion_neta": null
+ },
+ "5209-2205-COT26": {
+  "codigo": "5209-2205-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 10:10",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42231806,
+    "nombre": "Alimento nutritivo médico o espesadores de líquido",
+    "descripcion": "Suplemento oral sin lípidos y sin fibra (sim. Freubin Jucy), DESPACHO PARCIALIZADO",
+    "cantidad": 840.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Alimento nutritivo médico o espesadores de líquido": {
+    "query": "alimento nutritivo médico o espesadores de líquido",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2328-1473-COT26": {
+  "codigo": "2328-1473-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 44103103,
+    "nombre": "Tóner",
+    "descripcion": "Tóner Equivalente o Superior a Brother TN 219 XL Pack 4 Colores Equivalente o Superior Brother TN-219XL Negro + Cyan + Magenta + Amarillo",
+    "cantidad": 16.0,
+    "unidad": "PACK"
+   }
+  ],
+  "resultados_precio": {
+   "Tóner": {
+    "query": "tóner tóner equivalente o superior a brother tn 219 xl pack 4 colores equivalente o superior brother tn 219xl negro cyan magenta amarillo",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1058071-112-COT26": {
+  "codigo": "1058071-112-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-26 09:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 73101701,
+    "nombre": "Servicios de producción de medicamentos o medicinas",
+    "descripcion": "5559973\tAPIXABAN 2,5MG",
+    "cantidad": 40000.0,
+    "unidad": "CMP"
+   }
+  ],
+  "resultados_precio": {
+   "Servicios de producción de medicamentos o medicinas": {
+    "query": "servicios de producción de medicamentos o medicinas",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1704-4052-COT26": {
+  "codigo": "1704-4052-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 51191602,
+    "nombre": "Electrolitos de cloruro de sodio",
+    "descripcion": "[CodInt:218S0014|14.000,0] FISIOLOGICO 0,9% 100 ML TU",
+    "cantidad": 14000.0,
+    "unidad": "BG"
+   }
+  ],
+  "resultados_precio": {
+   "Electrolitos de cloruro de sodio": {
+    "query": "electrolitos de cloruro de sodio",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1456838-55-COT26": {
+  "codigo": "1456838-55-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 11:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 52131501,
+    "nombre": "Cortinas",
+    "descripcion": "CORTINAS VERTICALES: 20 UNIDADES TIPO BLACKOUT Y 4 UNIDADES TIPO SUNSCREEN",
+    "cantidad": 24.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Cortinas": {
+    "query": "cortinas cortinas verticales 20 unidades tipo blackout y 4 unidades tipo sunscreen",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1057439-6292-COT26": {
+  "codigo": "1057439-6292-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42294525,
+    "nombre": "Sets de instrumentos médicos oftalmológicos",
+    "descripcion": "[[ACC-0583]] CASSETTE VITRECTOMIA 25+5.0 CPM SIMPLE",
+    "cantidad": 13.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Sets de instrumentos médicos oftalmológicos": {
+    "query": "sets de instrumentos médicos oftalmológicos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1026727-407-COT26": {
+  "codigo": "1026727-407-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 11:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 90111604,
+    "nombre": "Salones",
+    "descripcion": "Evento de aniversario CFT, consiste en Cocktail de bienvenida para 108 personas, Cena 3 tiempos, entrada, fondo y postre, contemplando 98 unidades de carne, 10 unidades de ave y adicionalmente se requiere de 2 unidades veganas. Salón privado para bailable, con iluminación, pista de baile led, amplificación, DJ y cámara 360 y disponibilidad de 30 estacionamientos. El evento se efectuará el 27 de noviembre desde las 20 horas hasta las 03:00 AM",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Salones": {
+    "query": "salones evento de aniversario cft consiste en cocktail de bienvenida para 108 personas cena 3 tiempos entrada fondo y postre contemplando 98 unidades de carne 10 unidades de ave y adicionalmente se requiere de 2 unidades veganas salón privado para bailable con iluminación pista de baile led amplificación dj y cámara 360 y disponibilidad de 30 estacionamientos el evento se efectuará el 27 de noviembre desde las 20 horas hasta las 03 00 am",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "800-7820-COT26": {
+  "codigo": "800-7820-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 85121609,
+    "nombre": "Servicios quirúrgicos",
+    "descripcion": "SUMINISTRO PARA ARTROSCOPICA DE HOMBRO",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Servicios quirúrgicos": {
+    "query": "servicios quirúrgicos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "777304-3670-COT26": {
+  "codigo": "777304-3670-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42242003,
+    "nombre": "Dispositivos de sujeción protésica o accesorios",
+    "descripcion": "INS001698 SET NEFROSTOMIA 8.3FR",
+    "cantidad": 5.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Dispositivos de sujeción protésica o accesorios": {
+    "query": "dispositivos de sujeción protésica o accesorios",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1171142-2811-COT26": {
+  "codigo": "1171142-2811-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 51211616,
+    "nombre": "Antídotos",
+    "descripcion": "METRONIDAZOL 500 MG/100 ML (5 MG/ML) INYEC",
+    "cantidad": 4000.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Antídotos": {
+    "query": "antídotos metronidazol 500 mg 100 ml 5 mg ml inyec",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2258-1054-COT26": {
+  "codigo": "2258-1054-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 15:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42311902,
+    "nombre": "Bolsas de drenaje o depósitos para el drenaje médico de incisión",
+    "descripcion": "340-0619 SET DRENAJE CIRCULAR 19FR C/TROCAR (BLAKE)\n(Adjuntar Ficha Técnica y Certificado de Tecnovigilancia).\nFlete incluido.",
+    "cantidad": 100.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Bolsas de drenaje o depósitos para el drenaje médico de incisión": {
+    "query": "bolsas de drenaje o depósitos para el drenaje médico de incisión",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "5209-2204-COT26": {
+  "codigo": "5209-2204-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 09:50",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42231806,
+    "nombre": "Alimento nutritivo médico o espesadores de líquido",
+    "descripcion": "Suplemento oral hipercalórico hiperproteico cremoso (sim.Fresubin creme), DESPACHO PARCIALIZADO",
+    "cantidad": 888.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Alimento nutritivo médico o espesadores de líquido": {
+    "query": "alimento nutritivo médico o espesadores de líquido",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1070620-4544-COT26": {
+  "codigo": "1070620-4544-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 50151513,
+    "nombre": "Aceites de plantas y verduras comestibles",
+    "descripcion": "ACEITE DE OLIVA (LT)",
+    "cantidad": 10.0,
+    "unidad": "LTR"
+   },
+   {
+    "codigo_producto": 50161509,
+    "nombre": "Productos de edulcorantes o azúcares naturales",
+    "descripcion": "ENDULZANTE EN SACHET (SUCRALOSA UNIDAD)",
+    "cantidad": 10000.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 50171551,
+    "nombre": "Sal de cocina o de mesa",
+    "descripcion": "SAL SACHET DE 1 GRAMO (UNIDAD) (1400811)",
+    "cantidad": 20000.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 50192111,
+    "nombre": "Charqui u otras carnes secas o procesadas",
+    "descripcion": "CARNE DE SOYA",
+    "cantidad": 10.0,
+    "unidad": "KGM"
+   },
+   {
+    "codigo_producto": 50192303,
+    "nombre": "Postres, helados o yogurt congelado",
+    "descripcion": "CEREAL DESAYUNO SIN AZÚCAR (BOLITAS DE CHOCOLATE) 300GR",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 50192303,
+    "nombre": "Postres, helados o yogurt congelado",
+    "descripcion": "CEREZAS CONSERVA SIN CAROZO Y SIN AZÚCAR (TARRO 590 GR) (140039)",
+    "cantidad": 20.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 50192303,
+    "nombre": "Postres, helados o yogurt congelado",
+    "descripcion": "DURAZNO EN CONSERVA DIET (CAJA DE 380 GR)",
+    "cantidad": 80.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 50192303,
+    "nombre": "Postres, helados o yogurt congelado",
+    "descripcion": "FLAN DIET CAJA SABORES SURTIDOS (UNIDAD)",
+    "cantidad": 200.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 50192303,
+    "nombre": "Postres, helados o yogurt congelado",
+    "descripcion": "FLAN EN POLVO SABORES SURTIDOS (BOLSA DE 1 KG) SABOR CHOCOLATE NO",
+    "cantidad": 20.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 50192303,
+    "nombre": "Postres, helados o yogurt congelado",
+    "descripcion": "FRUTILLAS EN CONSERVA (TARRO 590 GR)",
+    "cantidad": 20.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 50192303,
+    "nombre": "Postres, helados o yogurt congelado",
+    "descripcion": "HELADO DE PIÑA (LITRO)",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 50192303,
+    "nombre": "Postres, helados o yogurt congelado",
+    "descripcion": "MANJAR DIET (SIN AZÚCAR) 400 GR",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 50192303,
+    "nombre": "Postres, helados o yogurt congelado",
+    "descripcion": "PIÑA EN CONSERVA (TARRO DE 565 GR)",
+    "cantidad": 20.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 50192303,
+    "nombre": "Postres, helados o yogurt congelado",
+    "descripcion": "JALEA DIET DIFERENTES SABORES, POSTRE INDIVIDUAL (SIN AZÚCAR)",
+    "cantidad": 432.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 50192303,
+    "nombre": "Postres, helados o yogurt congelado",
+    "descripcion": "SEMOLA CON LECHE, POSTRE INDIVIDUAL (140100)",
+    "cantidad": 400.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 50201710,
+    "nombre": "Té de hierbas",
+    "descripcion": "TÉ INFUSIÓN MANZANILLA (CAJA 50 UNIDADES)",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 50201713,
+    "nombre": "Bolsitas de te",
+    "descripcion": "TÉ BOLSITA NEGRO (CAJA 100 UNIDADES) (NO SABORES)",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Aceites de plantas y verduras comestibles": {
+    "query": "aceites de plantas y verduras comestibles",
+    "precios": [],
+    "errores": []
+   },
+   "Productos de edulcorantes o azúcares naturales": {
+    "query": "productos de edulcorantes o azúcares naturales",
+    "precios": [],
+    "errores": []
+   },
+   "Sal de cocina o de mesa": {
+    "query": "sal de cocina o de mesa",
+    "precios": [],
+    "errores": []
+   },
+   "Charqui u otras carnes secas o procesadas": {
+    "query": "charqui u otras carnes secas o procesadas",
+    "precios": [],
+    "errores": []
+   },
+   "Postres, helados o yogurt congelado": {
+    "query": "postres helados o yogurt congelado",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "5209-2203-COT26": {
+  "codigo": "5209-2203-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 09:50",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42231806,
+    "nombre": "Alimento nutritivo médico o espesadores de líquido",
+    "descripcion": "Formula Enteral hipercalórica hiperproteica (sim.Fresubin 2 Kcal HP), DESPACHO PARCIALIZADO",
+    "cantidad": 400.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Alimento nutritivo médico o espesadores de líquido": {
+    "query": "alimento nutritivo médico o espesadores de líquido",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "777304-3664-COT26": {
+  "codigo": "777304-3664-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 24101605,
+    "nombre": "Equipo de carga",
+    "descripcion": "Yegua / Carro de aluminio 4 en 1, diseñado para facilitar el transporte de cargas en distintas posiciones de uso. Fabricado en aluminio, resistente y versátil, con capacidad de carga de hasta 360 kg. POSTULAR CON FT E IMAGEN REFERENCIAL, SE ADJUNTO DOCUMENTO CON REFERENCIA.",
+    "cantidad": 4.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 24101605,
+    "nombre": "Equipo de carga",
+    "descripcion": "Escabel/Escalerita de aluminio de 2 pies de altura, con capacidad de carga de 150 kg, ideal para trabajos del hogar. Tiene un alcance máximo de trabajo de 2,58 metros. Diseño seguro y resistente, fabricada por Cuprum.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42192404,
+    "nombre": "Carros médicos o accesorios",
+    "descripcion": "Estructura metálica resistente, plataforma o superficie de carga, ruedas de desplazamiento y manilla de conducción. Deberá permitir el traslado seguro de materiales e insumos dentro de las dependencias hospitalarias. POSTULAR CON FT E IMAGEN REFERENCIAL, SE ADJUNTO DOCUMENTO CON REFERENCIA.",
+    "cantidad": 4.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Equipo de carga": {
+    "query": "equipo de carga",
+    "precios": [],
+    "errores": []
+   },
+   "Carros médicos o accesorios": {
+    "query": "carros médicos o accesorios",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "4589-351-COT26": {
+  "codigo": "4589-351-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 15:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 43211507,
+    "nombre": "Computadores de escritorio",
+    "descripcion": "9 COMPUTADORES ALL-IN-ONE,teclado y mouse; Procesador Intel Core i5 de duodécima generación o superior, AMD Ryzen o equivalente, con rendimiento igual o superior a 12.000 puntos en PassMark CPU Mark. Se acepta procesadores de otras familias y generaciones con mismo rendimiento mínimo. Pantalla de mínimo 23.8\" Full HD (1920×1080), SO: Windows 11 PRO; 16 GB de Memoria DDR4 o mas; SSD NVMe de 512 GB o mas, o Wi-Fi 6 2x2 AX & Bluetooth® 5.1 o superior,3 o más Puertos USB, 1 año de garantia minimo.",
+    "cantidad": 9.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Computadores de escritorio": {
+    "query": "computadores de escritorio",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "777304-3668-COT26": {
+  "codigo": "777304-3668-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 41116005,
+    "nombre": "Reactivos de analizadores de coagulación",
+    "descripcion": "INS104327 CINTA REACTIVA COAGULOMETRO (TACO)",
+    "cantidad": 50.0,
+    "unidad": "VI"
+   }
+  ],
+  "resultados_precio": {
+   "Reactivos de analizadores de coagulación": {
+    "query": "reactivos de analizadores de coagulación",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1375760-91-COT26": {
+  "codigo": "1375760-91-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-27 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 78141803,
+    "nombre": "Servicios de almacenaje de contenedores",
+    "descripcion": "ervicio de almacenamiento y resguardo temporal de bienes SLEP Valle Cachapoal de acuerdo a lo indicado en especificaciones técnicas adjuntas",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Servicios de almacenaje de contenedores": {
+    "query": "servicios de almacenaje de contenedores",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1171142-2809-COT26": {
+  "codigo": "1171142-2809-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 10:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 51211616,
+    "nombre": "Antídotos",
+    "descripcion": "NIFEDIPINO 20 MG COMPRIMIDO LIBERACION MODIFICADA",
+    "cantidad": 2000.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Antídotos": {
+    "query": "antídotos metronidazol 500 mg 100 ml 5 mg ml inyec",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "5209-2202-COT26": {
+  "codigo": "5209-2202-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 09:40",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42231806,
+    "nombre": "Alimento nutritivo médico o espesadores de líquido",
+    "descripcion": "Formula Enteral normocalórica normoproteica (sim.Fresubin original), DESPACHO PARCIALIZADO",
+    "cantidad": 600.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Alimento nutritivo médico o espesadores de líquido": {
+    "query": "alimento nutritivo médico o espesadores de líquido",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1224957-723-COT26": {
+  "codigo": "1224957-723-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T13:08:23+00:00",
+  "fecha_cierre": "2026-11-25 09:45",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42312309,
+    "nombre": "Sistemas de irrigación de heridas",
+    "descripcion": "Curetas dermatológicas estériles de 3 mm",
+    "cantidad": 1000.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42312309,
+    "nombre": "Sistemas de irrigación de heridas",
+    "descripcion": "Curetas dermatológicas estériles de 4 mm",
+    "cantidad": 1000.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Sistemas de irrigación de heridas": {
+    "query": "sistemas de irrigación de heridas",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
  }
 }

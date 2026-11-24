@@ -1,5 +1,8 @@
 name: Monitor Compras Ágiles
 
+# Corrida diaria: descarga CAs vigentes, estima rentabilidad y publica el dashboard.
+# Requiere el secret MP_TICKET (Settings -> Secrets and variables -> Actions).
+
 on:
   schedule:
     # 13:30 UTC = 10:30 en Chile continental (UTC-3, horario de verano)
@@ -24,6 +27,9 @@ jobs:
       url: ${{ steps.despliegue.outputs.page_url }}
     env:
       MP_TICKET: ${{ secrets.MP_TICKET }}
+      ML_TOKEN: ${{ secrets.ML_TOKEN }}
+      ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
+      ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
 
     steps:
       - uses: actions/checkout@v4
@@ -67,6 +73,14 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+
+      # Bug conocido e intermitente de deploy-pages (issues #418 y #305 del
+      # repo actions/deploy-pages): el paso de publicación a veces consulta
+      # la API antes de que la metadata del artefacto se propague y falla con
+      # "Found 0 artifact(s)". Esta espera evita la carrera; si aun así
+      # fallara, basta con re-ejecutar el workflow (Actions -> Re-run).
+      - name: Esperar propagación del artefacto
+        run: sleep 30
 
       - name: Publicar en GitHub Pages
         id: despliegue

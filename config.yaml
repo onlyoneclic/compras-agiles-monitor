@@ -37,6 +37,25 @@ pricing:
                                 #   el token se genera y renueva solo. Si faltan
                                 #   los secrets, el proveedor se omite con aviso.
       max_resultados: 5
+    vtex:                       # tiendas con backend VTEX (API pública JSON en
+                                #   {cuenta}.myvtex.com, sin scraping ni bloqueos)
+      tiendas:
+        - nombre: easy
+          cuenta: easycl        # ferretería, construcción, hogar, oficina
+          dominio_publico: "https://www.easy.cl"   # URL que se muestra al usuario
+          activado: true
+          max_resultados: 5
+          timeout_segundos: 25
+          reintentos: 2
+          pausa_segundos: 1.0
+        - nombre: jumbo
+          cuenta: jumbochile    # supermercado, aseo, útiles de oficina
+          dominio_publico: "https://www.jumbo.cl"
+          activado: true
+          max_resultados: 5
+          timeout_segundos: 25
+          reintentos: 2
+          pausa_segundos: 1.0
     jsonld:                     # tiendas HTML con schema.org (configurable)
       activado: false
       tiendas: []

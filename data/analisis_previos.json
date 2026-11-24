@@ -3599,5 +3599,1108 @@
    }
   },
   "mejor_cotizacion_neta": null
+ },
+ "1480972-1016-COT26": {
+  "codigo": "1480972-1016-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-26 09:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 43222609,
+    "nombre": "Routers de red",
+    "descripcion": "Router doble banda, Ethernet WAN Si, Ranura para tarjeta SIM Si,Compatible con módem USB 3G / 4G Si, Tipo de conexión WAN RJ-45\nCaracterísticas de LAN inalámbrico, Banda Wi-Fi Doble banda (2,4 GHz / 5 GHz), Estándar Wi-Fi Wi-Fi 5 (802.11ac), Tasa de transferencia de datos WLAN (máx.) 867 Mbit/s Wi-Fi estándares 802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n), Wi-Fi 5 (802.11ac) (modelo TP-Link 4G AC1200 DUAL-BAND ARCHER MR600 o equivalente)",
+    "cantidad": 55.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Routers de red": {
+    "query": "routers de red",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1501468-158-COT26": {
+  "codigo": "1501468-158-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 16:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 52161505,
+    "nombre": "Televisores convencionales, de plasma y LCD",
+    "descripcion": "TELEVISOR LG UT73 65\" 4K ULTRA HD SMART (O EQUIVALENTE SUPERIOR) SEGUN ESPECIFICACIONES TECNICAS ADJUNTAS",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 52161505,
+    "nombre": "Televisores convencionales, de plasma y LCD",
+    "descripcion": "SOPORTE DE PARED SEGUN ESPECIFICACIONES TECNICAS ADJUNTAS",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Televisores convencionales, de plasma y LCD": {
+    "query": "televisores convencionales de plasma y lcd",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1058141-1527-COT26": {
+  "codigo": "1058141-1527-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 12:48",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 51111509,
+    "nombre": "Ifosfamida",
+    "descripcion": "IFOSFAMIDA FA 2 GR [216P062]",
+    "cantidad": 100.0,
+    "unidad": "AMPF"
+   }
+  ],
+  "resultados_precio": {
+   "Ifosfamida": {
+    "query": "ifosfamida ifosfamida fa 2 gr 216p062",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "4931-104-COT26": {
+  "codigo": "4931-104-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-26 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 43201807,
+    "nombre": "Unidades de cinta magnética",
+    "descripcion": "Medios magnéticos (discos), se adjunta solicitud de cotización ágil con todos los antecedentes .",
+    "cantidad": 152.0,
+    "unidad": "000"
+   },
+   {
+    "codigo_producto": 78131804,
+    "nombre": "Servicios de almacenaje de documentos",
+    "descripcion": "Cajas documentales, se adjunta solicitud de cotización ágil con todos los antecedentes .",
+    "cantidad": 1054.0,
+    "unidad": "000"
+   }
+  ],
+  "resultados_precio": {
+   "Unidades de cinta magnética": {
+    "query": "unidades de cinta magnética",
+    "precios": [],
+    "errores": []
+   },
+   "Servicios de almacenaje de documentos": {
+    "query": "servicios de almacenaje de documentos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "3981-27-COT26": {
+  "codigo": "3981-27-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 10152001,
+    "nombre": "Semillas o esquejes de árboles frutales",
+    "descripcion": "Adquisición de materiales e insumos para la confección de cuatro kits de huertos urbanos, destinados a fortalecer el trabajo comunitario y promover la participación de vecinos y vecinas en iniciativas relacionadas con el cuidado del medio ambiente y el desarrollo de prácticas sustentables.",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Semillas o esquejes de árboles frutales": {
+    "query": "semillas o esquejes de árboles frutales",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1549-4838-COT26": {
+  "codigo": "1549-4838-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 41122409,
+    "nombre": "Herramientas de laboratorio",
+    "descripcion": "237-0017 HERRAMIENTA DE CORTE DE HIS",
+    "cantidad": 5.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42141802,
+    "nombre": "Electrodos de electroterapia o accesorios",
+    "descripcion": "237-0016 ELECTRODO DE HIS",
+    "cantidad": 5.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42141802,
+    "nombre": "Electrodos de electroterapia o accesorios",
+    "descripcion": "237-0015 VAINA DE HIS",
+    "cantidad": 5.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Herramientas de laboratorio": {
+    "query": "herramientas de laboratorio",
+    "precios": [],
+    "errores": []
+   },
+   "Electrodos de electroterapia o accesorios": {
+    "query": "electrodos de electroterapia o accesorios",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1298355-1342-COT26": {
+  "codigo": "1298355-1342-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 82121507,
+    "nombre": "Impresión de papelería o formularios comerciales",
+    "descripcion": "Carnet de control ECICEP, para Posta Bollenar",
+    "cantidad": 120.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 82121507,
+    "nombre": "Impresión de papelería o formularios comerciales",
+    "descripcion": "Carnet de control de salud ECICEP para Cesfam Elgueta",
+    "cantidad": 600.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 82121507,
+    "nombre": "Impresión de papelería o formularios comerciales",
+    "descripcion": "Carnet de control de salud ECICEP para Cesfam Boris Soler",
+    "cantidad": 800.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 82121507,
+    "nombre": "Impresión de papelería o formularios comerciales",
+    "descripcion": "Carnet de control salud ECICEP Cesfam San Manuel",
+    "cantidad": 300.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 82121507,
+    "nombre": "Impresión de papelería o formularios comerciales",
+    "descripcion": "Trípticos en papel brillante A4 a color, dos diseños 50 y 50",
+    "cantidad": 100.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 82121507,
+    "nombre": "Impresión de papelería o formularios comerciales",
+    "descripcion": "Pendones Roller impresos 80x 200 cm material lona de PVC",
+    "cantidad": 6.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 82121507,
+    "nombre": "Impresión de papelería o formularios comerciales",
+    "descripcion": "Carnet ECICEP para Cecosf Codigua",
+    "cantidad": 230.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Impresión de papelería o formularios comerciales": {
+    "query": "impresión de papelería o formularios comerciales",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1214102-1513-COT26": {
+  "codigo": "1214102-1513-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 41112403,
+    "nombre": "Indicadores de presión",
+    "descripcion": "Dispositivo para toma presión arterial de brazo, pantalla digital LCD, Presión de 0 a 299 mmHg - Pulso de 40 a 180 latidos/min, memoria 30 a 60 mediciones, Presión: ±3 mmHg, Pulso: ±5% de lectura, incluir brazalete 22 a 42cm, detección de arritmia, indicador de latidos cardiacos irregulares (DIRECCION DE SALUD)",
+    "cantidad": 80.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 41112403,
+    "nombre": "Indicadores de presión",
+    "descripcion": "Dispositivo para toma presión arterial de brazo, pantalla digital LCD, Presión de 0 a 299 mmHg - Pulso de 40 a 180 latidos/min, memoria 30 a 60 mediciones, Presión: ±3 mmHg, Pulso: ±5% de lectura, incluir brazalete 22 a 42cm, detección de arritmia, indicador de latidos cardiacos irregulares (PRAPS AIDIA)",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 41112403,
+    "nombre": "Indicadores de presión",
+    "descripcion": "Dispositivo para toma presión arterial de brazo, pantalla digital LCD, Presión de 0 a 299 mmHg - Pulso de 40 a 180 latidos/min, memoria 30 a 60 mediciones, Presión: ±3 mmHg, Pulso: ±5% de lectura, incluir brazalete 22 a 42cm, detección de arritmia, indicador de latidos cardiacos irregulares (CECOSF MAR CARIBE)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 41112403,
+    "nombre": "Indicadores de presión",
+    "descripcion": "Dispositivo para toma presión arterial de brazo, pantalla digital LCD, Presión de 0 a 299 mmHg - Pulso de 40 a 180 latidos/min, memoria 30 a 60 mediciones, Presión: ±3 mmHg, Pulso: ±5% de lectura, detección de arritmia, indicador de latidos cardiacos irregulares, incluir 1 brazalete 22 a 42cm y 1 pediátrico 16 a 24cm (CECOSF GUI-LLERMO FLORES)",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Indicadores de presión": {
+    "query": "indicadores de presión",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2366-646-COT26": {
+  "codigo": "2366-646-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 12:01",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42271718,
+    "nombre": "Accesorios para productos de administración de oxigenoterapia o sus suministros",
+    "descripcion": "50\tUNIDAD \tACIDOS GRADOS HIPEROXIGENADOS ACEITE 30 ML",
+    "cantidad": 50.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42311531,
+    "nombre": "Coberturas para apósitos",
+    "descripcion": "500\tUNIDAD\tAPOSITO ALGINATO CALCIO 5X5 CM",
+    "cantidad": 500.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42311531,
+    "nombre": "Coberturas para apósitos",
+    "descripcion": "160\tUNIDAD\tCURETA DESECHABLE 3MM",
+    "cantidad": 160.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42311531,
+    "nombre": "Coberturas para apósitos",
+    "descripcion": "160\tUNIDAD\tCURETA DESECHABLE 4MM",
+    "cantidad": 160.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42311531,
+    "nombre": "Coberturas para apósitos",
+    "descripcion": "100\tUNIDAD\tMALLA POLIURET CON SILICONA 7,5 A 10 CM X 10 A 12 CM",
+    "cantidad": 100.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42311531,
+    "nombre": "Coberturas para apósitos",
+    "descripcion": "100\tUNIDAD\tAPOSITO DE RINGER + phmb 7.5 x 7.5",
+    "cantidad": 100.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42311531,
+    "nombre": "Coberturas para apósitos",
+    "descripcion": "40\tUNIDAD\tVENDA GASA ELASTICA 4 CM/4 MT",
+    "cantidad": 40.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42311531,
+    "nombre": "Coberturas para apósitos",
+    "descripcion": "200\tUNIDAD\tAPOSITO ALGINATO CALCIO 10-15 X 10-15 CM UNIDAD",
+    "cantidad": 200.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42311531,
+    "nombre": "Coberturas para apósitos",
+    "descripcion": "200\tUNIDAD\tAPOSITO TUL DE  SILICONA 7,5 x 10 cm",
+    "cantidad": 200.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42311531,
+    "nombre": "Coberturas para apósitos",
+    "descripcion": "1400\tUNIDAD\tAPOSITO TRADICIONAL (Tejido) 10 x 10 cm",
+    "cantidad": 1400.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42311531,
+    "nombre": "Coberturas para apósitos",
+    "descripcion": "200\tUNIDAD\tAPOSITO INTERFASE LIPIDO-COLOIDE FLEXIBLE 10 x 10 cm",
+    "cantidad": 200.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42311531,
+    "nombre": "Coberturas para apósitos",
+    "descripcion": "300\tUNIDAD\tAPOSITO REGENERATIVO COLAGENO (3M) 10,2 x 11,1 cm",
+    "cantidad": 300.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42311531,
+    "nombre": "Coberturas para apósitos",
+    "descripcion": "300\tUNIDAD\tAPOSITO CARBON ACTIVADO CON PLATA 10 A 12 X 10 A 12 CM",
+    "cantidad": 300.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Accesorios para productos de administración de oxigenoterapia o sus suministros": {
+    "query": "accesorios para productos de administración de oxigenoterapia o sus suministros",
+    "precios": [],
+    "errores": []
+   },
+   "Coberturas para apósitos": {
+    "query": "coberturas para apósitos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1743-96-COT26": {
+  "codigo": "1743-96-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 90101603,
+    "nombre": "Servicios de catering",
+    "descripcion": "Servicio de Cocteleria Completa (OFERTAR VALOR POR PERSONA)",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Servicios de catering": {
+    "query": "servicios de catering",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2134-41-COT26": {
+  "codigo": "2134-41-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 15:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 27111902,
+    "nombre": "Limas",
+    "descripcion": "LIMA DE 10” BASTARDA GRUESA",
+    "cantidad": 100.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 27111902,
+    "nombre": "Limas",
+    "descripcion": "LIMA DE 8” BASTARDA FINA",
+    "cantidad": 80.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 27111902,
+    "nombre": "Limas",
+    "descripcion": "LIMA PLANA 6” BASTARDA FINA",
+    "cantidad": 100.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 27111902,
+    "nombre": "Limas",
+    "descripcion": "LIMA 7/32 CILINDRICA",
+    "cantidad": 120.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 27111902,
+    "nombre": "Limas",
+    "descripcion": "LIMA 3/16 CILINDRICA",
+    "cantidad": 40.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 27112709,
+    "nombre": "Sierras mecánicas",
+    "descripcion": "ESPADA MOTOSIERRA DE 15”",
+    "cantidad": 20.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 27112823,
+    "nombre": "Cadenas de corte",
+    "descripcion": "CADENA PARA MOTOSIERRA STIHL 28 DIENTES",
+    "cantidad": 50.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Limas": {
+    "query": "limas lima de 10 bastarda gruesa",
+    "precios": [],
+    "errores": []
+   },
+   "Sierras mecánicas": {
+    "query": "sierras mecánicas",
+    "precios": [],
+    "errores": []
+   },
+   "Cadenas de corte": {
+    "query": "cadenas de corte",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1156369-34-COT26": {
+  "codigo": "1156369-34-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 13:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 25172504,
+    "nombre": "Neumáticos para camionetas o automóviles",
+    "descripcion": "4 Neumáticos LT 265/75 R16  \n2 Neumáticos traseros 16.9 – R28 \n2 Neumáticos delanteros 12.5 / 80 – R18  \n2 Neumáticos delanteros 215/75 R15 LT \n4 Neumáticos traseros 6.00 – 13 LT  \n6 Neumáticos 17.5 R 25     \n2 Neumáticos direccionales 275/80 R 22.5 \n4 Neumáticos traccionales  275/80  R 22.5  \n4 Neumaticos LT 265/75 R16 \n\n(equivalente a goodyear)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Neumáticos para camionetas o automóviles": {
+    "query": "neumáticos para camionetas o automóviles",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1057900-46-COT26": {
+  "codigo": "1057900-46-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42261810,
+    "nombre": "Contenedores para el transporte de los cuerpos",
+    "descripcion": "CARRO MORTUORIO",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Contenedores para el transporte de los cuerpos": {
+    "query": "contenedores para el transporte de los cuerpos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "3391-360-COT26": {
+  "codigo": "3391-360-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-26 11:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Ferritina Reagent Pack 100det (Ref 8356636)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "CKMB X90  det (8001133)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Fosforo (P) x 300 det",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Bilirrubina total(TBIL) x 300 det (Ref 8159931)",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Lipasa x 90 det (8297749)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Calcio (Ca) x 300 det (Ref 1450261)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Cloruro (Cl) x 250 det (Ref 6844471)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Fosfatasa alcalina(ALKP) x 300 det (Ref 1053180)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Nitrógeno Ureico BUN-UREA x 300 det (Ref 8102204)",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Proteina total x 250 det (Ref 8392292)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Sodio (Na) x 250 det (Ref 8379034)",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Triglicéridos x 300 det (Ref 1336544)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Proteina C Reactiva(CPR)/V250 x 250 det (Ref 1926740)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Amilasa x90 det (Ref 8112724)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "CK creatinkinasa x 90 det (Ref 8478034)",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "GGT gamaglutamiltransferasa x 250 det (Ref 8257289)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Magnesio (Mg) x 90 det (Ref 1921204)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Estradiol x 100 det (Ref 8552630)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "FSH x 100 det (Ref 1931922)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Prolactina x 100 det (Ref 1849793)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "PSA total II x 100 det (Ref 6842844)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "T3 II total x 100 det (Ref 6808888)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "T4 libre x 100 det (Ref 1387000)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "TSH3 x 100 det (Ref 6844466)",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Troponina I x 100 det (Ref 6802301)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "HTLV I/II x 100 (Ref 6900446)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Vitamina D x 100 det (Ref 6842894)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Vitamina B12 x 100 det (Ref 1453489)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 51131909,
+    "nombre": "Albúmina humana",
+    "descripcion": "Chagas x 100 det (Ref 6844480)",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Albúmina humana": {
+    "query": "albúmina humana",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1002772-3063-COT26": {
+  "codigo": "1002772-3063-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42291609,
+    "nombre": "Pinzas quirúrgicas",
+    "descripcion": "308050100 PINZA BIPOLAR EN BAYONETA DE 19 CM LARGO CON CABLE-ANTIADHERENTES, DESECHABLES USO EN CIRUGIAS MAYORES A 6 HRS",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42291609,
+    "nombre": "Pinzas quirúrgicas",
+    "descripcion": "308050101 PINZA BIPOLAR EN BAYONETA DE 21 CM LARGO CON CABLE-ANTIADHERENTES, DESECHABLES USO EN CIRUGIAS MAYORES A 6 HRS",
+    "cantidad": 10.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Pinzas quirúrgicas": {
+    "query": "pinzas quirúrgicas",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2776-1017-COT26": {
+  "codigo": "2776-1017-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 91111602,
+    "nombre": "Servicios de mantenimiento de patios y piscinas",
+    "descripcion": "SERVICIO DE MANTENCION DE AREAS VERDES PISCINAS MUNICIPALES: MANTENCION CORRECTIVA DEL SISTEMA DE BOMBEO DE LA PISCINA MUNICIPAL DE RENGO, SEGÚN LO ESTABLECIDO EN LOS TERMINOS DE REQUERIMIENTO ADJUNTOS",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Servicios de mantenimiento de patios y piscinas": {
+    "query": "servicios de mantenimiento de patios y piscinas",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "652-394-COT26": {
+  "codigo": "652-394-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-26 15:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42143502,
+    "nombre": "Dispositivos de irrigación nasal o accesorios",
+    "descripcion": "Protector Nasal Almohadilla nasal, accesorio para proteger la irritación de la piel compatible con equipo RESMED",
+    "cantidad": 30.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42272213,
+    "nombre": "Mascarillas o correas de presión positiva continua en la vía aérea (CPAP)",
+    "descripcion": "Mascara Nasal para terapia de CPAP Talla L (4) Talla XL (4) Tipo: Máscara nasal para terapia de presión positiva continua (CPAP), Auto CPAP y BiPAP. Arnés: Arnés ajustable de material textil suave , que proporcione estabilidad, comodidad y adecuada distribución de la presión durante el uso prolongado.",
+    "cantidad": 8.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42272213,
+    "nombre": "Mascarillas o correas de presión positiva continua en la vía aérea (CPAP)",
+    "descripcion": "Mascarilla Oronasal sin puente:Talla L (10), Talla M (10) Tipo: Máscara oronasal de contacto mínimo para terapia CPAP, Auto CPAP y BiPAP. Diseño: Máscara oronasal de contacto mínimo, con sellado bajo la nariz y sobre la boca, que reduzca el contacto con el rostro y proporcione comodidad durante la terapia.",
+    "cantidad": 20.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42272213,
+    "nombre": "Mascarillas o correas de presión positiva continua en la vía aérea (CPAP)",
+    "descripcion": "Mascarilla Full face Talla M (5) Tipo: Máscara facial total para terapia CPAP, Auto CPAP y BiPAP. Cobertura: Máscara facial total que cubra completamente la boca, la nariz y los ojos, destinada a pacientes que requieran una interfaz de cobertura total para la administración de presión positiva.",
+    "cantidad": 5.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Dispositivos de irrigación nasal o accesorios": {
+    "query": "dispositivos de irrigación nasal o accesorios",
+    "precios": [],
+    "errores": []
+   },
+   "Mascarillas o correas de presión positiva continua en la vía aérea (CPAP)": {
+    "query": "mascarillas o correas de presión positiva continua en la vía aérea cpap",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2284-942-COT26": {
+  "codigo": "2284-942-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 11:40",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 51191905,
+    "nombre": "Suplementos vitamínicos",
+    "descripcion": "PEDIASURE SS VAINILLA 850 GR TARROS",
+    "cantidad": 144.0,
+    "unidad": "JR"
+   },
+   {
+    "codigo_producto": 51191905,
+    "nombre": "Suplementos vitamínicos",
+    "descripcion": "PEDIASURE SS CHOCOLATE 850 GR TARROS",
+    "cantidad": 72.0,
+    "unidad": "JR"
+   },
+   {
+    "codigo_producto": 51191905,
+    "nombre": "Suplementos vitamínicos",
+    "descripcion": "ENSURE NG CHOCOLATE 850 GR TARROS",
+    "cantidad": 96.0,
+    "unidad": "JR"
+   },
+   {
+    "codigo_producto": 51191905,
+    "nombre": "Suplementos vitamínicos",
+    "descripcion": "ENSURE NG FRUTILLA 850 GR TARROS",
+    "cantidad": 96.0,
+    "unidad": "JR"
+   }
+  ],
+  "resultados_precio": {
+   "Suplementos vitamínicos": {
+    "query": "suplementos vitamínicos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1057491-2115-COT26": {
+  "codigo": "1057491-2115-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 41116110,
+    "nombre": "Controles de calidad, calibradores o normativas de coagulación",
+    "descripcion": "SER-0586 - ANTIFACTOR X /EXAMEN/EXAMEN",
+    "cantidad": 100.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 41116110,
+    "nombre": "Controles de calidad, calibradores o normativas de coagulación",
+    "descripcion": "SER-0588 - DIMERO D /EXAMEN/EXAMEN",
+    "cantidad": 33.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 41116110,
+    "nombre": "Controles de calidad, calibradores o normativas de coagulación",
+    "descripcion": "SER-0590 - FIBRINOGENO KIT X 100 DETERM. COD. 8469110 /EXAMEN/EXAMEN",
+    "cantidad": 330.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 41116110,
+    "nombre": "Controles de calidad, calibradores o normativas de coagulación",
+    "descripcion": "SER-0593 - TP(REACTIVOS ANALIZADORES DE COAGULACIÓN) /EXAMEN/EXAMEN",
+    "cantidad": 1650.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 41116110,
+    "nombre": "Controles de calidad, calibradores o normativas de coagulación",
+    "descripcion": "SER-0594 - TTPA(REACTIVOS DE ANALIZADORES DE COAGULACIÓN) /EXAMEN/EXAMEN",
+    "cantidad": 1650.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Controles de calidad, calibradores o normativas de coagulación": {
+    "query": "controles de calidad calibradores o normativas de coagulación",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1469-4487-COT26": {
+  "codigo": "1469-4487-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 41103502,
+    "nombre": "Campanas de extracción de laboratorio",
+    "descripcion": "Adquisición e Instalación de Campana extractora de gases y humos de 1.5 M con Mueble\nbase. Incluido Kit de instalación primer piso.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Campanas de extracción de laboratorio": {
+    "query": "campanas de extracción de laboratorio",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1979-478-COT26": {
+  "codigo": "1979-478-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 11:45",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42161629,
+    "nombre": "Filtros transductores de la unidad de hemodiálisis",
+    "descripcion": "Dializador de bajo flujo para hemodiálisis, con membrana sintética biocompatible, conectores universales y estándar con tapones estériles; superficie efectiva 1,8-1,9 m2 flujo de sangre recomendado 250–600?mL/min, flujo máximo de dializado 1000?mL/min. Esterilizado por vapor de agua",
+    "cantidad": 180.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 42161629,
+    "nombre": "Filtros transductores de la unidad de hemodiálisis",
+    "descripcion": "Dializador de bajo flujo para hemodiálisis, con membrana sintética biocompatible, conectores universales y estándar con tapones estériles; superficie efectiva 2,2?m², flujo de sangre recomendado 300 –600?mL/min, flujo máximo de dializado 1000?mL/min. Esterilizado por vapor de agua",
+    "cantidad": 216.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Filtros transductores de la unidad de hemodiálisis": {
+    "query": "filtros transductores de la unidad de hemodiálisis",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "3517-267-COT26": {
+  "codigo": "3517-267-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 30201803,
+    "nombre": "Unidades para contenedores",
+    "descripcion": "Container de 6x2,5 aprox. para uso como Box Dental en Posta Aniñir dependiente del Depto. De Salud Municipal de Traiguén, según cotización adjunta.",
+    "cantidad": 1.0,
+    "unidad": "PK"
+   }
+  ],
+  "resultados_precio": {
+   "Unidades para contenedores": {
+    "query": "unidades para contenedores",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1549-4837-COT26": {
+  "codigo": "1549-4837-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-25 12:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42295420,
+    "nombre": "Catéteres, kits de cateterización o bolsas de drenaje para cirugía o endoscopia",
+    "descripcion": "222-0029 CATETER VEN.LINEA MEDIA INSER.PERIF.MIDLINE 20CM-4FR.",
+    "cantidad": 30.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Catéteres, kits de cateterización o bolsas de drenaje para cirugía o endoscopia": {
+    "query": "catéteres kits de cateterización o bolsas de drenaje para cirugía o endoscopia",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2409-2023-COT26": {
+  "codigo": "2409-2023-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-24T14:57:39+00:00",
+  "fecha_cierre": "2026-11-26 08:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 14111531,
+    "nombre": "Libros o cuadernos de registro",
+    "descripcion": "ADQUISICION DE MATERIAL DE LIBRERÍA PARA ESCUELA D-928,SEGÚN ESPECIFICACIONES TECNICAS",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Libros o cuadernos de registro": {
+    "query": "libros o cuadernos de registro",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
  }
 }

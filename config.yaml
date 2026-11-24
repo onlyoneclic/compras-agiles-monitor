@@ -31,7 +31,11 @@ pricing:
       timeout_segundos: 25
       reintentos: 2
     mercadolibre:
-      activado: false           # requiere token; defina ML_TOKEN y active
+      activado: true            # API oficial con token de aplicación: defina los
+                                #   secrets ML_CLIENT_ID y ML_CLIENT_SECRET en
+                                #   Actions (app en developers.mercadolibre.cl);
+                                #   el token se genera y renueva solo. Si faltan
+                                #   los secrets, el proveedor se omite con aviso.
       max_resultados: 5
     jsonld:                     # tiendas HTML con schema.org (configurable)
       activado: false

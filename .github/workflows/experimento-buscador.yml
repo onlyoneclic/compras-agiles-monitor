@@ -1,0 +1,49 @@
+name: Experimento — ¿puede Actions leer buscador.mercadopublico.cl?
+
+# Corrida manual (pestaña Actions -> Run workflow). Responde en ~2 minutos
+# si los runners de GitHub pueden abrir la ficha pública de Compra Ágil:
+#   - curl devuelve 200      -> la descarga automática de adjuntos funcionará.
+#   - curl/Playwright 403    -> CloudFront también bloquea a los runners; el
+#     monitor seguirá con el plan B (PDF manual en adjuntos/).
+# El resultado queda en el log y como artifact (respuesta-buscador).
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Probar acceso simple (curl)
+        run: |
+          code=$(curl -s -o /tmp/resp.html -w "%{http_code}" -H "User-Agent: cam-monitor/0.1" "https://buscador.mercadopublico.cl/ficha?code=2436-1903-COT26")
+          echo "HTTP con curl: $code"
+          head -c 300 /tmp/resp.html || true
+
+      - name: Probar con navegador real (Playwright)
+        run: |
+          pip install playwright
+          python -m playwright install chromium --with-deps
+          python - <<'PYEOF'
+          from playwright.sync_api import sync_playwright
+          URL = "https://buscador.mercadopublico.cl/ficha?code=2436-1903-COT26"
+          with sync_playwright() as p:
+              b = p.chromium.launch(headless=True)
+              ctx = b.new_context(locale="es-CL")
+              page = ctx.new_page()
+              r = page.goto(URL, timeout=60000, wait_until="domcontentloaded")
+              print("STATUS:", r.status if r else "?")
+              print("TITULO:", page.title())
+              page.wait_for_timeout(5000)
+              print("ENLACES PDF VISIBLES:", page.locator("a[href*='.pdf']").count())
+              b.close()
+          PYEOF
+
+      - name: Guardar evidencia
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: respuesta-buscador
+          path: /tmp/resp.html
+          if-no-files-found: ignore

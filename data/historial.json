@@ -184,5 +184,22 @@
   "monto_total_disponible": 539935284,
   "monto_rentable": 103775999,
   "utilidad_potencial": 97700701.0
+ },
+ {
+  "demo": false,
+  "fuente": "API Compra Ágil v2 (api2.mercadopublico.cl)",
+  "generado_utc": "2026-11-25T14:43:24+00:00",
+  "ruta_corrida": "data/runs/2026-11-25_1440",
+  "nuevas_analizadas": 299,
+  "reutilizadas": 0,
+  "total": 300,
+  "por_veredicto": {
+   "SIN DATOS": 283,
+   "RENTABLE": 14,
+   "NO RENTABLE": 3
+  },
+  "monto_total_disponible": 543466578,
+  "monto_rentable": 98103509,
+  "utilidad_potencial": 88576164.0
  }
 ]

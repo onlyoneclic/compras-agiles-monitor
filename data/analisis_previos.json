@@ -116,512 +116,6 @@
   },
   "mejor_cotizacion_neta": null
  },
- "5684-483-COT26": {
-  "codigo": "5684-483-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-23T19:40:24+00:00",
-  "fecha_cierre": "2026-11-26 12:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 41104912,
-    "nombre": "Filtros de prensas de fluidos",
-    "descripcion": "Suministro de 6 unidades (equivalente a 1 pack de 6 unidades) de filtro de repuesto PTFE-Filterfolie, Ø 25 mm para detectores de gas MSA, o repuesto equivalente técnico 100% compatible y de igual o superior calidad. Según especificaciones del anexo técnico adjunto.",
-    "cantidad": 6.0,
-    "unidad": "000"
-   },
-   {
-    "codigo_producto": 46171613,
-    "nombre": "Detectores de gas",
-    "descripcion": "Suministro de Detector de gas portátil MSA ALTAIR io 4 (o equivalente técnico de igual o superior calidad y compatibilidad operacional). Debe incluir cargador, accesorios estándar de fábrica y certificado de calibración de origen, según especificaciones del anexo técnico adjunto.",
-    "cantidad": 2.0,
-    "unidad": "000"
-   },
-   {
-    "codigo_producto": 46171613,
-    "nombre": "Detectores de gas",
-    "descripcion": "Suministro de Detector de fugas de gases combustibles MSA Leakator Jr (o equivalente técnico de igual o superior calidad). Debe entregarse operativo con sus accesorios estándar de fábrica y manuales, según especificaciones del anexo técnico adjunto.",
-    "cantidad": 6.0,
-    "unidad": "000"
-   },
-   {
-    "codigo_producto": 73152101,
-    "nombre": "Servicio de mantenimiento de equipo de fabricación",
-    "descripcion": "Servicio de mantención preventiva, diagnóstico, ajuste y calibración certificada con gases patrón trazables para 1 equipo existente: Detector de gases múltiples MSA ALTAIR® 5X. Incluye emisión de certificado de calibración vigente e informe técnico del estado de sensores, según anexo técnico adjunto.",
-    "cantidad": 1.0,
-    "unidad": "000"
-   }
-  ],
-  "resultados_precio": {
-   "Filtros de prensas de fluidos": {
-    "query": "filtros de prensas de fluidos",
-    "precios": [],
-    "errores": []
-   },
-   "Detectores de gas": {
-    "query": "detectores de gas",
-    "precios": [],
-    "errores": []
-   },
-   "Servicio de mantenimiento de equipo de fabricación": {
-    "query": "servicio de mantenimiento de equipo de fabricación",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "3892-458-COT26": {
-  "codigo": "3892-458-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-23T19:40:24+00:00",
-  "fecha_cierre": "2026-11-25 15:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 80111709,
-    "nombre": "Personal médico",
-    "descripcion": "Atención de evaluación médica de psiquiatra o neurólogo infantil, para valoración de estudiantes programa PIE, según se indica en anexo \"Ficha Técnica\" que se adjunta.",
-    "cantidad": 173.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Personal médico": {
-    "query": "personal médico",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "812030-1122-COT26": {
-  "codigo": "812030-1122-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-23T19:40:24+00:00",
-  "fecha_cierre": "2026-11-25 16:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 51171620,
-    "nombre": "Citrato de magnesio",
-    "descripcion": "FAAA12013 MAGNESIO 200- 500 MG CÁPSULA ***Favor cotizar con stock real*** ***Favor indicar vigencia de medicamento (superior a 12 meses)*** ***Favor si el monto supera las 100 UTM cotizar a 1$ adjuntando cotización*** ***Favor indicar factor de empaque*** ***Adjuntar ficha técnica***",
-    "cantidad": 600.0,
-    "unidad": "CAPS"
-   }
-  ],
-  "resultados_precio": {
-   "Citrato de magnesio": {
-    "query": "citrato de magnesio",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1430396-106-COT26": {
-  "codigo": "1430396-106-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-23T19:40:24+00:00",
-  "fecha_cierre": "2026-11-25 16:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 30201706,
-    "nombre": "Baños portátiles",
-    "descripcion": "La Corporación requiere arrendar tráiler de baño con unidades single (baño individual unisex con 1 WC, 1 lavamanos y 1 acceso) y dobles (baño de doble cabina para hombres y mujeres con 2 WC, 2 lavamanos y 2 accesos independientes) para distintas actividades que realizará durante los meses de diciembre y enero en Ñuñoa. Se requiere que los oferentes adjunten ficha técnica de los baños y que adjunten resolución sanitaria que los autoriza. En el documento se detallan las cantidades y ubicaciones.",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   }
-  ],
-  "resultados_precio": {
-   "Baños portátiles": {
-    "query": "baños portátiles",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "4454-858-COT26": {
-  "codigo": "4454-858-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-23T19:40:24+00:00",
-  "fecha_cierre": "2026-11-25 16:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "PLOTTER DE CORTE, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 3.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "MAQUINA ELECTRICA DE CORTE, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "PLANCHA ESTAMPADORA MINI PORTATIL,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "MAQUINAS MANUALES SIN MOLDE, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 2.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "MAQUINA GIRATORIA PARA HACER CHAPITAS REDONDAS, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "MAQUINA GIRATORIA PARA HACER CHAPITAS CUADRADAS, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "MOLDE METALICO CIRCULAR DE 25 MM, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "MOLDE /MATRIZ METALICO PARA CHAPITAS CIRCULAR DE 56MM, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "MOLDE METALICO CIRCULAR DE 75MM,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "MAQUINA DE COSER OVELRLOCK, COLOR BLANCO, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "TIJERA ELECTRICA INALAMBRICA, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "IMPRESORA MULTIFUNCIONAL, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "IMPRESORA MULTIFUNCIONAL DE TINTA CONTINUA,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "IMPRESORA DE INYECCION DE TINTA A COLOR",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "TORNO Y EXTRACTOR PROFESIONAL PARA MANICURE, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "TORNO PROFESIONAL ROSADO",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "EXTRACTOR COLECTOR PARA POLVO INALAMBRICO RECARGABLE, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "LAMPARA INALAMBRICA ROSADA SUN S30,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "POSA BRAZOS ANATOMICO ROSADO CON SOPORTE PARA CELULAR, ESPECIFICACIONES ADJUNTAS\n\nCantidad",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "MALETIN DE MANICURA CON RUEDAS, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "MALETA PROFESIONAL DE MANICURE, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "CARRO AYUDANTE PROFESIONAL,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "OLLA DEPILATORIA DE 8 KILOS,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "OLLA DEPILATORIA 1KG METALICA PROFESIONAL,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "MESON MURAL ECO DE ACERO INOXIDABLE 150X60X85CM,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "PACK DE 2 SILLAS MANICURISTA ROSADAS,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "SILLA DE ESCRITORIO EJECUTIVA ROSADA,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "MUEBLE REPISA TIPO LIBRERO DE 9 NIVELES COLOR BLANCO,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "ESTANQUES RACK NEGRO METALICO ORGANIZADOR CON 5 REPISAS,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 2.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "BAUL ORGANIZADOR DE PLASTICO NEGRO O GRIS CON TAPA DE PLASTICO,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 3.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "PUERTA PLEGABLE MDF color marrón, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "PANEL MDF RANURADO BLANCO,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "ESPEJO DE CUERPO ENTERO OVALADO,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "PERCHERO EXHIBIDOR GIRATORIO METALICO MODERNO, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "TORSO MANIQUI DAMA EXIBIDOR DE ROPA, ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "COLGADORES DE MADERA PARA ROPA,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 45.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "COLGADORES DE MADERA,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 30.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 23153303,
-    "nombre": "Brocas o herramientas de moldeado",
-    "descripcion": "MAQUINA SUBLIMACION 8 EN 1,ESPECIFICACIONES ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Brocas o herramientas de moldeado": {
-    "query": "brocas o herramientas de moldeado",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1208066-552-COT26": {
-  "codigo": "1208066-552-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-23T19:40:24+00:00",
-  "fecha_cierre": "2026-11-26 08:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 72101703,
-    "nombre": "Construcción de aceras, veredas, cunetas",
-    "descripcion": "crecimiento de raíces de árboles y del tránsito de vehículos pesados.\n2.1. Levantamiento y demarcación\nPreviamente se realizará inspección técnica en terreno para identificar las áreas intervenidas, cuantificar los elementos a retirar y verificar interferencias con instalaciones existentes. Se procederá a la demarcación y señalización preventiva de las zonas de trabajo.\n2.2. Retiro de pastelones existentes\nSe desmontarán cuidadosamente los pastelones deteriorados mediante herramientas manuales y",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Construcción de aceras, veredas, cunetas": {
-    "query": "construcción de aceras veredas cunetas",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1058071-112-COT26": {
-  "codigo": "1058071-112-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T13:16:23+00:00",
-  "fecha_cierre": "2026-11-26 09:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 73101701,
-    "nombre": "Servicios de producción de medicamentos o medicinas",
-    "descripcion": "5559973\tAPIXABAN 2,5MG",
-    "cantidad": 40000.0,
-    "unidad": "CMP"
-   }
-  ],
-  "resultados_precio": {
-   "Servicios de producción de medicamentos o medicinas": {
-    "query": "servicios de producción de medicamentos o medicinas",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "2258-1054-COT26": {
-  "codigo": "2258-1054-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T13:16:23+00:00",
-  "fecha_cierre": "2026-11-25 15:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 42311902,
-    "nombre": "Bolsas de drenaje o depósitos para el drenaje médico de incisión",
-    "descripcion": "340-0619 SET DRENAJE CIRCULAR 19FR C/TROCAR (BLAKE)\n(Adjuntar Ficha Técnica y Certificado de Tecnovigilancia).\nFlete incluido.",
-    "cantidad": 100.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Bolsas de drenaje o depósitos para el drenaje médico de incisión": {
-    "query": "bolsas de drenaje o depósitos para el drenaje médico de incisión",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "4589-351-COT26": {
-  "codigo": "4589-351-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T13:08:23+00:00",
-  "fecha_cierre": "2026-11-25 15:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 43211507,
-    "nombre": "Computadores de escritorio",
-    "descripcion": "9 COMPUTADORES ALL-IN-ONE,teclado y mouse; Procesador Intel Core i5 de duodécima generación o superior, AMD Ryzen o equivalente, con rendimiento igual o superior a 12.000 puntos en PassMark CPU Mark. Se acepta procesadores de otras familias y generaciones con mismo rendimiento mínimo. Pantalla de mínimo 23.8\" Full HD (1920×1080), SO: Windows 11 PRO; 16 GB de Memoria DDR4 o mas; SSD NVMe de 512 GB o mas, o Wi-Fi 6 2x2 AX & Bluetooth® 5.1 o superior,3 o más Puertos USB, 1 año de garantia minimo.",
-    "cantidad": 9.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Computadores de escritorio": {
-    "query": "computadores de escritorio",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
  "1375760-91-COT26": {
   "codigo": "1375760-91-COT26",
   "demo": false,
@@ -640,168 +134,6 @@
   "resultados_precio": {
    "Servicios de almacenaje de contenedores": {
     "query": "servicios de almacenaje de contenedores",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1058071-113-COT26": {
-  "codigo": "1058071-113-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T13:16:23+00:00",
-  "fecha_cierre": "2026-11-26 09:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 51142935,
-    "nombre": "Clorhidrato de levobupivacaína",
-    "descripcion": "5556190\tLEVOBUPIVACAINA 50MG/10ML INYECTABLE",
-    "cantidad": 120.0,
-    "unidad": "AMP"
-   }
-  ],
-  "resultados_precio": {
-   "Clorhidrato de levobupivacaína": {
-    "query": "clorhidrato de levobupivacaína",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "2111-1434-COT26": {
-  "codigo": "2111-1434-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T13:16:23+00:00",
-  "fecha_cierre": "2026-11-26 09:45",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 41116203,
-    "nombre": "Accesorios de monitores o medidores",
-    "descripcion": "Requerimientos Técnicos y listado de equipos en documentos PDF adjuntos. (Excluyente para postular)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Accesorios de monitores o medidores": {
-    "query": "accesorios de monitores o medidores",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1057062-559-COT26": {
-  "codigo": "1057062-559-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:38:02+00:00",
-  "fecha_cierre": "2026-11-26 12:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 82101601,
-    "nombre": "Publicidad en radio",
-    "descripcion": "El oferente deberá diseñar, implementar y administrar un plan de medios radial para la estrategia de posicionamiento del Sistema de Universidades del Estado de Chile. según especificaciones técnicas",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   },
-   {
-    "codigo_producto": 82101603,
-    "nombre": "Publicidad en Internet",
-    "descripcion": "El oferente deberá diseñar, implementar y administrar un plan de medios digital para apoyar la estrategia de posicionamiento del Sistema de Universidades del Estado de Chile. según especificaciones técnicas",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   }
-  ],
-  "resultados_precio": {
-   "Publicidad en radio": {
-    "query": "publicidad en radio",
-    "precios": [],
-    "errores": []
-   },
-   "Publicidad en Internet": {
-    "query": "publicidad en internet",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1057379-176-COT26": {
-  "codigo": "1057379-176-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:38:02+00:00",
-  "fecha_cierre": "2026-11-26 10:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 55121712,
-    "nombre": "Señales orientadoras",
-    "descripcion": "Renovación exclusiva de gráfica del tótem existente\n199 cm alto × 99,5 cm ancho\n\nel tótem existe y su panel rígido está utilizable. Solo se requiere retirar el vinilo deteriorado, preparar la superficie y aplicar la nueva gráfica, conservando panel, estructura, base y anclajes.",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 55121712,
-    "nombre": "Señales orientadoras",
-    "descripcion": "Tótem nuevo con anclajes, sin instalación\n160 cm alto × 80 cm ancho aprox.\n\nse requiere fabricación y entrega del tótem terminado, con mecanismos de anclaje e instrucciones. No incluye instalación ni fundaciones, que serán gestionadas por el Hospital.",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 55121727,
-    "nombre": "Letreros",
-    "descripcion": "Letrero LED 2 instalado\n115 cm alto × 200 cm ancho",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 55121727,
-    "nombre": "Letreros",
-    "descripcion": "Carta de Derechos y Deberes instalada\n121 cm alto × 125 cm ancho",
-    "cantidad": 3.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 55121727,
-    "nombre": "Letreros",
-    "descripcion": "Atención Preferente instalada\n70 cm alto × 50 cm ancho",
-    "cantidad": 2.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 55121727,
-    "nombre": "Letreros",
-    "descripcion": "Cuidados Paliativos instalada\n70 cm alto × 50 cm ancho",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 55121727,
-    "nombre": "Letreros",
-    "descripcion": "Derechos en Salud Mental instalada\n70 cm alto × 50 cm ancho",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 55121727,
-    "nombre": "Letreros",
-    "descripcion": "Letrero LED 1 instalado\n120 cm alto × 210 cm ancho",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Señales orientadoras": {
-    "query": "señales orientadoras",
-    "precios": [],
-    "errores": []
-   },
-   "Letreros": {
-    "query": "letreros letrero led 2 instalado 115 cm alto 200 cm ancho",
     "precios": [],
     "errores": []
    }
@@ -856,30 +188,6 @@
   },
   "mejor_cotizacion_neta": null
  },
- "2424-2230-COT26": {
-  "codigo": "2424-2230-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:38:02+00:00",
-  "fecha_cierre": "2026-11-26 08:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 86111604,
-    "nombre": "Capacitación a empleados",
-    "descripcion": "SE REQUIERE EL SERVICIO DEL PLAN DE GESTIÓN SOCIAL BARRIO OLIVAR SUR SEGÚN FICHA TÉCNICA ADJUNTA. EL OFERENTE DEBERÁ DAR CUMPLIMIENTO A LAS PRESENTES BASES TÉCNICAS Y ADJUNTAR (CON DATOS DE CONTACTO) ANEXO TÉCNICO DETALLADO. EL OFERENTE DEBERÁ ADJUNTAR ANEXO ECONÓMICO Y DETALLE TÉCNICO Y UNA VEZ EMITIDA LA ORDEN DE COMPRA SE COORDINARÁ CON LA PERSONA ENCARGADA DE LA EJECUCION DEL PROYECTO. NOTA: NO SE ACEPTARÁN OFERTAS QUE SUPEREN EL PLAZO DE ENTREGA ESTABLECIDO.",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   }
-  ],
-  "resultados_precio": {
-   "Capacitación a empleados": {
-    "query": "capacitación a empleados",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
  "711-240-COT26": {
   "codigo": "711-240-COT26",
   "demo": false,
@@ -928,30 +236,6 @@
   },
   "mejor_cotizacion_neta": null
  },
- "2297-1561-COT26": {
-  "codigo": "2297-1561-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:38:02+00:00",
-  "fecha_cierre": "2026-11-25 15:30",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 43211701,
-    "nombre": "Equipo de lector de código de barras",
-    "descripcion": "PROVISION E INSTALACION DE SISTEMA PORTAL LECTOR DE PATENTES Y CONTROL DE ACCESO VEHICULAR.",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Equipo de lector de código de barras": {
-    "query": "equipo de lector de código de barras",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
  "846-32-COT26": {
   "codigo": "846-32-COT26",
   "demo": false,
@@ -970,54 +254,6 @@
   "resultados_precio": {
    "Malla": {
     "query": "malla suministro con instalación de toldo de malla hdpe en jardín infantil las flores de la comuna de tierra amarilla región de atacama considera la instalación de un toldo del tipo trapecio en sector patio huerto malla de 68 84 m² según medición preliminar del croquis cubierta de malla hdpe tipo trapecio soportada por pilares metálicos según especificaciones técnicas adjuntas",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1210674-122-COT26": {
-  "codigo": "1210674-122-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:38:02+00:00",
-  "fecha_cierre": "2026-11-26 11:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 72102305,
-    "nombre": "Servicios de reparación, mantenimiento o reparación de aire acondicionado",
-    "descripcion": "Se solicita favor ofertar por el valor total IVA incluido presupuestado en la compra ágil, esto debido a que no se puede editar el monto y se pagara por equipo revisado, el valor a considerar para los pagos será el valor ofertado en su Anexo económico adjunto y para la evaluación se considerara la sumatorio de menor valor neto. Por ultimo se recuerda leer y revisar bien la documentación y adjuntar lo solicitado.",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   }
-  ],
-  "resultados_precio": {
-   "Servicios de reparación, mantenimiento o reparación de aire acondicionado": {
-    "query": "servicios de reparación mantenimiento o reparación de aire acondicionado",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1703-470-COT26": {
-  "codigo": "1703-470-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:38:02+00:00",
-  "fecha_cierre": "2026-11-26 12:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 72101607,
-    "nombre": "Instalación o reparación de paredes",
-    "descripcion": "BODEGA DE FARMACOS (ESPACIO DE MESÓN DE ENTREGA INSUMOS)\nInstalación de cerámica/porcelanato, construcción de mesón de entrega de insumos plegable (se plegara con el fin de permitir el\nacceso de palets de mercadería) instalación de cadena a piso con riel, modificación de portón actual para cambiar a corredera sobre\nriel, preparación de muro dañado para aplicación de bloqueador de humedad, enlucido de muro y pintura de terminación, instalación de 2 paneles led 120x60, de celosías en sector muro.",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Instalación o reparación de paredes": {
-    "query": "instalación o reparación de paredes",
     "precios": [],
     "errores": []
    }
@@ -1068,30 +304,6 @@
    },
    "Mascarillas o correas de presión positiva continua en la vía aérea (CPAP)": {
     "query": "mascarillas o correas de presión positiva continua en la vía aérea cpap",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "619-138-COT26": {
-  "codigo": "619-138-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:38:02+00:00",
-  "fecha_cierre": "2026-11-26 11:30",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 43231507,
-    "nombre": "Programas de gestión de proyectos",
-    "descripcion": "Licencia Proactivanet de acuerdo a detalle de documento adjunto",
-    "cantidad": 400.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Programas de gestión de proyectos": {
-    "query": "programas de gestión de proyectos",
     "precios": [],
     "errores": []
    }
@@ -1192,465 +404,6 @@
   },
   "mejor_cotizacion_neta": null
  },
- "2409-2015-COT26": {
-  "codigo": "2409-2015-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:38:02+00:00",
-  "fecha_cierre": "2026-11-25 16:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 44122001,
-    "nombre": "Archivadores de fichas",
-    "descripcion": "SE REQUIERE DE LISTADO COMPLETO DE MATERIAL DE OFICINA PARA JARDINES VTF, SEGUN DETALLE EN ESPECIFICACIONES TECNICAS Y ANEXO ECONOMICO ADJUNTO.Los precios totales ofertados deben coincidir con el precio total ofertado de la plataforma. \nCualquier discrepancia o el incumplimiento de estos requisitos resultará una oferta inadmisible y será marginada de la evaluación",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   }
-  ],
-  "resultados_precio": {
-   "Archivadores de fichas": {
-    "query": "archivadores de fichas",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "4605-85-COT26": {
-  "codigo": "4605-85-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:38:02+00:00",
-  "fecha_cierre": "2026-11-25 19:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 73141707,
-    "nombre": "Servicios de fabricación de trajes, chaquetas o abrigos tejidos",
-    "descripcion": "ADQUISICIÓN DE 270 CORTAVIENTOS INSTITUCIONALES, PERSONALIZADOS CON LOGOS DEL SERVIU REGIÓN DEL MAULE, MEDIANTE TÉCNICA DE SERIGRAFÍA, PARA FUNCIONARIOS DE LA INSTITUCIÓN.",
-    "cantidad": 270.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Servicios de fabricación de trajes, chaquetas o abrigos tejidos": {
-    "query": "servicios de fabricación de trajes chaquetas o abrigos tejidos",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1175-555-COT26": {
-  "codigo": "1175-555-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:38:02+00:00",
-  "fecha_cierre": "2026-11-26 10:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 40101827,
-    "nombre": "Calentadores de fibra cerámica",
-    "descripcion": "Se requiere adquirir 08 Calentadores de ópticas para el Complejo Asistencial Padre Las Casas, según especificaciones adjuntas. \nSe debe adjuntar ficha técnica y/o catalogo y Anexo: AUSENCIA DE INHABILIDADES Y CONFLICTOS DE INTERÉS DE FUNCIONARIOS PUBLICOS DEL SERVICIO DE SALUD ARAUCANIA SUR Y SUS ESTABLECIMIENTOS DEPENDIENTES",
-    "cantidad": 8.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Calentadores de fibra cerámica": {
-    "query": "calentadores de fibra cerámica",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1480972-1016-COT26": {
-  "codigo": "1480972-1016-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:57:39+00:00",
-  "fecha_cierre": "2026-11-26 09:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 43222609,
-    "nombre": "Routers de red",
-    "descripcion": "Router doble banda, Ethernet WAN Si, Ranura para tarjeta SIM Si,Compatible con módem USB 3G / 4G Si, Tipo de conexión WAN RJ-45\nCaracterísticas de LAN inalámbrico, Banda Wi-Fi Doble banda (2,4 GHz / 5 GHz), Estándar Wi-Fi Wi-Fi 5 (802.11ac), Tasa de transferencia de datos WLAN (máx.) 867 Mbit/s Wi-Fi estándares 802.11a, 802.11b, 802.11g, Wi-Fi 4 (802.11n), Wi-Fi 5 (802.11ac) (modelo TP-Link 4G AC1200 DUAL-BAND ARCHER MR600 o equivalente)",
-    "cantidad": 55.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Routers de red": {
-    "query": "routers de red",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1501468-158-COT26": {
-  "codigo": "1501468-158-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:57:39+00:00",
-  "fecha_cierre": "2026-11-25 16:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 52161505,
-    "nombre": "Televisores convencionales, de plasma y LCD",
-    "descripcion": "TELEVISOR LG UT73 65\" 4K ULTRA HD SMART (O EQUIVALENTE SUPERIOR) SEGUN ESPECIFICACIONES TECNICAS ADJUNTAS",
-    "cantidad": 10.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 52161505,
-    "nombre": "Televisores convencionales, de plasma y LCD",
-    "descripcion": "SOPORTE DE PARED SEGUN ESPECIFICACIONES TECNICAS ADJUNTAS",
-    "cantidad": 10.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Televisores convencionales, de plasma y LCD": {
-    "query": "televisores convencionales de plasma y lcd",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "4931-104-COT26": {
-  "codigo": "4931-104-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:57:39+00:00",
-  "fecha_cierre": "2026-11-26 12:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 43201807,
-    "nombre": "Unidades de cinta magnética",
-    "descripcion": "Medios magnéticos (discos), se adjunta solicitud de cotización ágil con todos los antecedentes .",
-    "cantidad": 152.0,
-    "unidad": "000"
-   },
-   {
-    "codigo_producto": 78131804,
-    "nombre": "Servicios de almacenaje de documentos",
-    "descripcion": "Cajas documentales, se adjunta solicitud de cotización ágil con todos los antecedentes .",
-    "cantidad": 1054.0,
-    "unidad": "000"
-   }
-  ],
-  "resultados_precio": {
-   "Unidades de cinta magnética": {
-    "query": "unidades de cinta magnética",
-    "precios": [],
-    "errores": []
-   },
-   "Servicios de almacenaje de documentos": {
-    "query": "servicios de almacenaje de documentos",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "2134-41-COT26": {
-  "codigo": "2134-41-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:57:39+00:00",
-  "fecha_cierre": "2026-11-25 15:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 27111902,
-    "nombre": "Limas",
-    "descripcion": "LIMA DE 10” BASTARDA GRUESA",
-    "cantidad": 100.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 27111902,
-    "nombre": "Limas",
-    "descripcion": "LIMA DE 8” BASTARDA FINA",
-    "cantidad": 80.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 27111902,
-    "nombre": "Limas",
-    "descripcion": "LIMA PLANA 6” BASTARDA FINA",
-    "cantidad": 100.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 27111902,
-    "nombre": "Limas",
-    "descripcion": "LIMA 7/32 CILINDRICA",
-    "cantidad": 120.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 27111902,
-    "nombre": "Limas",
-    "descripcion": "LIMA 3/16 CILINDRICA",
-    "cantidad": 40.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 27112709,
-    "nombre": "Sierras mecánicas",
-    "descripcion": "ESPADA MOTOSIERRA DE 15”",
-    "cantidad": 20.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 27112823,
-    "nombre": "Cadenas de corte",
-    "descripcion": "CADENA PARA MOTOSIERRA STIHL 28 DIENTES",
-    "cantidad": 50.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Limas": {
-    "query": "limas lima de 10 bastarda gruesa",
-    "precios": [],
-    "errores": []
-   },
-   "Sierras mecánicas": {
-    "query": "sierras mecánicas",
-    "precios": [],
-    "errores": []
-   },
-   "Cadenas de corte": {
-    "query": "cadenas de corte",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "3391-360-COT26": {
-  "codigo": "3391-360-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:57:39+00:00",
-  "fecha_cierre": "2026-11-26 11:30",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Ferritina Reagent Pack 100det (Ref 8356636)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "CKMB X90  det (8001133)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Fosforo (P) x 300 det",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Bilirrubina total(TBIL) x 300 det (Ref 8159931)",
-    "cantidad": 2.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Lipasa x 90 det (8297749)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Calcio (Ca) x 300 det (Ref 1450261)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Cloruro (Cl) x 250 det (Ref 6844471)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Fosfatasa alcalina(ALKP) x 300 det (Ref 1053180)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Nitrógeno Ureico BUN-UREA x 300 det (Ref 8102204)",
-    "cantidad": 2.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Proteina total x 250 det (Ref 8392292)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Sodio (Na) x 250 det (Ref 8379034)",
-    "cantidad": 2.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Triglicéridos x 300 det (Ref 1336544)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Proteina C Reactiva(CPR)/V250 x 250 det (Ref 1926740)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Amilasa x90 det (Ref 8112724)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "CK creatinkinasa x 90 det (Ref 8478034)",
-    "cantidad": 2.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "GGT gamaglutamiltransferasa x 250 det (Ref 8257289)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Magnesio (Mg) x 90 det (Ref 1921204)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Estradiol x 100 det (Ref 8552630)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "FSH x 100 det (Ref 1931922)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Prolactina x 100 det (Ref 1849793)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "PSA total II x 100 det (Ref 6842844)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "T3 II total x 100 det (Ref 6808888)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "T4 libre x 100 det (Ref 1387000)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "TSH3 x 100 det (Ref 6844466)",
-    "cantidad": 2.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Troponina I x 100 det (Ref 6802301)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "HTLV I/II x 100 (Ref 6900446)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Vitamina D x 100 det (Ref 6842894)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Vitamina B12 x 100 det (Ref 1453489)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 51131909,
-    "nombre": "Albúmina humana",
-    "descripcion": "Chagas x 100 det (Ref 6844480)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Albúmina humana": {
-    "query": "albúmina humana",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
  "652-394-COT26": {
   "codigo": "652-394-COT26",
   "demo": false,
@@ -1695,306 +448,6 @@
    },
    "Mascarillas o correas de presión positiva continua en la vía aérea (CPAP)": {
     "query": "mascarillas o correas de presión positiva continua en la vía aérea cpap",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "2409-2023-COT26": {
-  "codigo": "2409-2023-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T14:57:39+00:00",
-  "fecha_cierre": "2026-11-26 08:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 14111531,
-    "nombre": "Libros o cuadernos de registro",
-    "descripcion": "ADQUISICION DE MATERIAL DE LIBRERÍA PARA ESCUELA D-928,SEGÚN ESPECIFICACIONES TECNICAS",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   }
-  ],
-  "resultados_precio": {
-   "Libros o cuadernos de registro": {
-    "query": "libros o cuadernos de registro",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1090-105-COT26": {
-  "codigo": "1090-105-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-26 09:30",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 73101608,
-    "nombre": "Servicios de producción de fertilizantes",
-    "descripcion": "Basacote 6M, en sacos de 25 Kg, con entrega en puntos definidos en Anexos. Considera entrega en piso (con descarga).",
-    "cantidad": 1550.0,
-    "unidad": "KGM"
-   }
-  ],
-  "resultados_precio": {
-   "Servicios de producción de fertilizantes": {
-    "query": "servicios de producción de fertilizantes",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "4513-113-COT26": {
-  "codigo": "4513-113-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-26 09:00",
-  "veredicto": "RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 49101609,
-    "nombre": "Ornamentos y decoraciones",
-    "descripcion": "ARTICULOS NAVIDEÑOS Y MATERIALES ELECTRICOS, DE ACUERDO A FICHA TECNICA ADJUNTA.\nEL PROVEEDOR DEBERÁ COTIZAR LA TOTALIDAD DE LO REQUERIDO EN FICHA TECNICA.",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   }
-  ],
-  "resultados_precio": {
-   "Ornamentos y decoraciones": {
-    "query": "ornamentos y decoraciones",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Base Estructura Circular Arco De Globos Decoraciones Aro 2 M",
-      "precio_clp": 29990,
-      "url": "https://www.easy.cl/base-estructura-circular-arco-de-globos-decoraciones-aro-2-m-mko9826213/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Pack 2 Decoraciones Navideñas Para Puertas Muñeco Cascanueces 78 Cm",
-      "precio_clp": 13990,
-      "url": "https://www.easy.cl/pack-2-decoraciones-navidenas-para-puertas-muneco-cascanueces-78-cm-mkb8xvsw99/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Base Y Palitos Para Globos 9Pcs 105Cm",
-      "precio_clp": 6990,
-      "url": "https://www.easy.cl/base-y-palitos-para-globos-9pcs-105cm-mkf9d7h439/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Perchero Exhibidor Metálico con Repisa y Ganchos",
-      "precio_clp": 170990,
-      "url": "https://www.easy.cl/perchero-exhibidor-metalico-con-repisa-y-ganchos-mks7zl5nfs/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Estante Organizador De Libros Fm 180,6X62,8X29,9 Cm Negro Y Café",
-      "precio_clp": 106990,
-      "url": "https://www.easy.cl/estante-organizador-de-libros-fm-1806x628x299-cm-negro-y-cafe-mk5is64hbx/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "799512-1734-COT26": {
-  "codigo": "799512-1734-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-25 16:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 73101701,
-    "nombre": "Servicios de producción de medicamentos o medicinas",
-    "descripcion": "Acido salicilico + acido lactico 16.7%/15% o similar",
-    "cantidad": 5.0,
-    "unidad": "VI"
-   }
-  ],
-  "resultados_precio": {
-   "Servicios de producción de medicamentos o medicinas": {
-    "query": "servicios de producción de medicamentos o medicinas",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1058095-500-COT26": {
-  "codigo": "1058095-500-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-25 16:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 51161508,
-    "nombre": "Sulfato de salbutamol",
-    "descripcion": "50-217-500-005-00 SALBUTAMOL 5MG/ML SOLUCION PARA NEBULIZAR 20 ML",
-    "cantidad": 490.0,
-    "unidad": "VI"
-   }
-  ],
-  "resultados_precio": {
-   "Sulfato de salbutamol": {
-    "query": "sulfato de salbutamol",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1969-813-COT26": {
-  "codigo": "1969-813-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-26 12:00",
-  "veredicto": "RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 30171514,
-    "nombre": "Cierres de puertas",
-    "descripcion": "60 MTS  APROX \tCIERRE PERIMETRAL  CON MALLA GALVANIZADA ACMAFOR 3D    DE 1,80 MTS DE ALTO ,INCLUIR POSTES  DE FIERRO 60/60 1.5   , REMACHES Y TAPAS \n1\tRADIER HORMIGON  POR LA TOTALIDAD DE METROS CONSIDERADOS EN EL CIERRE\n1\tPORTON   DE PERFIL EN SU TOTALIDAD  20/30 PINTADO CON ANTIOXIDANTE NEGRO \n1 \tPUERTA  CON PERFIL EN SU TOTALIDAD 20/30 DE 2.10 MTS DE ALTO  POR  1 MTS DE ANCHO \n1\tMOTOR ANTIPORTONAZO  DE 1200 KGS  MAS 6 CONTROLES   Y aplicacion celular",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Cierres de puertas": {
-    "query": "cierres de puertas",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Cierres Seguridad Traba Puertas  Pack 5 Unidades Blancas",
-      "precio_clp": 6999,
-      "url": "https://www.easy.cl/cierres-seguridad-traba-puertas-pack-5-unidades-blancas-mkavn7xpg5/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Cierres Seguridad Traba Puertas o Cajones Broche Pack 5unidades Cafes.",
-      "precio_clp": 6999,
-      "url": "https://www.easy.cl/cierres-seguridad-traba-puertas-o-cajones-broche-de-seguridad-bebe-pack-5unidades-cafes-mk84iu93xg/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Pack de 3 Cierres de seguridad para puertas",
-      "precio_clp": 8990,
-      "url": "https://www.easy.cl/pack-de-3-cierres-de-seguridad-para-puertas-mki6ktjwqb/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Funda auto Grandprix impermeable talla m",
-      "precio_clp": 81990,
-      "url": "https://www.easy.cl/funda-auto-grandprix-impermeable-talla-m-mk4h82gu2d/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Funda auto Grandprix impermeable talla m",
-      "precio_clp": 106990,
-      "url": "https://www.easy.cl/funda-auto-grandprix-impermeable-talla-m-mksmsrq5oi/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "707415-74-COT26": {
-  "codigo": "707415-74-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-26 13:00",
-  "veredicto": "RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 72102302,
-    "nombre": "Instalación, reparación o mantenimiento de sistemas de calefacción",
-    "descripcion": "Servicio de mantención de Calefont en la Región de Antofagasta, para 27 establecimientos según especificaciones técnicas que se encuentran en la “Solicitud de Cotización – Mantención de Calefont”",
-    "cantidad": 27.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Instalación, reparación o mantenimiento de sistemas de calefacción": {
-    "query": "instalación reparación o mantenimiento de sistemas de calefacción",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Termostato Ambiente de Calefacción Mecánico TA330 Imit",
-      "precio_clp": 19990,
-      "url": "https://www.easy.cl/termostato-ambiente-de-calefaccion-mecanico-ta330-imit-mkd970zk62/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Termostato Diferencial Calefacción Solar Anasol 03",
-      "precio_clp": 84990,
-      "url": "https://www.easy.cl/termostato-diferencial-calefaccion-solar-anasol-03-mk87zs3zlu/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Termostato Ambiente de Calefacción Mecánico TA310 Imit",
-      "precio_clp": 19990,
-      "url": "https://www.easy.cl/termostato-ambiente-de-calefaccion-mecanico-ta310-imit-mkkte04py5/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Estanque de Expansión Calefacción Zilmet Cal Pro 12 Litros",
-      "precio_clp": 65990,
-      "url": "https://www.easy.cl/estanque-de-expansion-calefaccion-zilmet-cal-pro-12-litros-mk630fubo1/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Estanque de Expansión Calefacción Zilmet Cal Pro 35 Litros",
-      "precio_clp": 124990,
-      "url": "https://www.easy.cl/estanque-de-expansion-calefaccion-zilmet-cal-pro-35-litros-mk9o6pkc4n/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "2322-858-COT26": {
-  "codigo": "2322-858-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-26 10:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 43211711,
-    "nombre": "Escáner",
-    "descripcion": "Escáneres documentales e impresora multifuncional, según Bases y Anexo Oferta Económica adjunto",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   }
-  ],
-  "resultados_precio": {
-   "Escáner": {
-    "query": "escáner escáneres documentales e impresora multifuncional según bases y anexo oferta económica adjunto",
     "precios": [],
     "errores": []
    }
@@ -2110,38 +563,6 @@
   },
   "mejor_cotizacion_neta": null
  },
- "2294-2854-COT26": {
-  "codigo": "2294-2854-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-25 15:55",
-  "veredicto": "RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 93131608,
-    "nombre": "Servicios de suministro de alimentos",
-    "descripcion": "1 UNIDAD SERVICIO CATERING PARA 646 ESTUDIANTES. Ver detalle en NP adjunta",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Servicios de suministro de alimentos": {
-    "query": "servicios de suministro de alimentos",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Contenedor Aluminio Desechable Set 5 Fuentes 22x18cm Envase",
-      "precio_clp": 3990,
-      "url": "https://www.easy.cl/contenedor-aluminio-desechable-set-5-fuentes-22x18cm-envase-mk1kkp772t/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
  "2384-27-COT26": {
   "codigo": "2384-27-COT26",
   "demo": false,
@@ -2194,126 +615,6 @@
       "titulo": "Secador De Cabello Profesional 18187 Con Accesorios 3500w",
       "precio_clp": 17990,
       "url": "https://www.easy.cl/secador-de-cabello-profesional-18187-con-accesorios-3500w-mk051vwaab/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "2258-1058-COT26": {
-  "codigo": "2258-1058-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-25 16:00",
-  "veredicto": "RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 80161602,
-    "nombre": "Servicios de inventariado o recepción de materiales e insumos",
-    "descripcion": "222-0100 CANASTILLO DORMIA PERC-NCIRCLE SIN PUNTA",
-    "cantidad": 10.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Servicios de inventariado o recepción de materiales e insumos": {
-    "query": "servicios de inventariado o recepción de materiales e insumos",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Pack X25 Rinon Desechable Esteril 700cc Cleancarrier Bandeja",
-      "precio_clp": 19482,
-      "url": "https://www.easy.cl/pack-x25-rinon-desechable-esteril-700cc-cleancarrier-bandeja-mksy4n55wl/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Pack X50 Rinon Desechable Esteril 700cc Cleancarrier Bandeja",
-      "precio_clp": 37242,
-      "url": "https://www.easy.cl/pack-x50-rinon-desechable-esteril-700cc-cleancarrier-bandeja-mkkk0fczip/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Pack X50 Rinon Desechable Esteril 700cc Cleancarrier Bandeja",
-      "precio_clp": 37742,
-      "url": "https://www.easy.cl/pack-x50-rinon-desechable-esteril-700cc-cleancarrier-bandeja-mkonpth1pj/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Pack X25 Rinon Desechable Esteril 700cc Cleancarrier Bandeja",
-      "precio_clp": 19482,
-      "url": "https://www.easy.cl/pack-x25-rinon-desechable-esteril-700cc-cleancarrier-bandeja-mki3m98pu4/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Aguja Mariposa 21g X 3 4 Cranberry Scalp Vein Pack 1000 Unidades",
-      "precio_clp": 77343,
-      "url": "https://www.easy.cl/aguja-mariposa-21g-x-3-4-cranberry-scalp-vein-pack-1000-unidades-mkf41g22h5/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "2436-1901-COT26": {
-  "codigo": "2436-1901-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-25 16:00",
-  "veredicto": "RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 46181802,
-    "nombre": "Lentes de protección",
-    "descripcion": "SEGURIDAD PUBLICA, REQUIERE LA ADQUISICIÓN DE IMPLEMENTOS DE SEGURIDAD Y PROTECCIÓN, AL MOMENTO DE COTIZAR VER Y COMPLETAR DETALLE ARCHIVO ADJUNTO, POSTULAR POR VALOR TOTAL, SPN° 298141",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   }
-  ],
-  "resultados_precio": {
-   "Lentes de protección": {
-    "query": "lentes de protección",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Lentes Antiparras Transparentes Protección",
-      "precio_clp": 4990,
-      "url": "https://www.easy.cl/lentes-antiparras-transparentes-proteccion-mkfiy49yce/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Polasup Mujer lentes sol proteccion uv400 moda clasica gafas hombre unisex retro",
-      "precio_clp": 18990,
-      "url": "https://www.easy.cl/polasup-mujer-lentes-sol-proteccion-uv400-moda-clasica-gafas-hombre-unisex-retro-mk4rkdsp11/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Lentes De Sol Polarizados Unisex Carey Proteccion Uv400",
-      "precio_clp": 14690,
-      "url": "https://www.easy.cl/lentes-de-sol-polarizados-unisex-carey-proteccion-uv400-mkke4yu6qw/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Lentes/antiparras de seguridad protección UV profesionales, negros",
-      "precio_clp": 19990,
-      "url": "https://www.easy.cl/lentesantiparras-de-seguridad-proteccion-uv-profesionales-negros-mk7seybu9m/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Lentes De Natación Niño Antiempañante, Protección Uv, Agua Azul",
-      "precio_clp": 11990,
-      "url": "https://www.easy.cl/lentes-de-natacion-nino-antiempanante-proteccion-uv-agua-azul-mkksoag8t2/p",
       "disponible": true
      }
     ],
@@ -2382,30 +683,6 @@
   },
   "mejor_cotizacion_neta": null
  },
- "324-678-COT26": {
-  "codigo": "324-678-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-25 16:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 30221001,
-    "nombre": "Carpas",
-    "descripcion": "Equipamiento corporativo, contempla carpas, toldos arcos, manteles, según especificaciones técnicas solicitadas en solicitud de pedido adjunta.",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   }
-  ],
-  "resultados_precio": {
-   "Carpas": {
-    "query": "carpas equipamiento corporativo contempla carpas toldos arcos manteles según especificaciones técnicas solicitadas en solicitud de pedido adjunta",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
  "2672-37-COT26": {
   "codigo": "2672-37-COT26",
   "demo": false,
@@ -2425,164 +702,6 @@
    "Desarrollo de recursos humanos en el sector público": {
     "query": "desarrollo de recursos humanos en el sector público",
     "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "3888-1184-COT26": {
-  "codigo": "3888-1184-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-25 16:00",
-  "veredicto": "RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 39111514,
-    "nombre": "Luces de árboles",
-    "descripcion": "adquisicion de luces navideñas segun documento adjunto.",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Luces de árboles": {
-    "query": "luces de árboles",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Luces De Navidad Led 500L 32 Metros",
-      "precio_clp": 25990,
-      "url": "https://www.easy.cl/luces-de-navidad-led-500l-32-metros-mkgk4qoklo/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Luces Navidad Led 1000L 60 Metros",
-      "precio_clp": 36990,
-      "url": "https://www.easy.cl/luces-navidad-led-1000l-60-metros-mk18xkuhgn/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Arbol Piramide Navideña Con Luces Leds 1.80 Metros Multicolor",
-      "precio_clp": 15990,
-      "url": "https://www.easy.cl/arbol-piramide-navidena-con-luces-leds-180-metros-multicolor-mkd2jzivs7/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Arbol Piramide Navideña Con Luces Leds 1.50 Metros Multicolor",
-      "precio_clp": 14990,
-      "url": "https://www.easy.cl/arbol-piramide-navidena-con-luces-leds-150-metros-multicolor-mkm2h172c3/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Luces De Navidad Led Arbol De Navidad 5m 20 Led Pack X2",
-      "precio_clp": 5455,
-      "url": "https://www.easy.cl/luces-de-navidad-led-arbol-de-navidad-5m-20-led-pack-x2-mkwi7j40xu/p",
-      "disponible": true
-     },
-     {
-      "fuente": "jumbo",
-      "titulo": "Queso Reggianito Madurado Trozo 200 g",
-      "precio_clp": 4499,
-      "url": "https://www.jumbo.cl/queso-reggianito-cuna-madurado-trozo-200-g/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1057539-5196-COT26": {
-  "codigo": "1057539-5196-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-25 15:50",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 42142523,
-    "nombre": "Agujas hipodérmicas",
-    "descripcion": "1241352 AGUJA HIPODERMICA DESECH. 18GX1 1/2",
-    "cantidad": 18000.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Agujas hipodérmicas": {
-    "query": "agujas hipodérmicas",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "2708-772-COT26": {
-  "codigo": "2708-772-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-25 16:00",
-  "veredicto": "RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 30103605,
-    "nombre": "Tablas de madera",
-    "descripcion": "SEGUN OI N°5890 Y E.T. ADJUNTAS; ADQUISICION DE MATERIALES PARA HABILITACION DE PARQUE ACUATICO EN PARQUE RECREACIONAL LOS PEÑONES. SOLO SE EVALUARÁN OFERTAS POR LA TOTALIDAD DE LO REQUERIDO, CON COTIZACION DESGLOSADA POR PRODUCTO.",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   }
-  ],
-  "resultados_precio": {
-   "Tablas de madera": {
-    "query": "tablas de madera",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Organizador tablas picar madera/negro",
-      "precio_clp": 7990,
-      "url": "https://www.easy.cl/organizador-tablas-picar-maderanegro-1456357/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Set De 3 Tablas De Madera Bambu Para Cortar De Cocina",
-      "precio_clp": 61990,
-      "url": "https://www.easy.cl/set-de-3-tablas-de-madera-bambu-para-cortar-de-cocina-mkqu441gjy/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Set De 3 Tablas De Madera Bambu Para Cortar De Cocina",
-      "precio_clp": 61990,
-      "url": "https://www.easy.cl/set-de-3-tablas-de-madera-bambu-para-cortar-de-cocina-mkephzvnef/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Organizador Platos Madera Secador Tablas Cocina ALJ",
-      "precio_clp": 27990,
-      "url": "https://www.easy.cl/organizador-platos-madera-secador-tablas-cocina-alj-mkavlj1574/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Organizador Platos Madera Secador Tablas Cocina ALJ",
-      "precio_clp": 27990,
-      "url": "https://www.easy.cl/organizador-platos-madera-secador-tablas-cocina-alj-mkh0jbenc4/p",
-      "disponible": true
-     },
-     {
-      "fuente": "jumbo",
-      "titulo": "Set Tablas Cortar Madera con Rack La Hacienda",
-      "precio_clp": 29990,
-      "url": "https://www.jumbo.cl/set-tablas-cortar-madera-c-rack-lh-1988984/p",
-      "disponible": true
-     }
-    ],
     "errores": []
    }
   },
@@ -2662,145 +781,6 @@
   },
   "mejor_cotizacion_neta": null
  },
- "777304-3675-COT26": {
-  "codigo": "777304-3675-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-25 16:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 42311510,
-    "nombre": "Vendaje de espuma",
-    "descripcion": "INS110933 ESPUMA VAC NEGRA C/PLATA 10X10 cm",
-    "cantidad": 5.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Vendaje de espuma": {
-    "query": "vendaje de espuma",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "777304-3674-COT26": {
-  "codigo": "777304-3674-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-25 16:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 42311510,
-    "nombre": "Vendaje de espuma",
-    "descripcion": "INS110931 KIT VAC ESPUMA OH polivinilico9,7X7,5cm",
-    "cantidad": 5.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 42311510,
-    "nombre": "Vendaje de espuma",
-    "descripcion": "INS110932 KIT VAC ESPUMA OH polivinilico9,8X14.8cm",
-    "cantidad": 5.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Vendaje de espuma": {
-    "query": "vendaje de espuma",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1057539-5195-COT26": {
-  "codigo": "1057539-5195-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-25 15:43",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 42183028,
-    "nombre": "Accesorios oftalmológicos para retinoscopia",
-    "descripcion": "1464997 CENTURION FMS PACK ACT 0.9MM U 45 BAL COD. 8065752201 I180 (cassette)",
-    "cantidad": 60.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Accesorios oftalmológicos para retinoscopia": {
-    "query": "accesorios oftalmológicos para retinoscopia",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "707415-71-COT26": {
-  "codigo": "707415-71-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-26 13:00",
-  "veredicto": "RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 72102305,
-    "nombre": "Servicios de reparación, mantenimiento o reparación de aire acondicionado",
-    "descripcion": "-\tMantención y reparación aires acondicionados de jardines infantiles y oficina regional de la Región de Antofagasta, para 10 establecimientos según se detalla en Solicitud de Cotización y Anexos adjuntos.",
-    "cantidad": 10.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Servicios de reparación, mantenimiento o reparación de aire acondicionado": {
-    "query": "servicios de reparación mantenimiento o reparación de aire acondicionado",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Filtro De Aire Moto Suzuki GIXXER 250 SF / DI",
-      "precio_clp": 14990,
-      "url": "https://www.easy.cl/filtro-de-aire-moto-suzuki-gixxer-250-sf-di-japones-mkoe5bc3ip/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Bolsa Bomba de Aire para Coches / Cuña / Cerrajería / Ganzúa",
-      "precio_clp": 32990,
-      "url": "https://www.easy.cl/bolsa-bomba-de-aire-para-coches-cuna-cerrajeria-ganzua-mkhdbtu5lc/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Bolsa Bomba de Aire para Coches / Cuña / Cerrajería / Ganzúa",
-      "precio_clp": 24990,
-      "url": "https://www.easy.cl/bolsa-bomba-de-aire-para-coches-cuna-cerrajeria-ganzua-mkw0cioswy/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Kit Filtros Voge 300 Rally",
-      "precio_clp": 64990,
-      "url": "https://www.easy.cl/kit-filtros-voge-300-rally-airecombustibleaceitebujia-mkk6xwbn0g/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Kit Taladro y Esmeril Angular MÁS Accesorios",
-      "precio_clp": 34990,
-      "url": "https://www.easy.cl/kit-taladro-y-esmeril-angular-mas-accesorios-mknqqon60y/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
  "1375735-46-COT26": {
   "codigo": "1375735-46-COT26",
   "demo": false,
@@ -2854,30 +834,6 @@
   },
   "mejor_cotizacion_neta": null
  },
- "3674-93-COT26": {
-  "codigo": "3674-93-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-25 15:45",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 42191607,
-    "nombre": "Hardware de vías carriles de cortina o biombos o cortinas de cubículo del paciente",
-    "descripcion": "Adquisición e instalación de separadores clínicos de acuerdo a lo solicitado en documento adjunto",
-    "cantidad": 1.0,
-    "unidad": "PACK"
-   }
-  ],
-  "resultados_precio": {
-   "Hardware de vías carriles de cortina o biombos o cortinas de cubículo del paciente": {
-    "query": "hardware de vías carriles de cortina o biombos o cortinas de cubículo del paciente",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
  "4086-592-COT26": {
   "codigo": "4086-592-COT26",
   "demo": false,
@@ -2926,76 +882,6 @@
       "disponible": true
      }
     ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1057501-4017-COT26": {
-  "codigo": "1057501-4017-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-24T18:58:34+00:00",
-  "fecha_cierre": "2026-11-25 15:40",
-  "veredicto": "RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 42142709,
-    "nombre": "Sets de nefrostomía o accesorios",
-    "descripcion": "20-340-150-169-00 SET DE NEFROSTOMIA COMPLETO C/CATETER 14FR.",
-    "cantidad": 20.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Sets de nefrostomía o accesorios": {
-    "query": "sets de nefrostomía o accesorios",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Cesta Flores Tejido Alambre Recubierto Almacenamiento 30 5 X 20 X 12 5cm",
-      "precio_clp": 7090,
-      "url": "https://www.easy.cl/cesta-flores-tejido-alambre-recubierto-almacenamiento-30-5-x-20-x-12-5cm-mk37vzllt5/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Cesta Flores Tejido Alambre Recubierto Almacenamiento 34 5 X 25 X 15 8cm",
-      "precio_clp": 7090,
-      "url": "https://www.easy.cl/cesta-flores-tejido-alambre-recubierto-almacenamiento-34-5-x-25-x-15-8cm-mkyk8vzki5/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Cesta Flores Tejido Alambre Recubierto Almacenamiento 34 5 X 25 X 15 8cm",
-      "precio_clp": 8090,
-      "url": "https://www.easy.cl/cesta-flores-tejido-alambre-recubierto-almacenamiento-34-5-x-25-x-15-8cm-mkf9czb8f7/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "812030-1150-COT26": {
-  "codigo": "812030-1150-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-25T14:43:24+00:00",
-  "fecha_cierre": "2026-11-26 12:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 51181709,
-    "nombre": "Triamcinolona",
-    "descripcion": "S01BA0502 TRIAMCINOLONA ACETONIDO 40 mg/1 ml suspensión inyectable",
-    "cantidad": 2.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Triamcinolona": {
-    "query": "triamcinolona",
-    "precios": [],
     "errores": []
    }
   },
@@ -3063,30 +949,6 @@
       "disponible": true
      }
     ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "777304-3676-COT26": {
-  "codigo": "777304-3676-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-25T14:43:24+00:00",
-  "fecha_cierre": "2026-11-26 11:45",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 42295513,
-    "nombre": "Productos quirúrgicos de barrera de tisú o de malla",
-    "descripcion": "INS105734 MALLA INCONTINENCIA URINARIA",
-    "cantidad": 60.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Productos quirúrgicos de barrera de tisú o de malla": {
-    "query": "productos quirúrgicos de barrera de tisú o de malla",
-    "precios": [],
     "errores": []
    }
   },
@@ -3200,66 +1062,6 @@
   },
   "mejor_cotizacion_neta": null
  },
- "812030-1149-COT26": {
-  "codigo": "812030-1149-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-25T14:43:24+00:00",
-  "fecha_cierre": "2026-11-26 12:00",
-  "veredicto": "NO RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 42171903,
-    "nombre": "Cajas de medicamentos de servicios médicos de urgencia",
-    "descripcion": "FAHH03004 TIAMAZOL 5 MG COMPRIMIDO",
-    "cantidad": 3100.0,
-    "unidad": "CMP"
-   }
-  ],
-  "resultados_precio": {
-   "Cajas de medicamentos de servicios médicos de urgencia": {
-    "query": "cajas de medicamentos de servicios médicos de urgencia",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Aguja Mariposa 21g X 3 4 Cranberry Scalp Vein Pack 1000 Unidades",
-      "precio_clp": 77343,
-      "url": "https://www.easy.cl/aguja-mariposa-21g-x-3-4-cranberry-scalp-vein-pack-1000-unidades-mkf41g22h5/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Aguja Mariposa 21g X 3 4 Cranberry Scalp Vein Pack 300 Un",
-      "precio_clp": 25912,
-      "url": "https://www.easy.cl/aguja-mariposa-21g-x-3-4-cranberry-scalp-vein-pack-300-un-mkjcf4dlbn/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Aguja Mariposa 21g X 3 4 Cranberry Scalp Vein Pack 500 Un",
-      "precio_clp": 39821,
-      "url": "https://www.easy.cl/aguja-mariposa-21g-x-3-4-cranberry-scalp-vein-pack-500-un-mk7lmq67gm/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Packx3 Caja Jeringa Desechable 20cc Aguja 21g Luer Slip 150u",
-      "precio_clp": 35973,
-      "url": "https://www.easy.cl/packx3-caja-jeringa-desechable-20cc-aguja-21g-luer-slip-150u-mkadwciy6l/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Aguja Mariposa 21g X Tres Cuartos Cranberry Scalp Vein Pack 1000 Un",
-      "precio_clp": 73938,
-      "url": "https://www.easy.cl/aguja-mariposa-21g-x-tres-cuartos-cranberry-scalp-vein-pack-1000-un-mkulew163z/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
  "711-244-COT26": {
   "codigo": "711-244-COT26",
   "demo": false,
@@ -3278,30 +1080,6 @@
   "resultados_precio": {
    "Tóner": {
     "query": "tóner adquisición de toner tambor y fusor tres componentes para impresoras de la subsecretaria de transportes ver requerimiento técnico",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "5586-3289-COT26": {
-  "codigo": "5586-3289-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-25T14:43:24+00:00",
-  "fecha_cierre": "2026-11-26 12:00",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 90151602,
-    "nombre": "Productoras",
-    "descripcion": "SERVICIO DE PRODUCCIÓN INTEGRAL EXPO NAVIDAD CDN TEMUCO PARA 32 PUESTOS, SEGÚN DETALLE ADJUNTO.",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   }
-  ],
-  "resultados_precio": {
-   "Productoras": {
-    "query": "productoras servicio de producción integral expo navidad cdn temuco para 32 puestos según detalle adjunto",
     "precios": [],
     "errores": []
    }
@@ -3631,121 +1409,6 @@
       "titulo": "PORTAELECTRODO 600 AMP FERRAWYY",
       "precio_clp": 9591,
       "url": "https://www.easy.cl/portaelectrodo-600-amp-ferrawyy-mkindct4tx/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "2427-1455-COT26": {
-  "codigo": "2427-1455-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-25T14:43:24+00:00",
-  "fecha_cierre": "2026-11-26 11:40",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 43211503,
-    "nombre": "Notebook, laptop o computador portátil excepto Tablet PC",
-    "descripcion": "NOTEBOOK HP O SIMILAR 15-EG 2505 / INTEL CORE I5 16 GB RAM 512 GB SSD 15.6 CON SISTEMA OPERATIVO WINDOWS 11 PRO 64 BITS, MICROSOFT OFFICE HOGAR Y ESTUDIANTE 2021, WORD, EXCEL Y POWER POINT PERMANENTE, ACCESORIOS: CARGADOR Y BATERÍA INCLUIDA, GARANTÍA MÍNIMA 21 MESES, SEGÚN TDR ADJUNTO.",
-    "cantidad": 7.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 43211503,
-    "nombre": "Notebook, laptop o computador portátil excepto Tablet PC",
-    "descripcion": "COMPUTADOR HP O SIMILAR TODO EN UNO CON MOUSE Y TECLADO 24 - CR0336LA INTEL CORE I5 8 GB RAM 512 GB SSD, 23.8\" FHD, SISTEMA OPERATIVO WINDOWS 11 PRO 64 BITS- MICROSOFT OFFICE 2021 PROFESIONAL PLUS O SIMILAR PERMANENTE, SEGÚN TDR ADJUNTO",
-    "cantidad": 3.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Notebook, laptop o computador portátil excepto Tablet PC": {
-    "query": "notebook laptop o computador portátil excepto tablet pc",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "2080-1061-COT26": {
-  "codigo": "2080-1061-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-25T14:43:24+00:00",
-  "fecha_cierre": "2026-11-26 11:30",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 51111605,
-    "nombre": "Fluorouracilo",
-    "descripcion": "219-0223  FLUOROURACILO 1000 MG/20 ML",
-    "cantidad": 579.0,
-    "unidad": "AMP"
-   }
-  ],
-  "resultados_precio": {
-   "Fluorouracilo": {
-    "query": "fluorouracilo",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1404452-76-COT26": {
-  "codigo": "1404452-76-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-25T14:43:24+00:00",
-  "fecha_cierre": "2026-11-26 12:00",
-  "veredicto": "RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 46191605,
-    "nombre": "Herramientas de mano para extinción de incendios",
-    "descripcion": "Adquisición de piscina autosoportante de 40.000 lts para combate de incendios forestales, según requerimiento adjunto.",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Herramientas de mano para extinción de incendios": {
-    "query": "herramientas de mano para extinción de incendios",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Set De Herramientas De Mano Con 9 Piezas Para El Hogar .",
-      "precio_clp": 34990,
-      "url": "https://www.easy.cl/set-de-herramientas-de-mano-con-9-piezas-para-el-hogar-mkfw4jvhl8/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Kit de Herramientas para Carpa Camping Coleman®",
-      "precio_clp": 15990,
-      "url": "https://www.easy.cl/kit-de-herramientas-para-carpa-camping-coleman-mkwy64r1qt/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Barra Magn tica para Cuchillos o Herramientas",
-      "precio_clp": 5990,
-      "url": "https://www.easy.cl/barra-magn-tica-para-cuchillos-o-herramientas-mk0wwp8bge/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Caja De Herramientas Connect Car",
-      "precio_clp": 131990,
-      "url": "https://www.easy.cl/caja-de-herramientas-connect-car-mk3ak4pa38/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Organizador De Herramientas De Pared Tablero",
-      "precio_clp": 36990,
-      "url": "https://www.easy.cl/organizador-de-herramientas-de-pared-tablero-mk87ssog6i/p",
       "disponible": true
      }
     ],
@@ -4187,200 +1850,6 @@
   },
   "mejor_cotizacion_neta": null
  },
- "948354-388-COT26": {
-  "codigo": "948354-388-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-25T14:43:24+00:00",
-  "fecha_cierre": "2026-11-26 11:20",
-  "veredicto": "RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 12142004,
-    "nombre": "Gas Argón Ar",
-    "descripcion": "Cilindro de gas Argón (Según EETT)",
-    "cantidad": 1.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Gas Argón Ar": {
-    "query": "gas argón ar",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Ventana PVC 60x120 cm Termopanel con gas Argón blanco",
-      "precio_clp": 130990,
-      "url": "https://www.easy.cl/ventana-pvc-60x120-cm-termopanel-con-gas-argon-blanco-1368046/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "PVC 46x55 cm Termopanel con gas Argón proyectable blanco",
-      "precio_clp": 79990,
-      "url": "https://www.easy.cl/pvc-46x55-cm-termopanel-con-gas-argon-proyectable-blanco-1368045/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Ventana Pvc 100x100 cm Termopanel con gas Argón 2 hojas correderas blanco",
-      "precio_clp": 130990,
-      "url": "https://www.easy.cl/ventana-pvc-100x100-cm-termopanel-con-gas-argon-2-hojas-correderas-blanco-1368047/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Ventana Pvc 120x120 cm Termopanel con gas Argón 2 hojas correderas blanco",
-      "precio_clp": 176990,
-      "url": "https://www.easy.cl/ventana-pvc-120x120-cm-termopanel-con-gas-argon-2-hojas-correderas-blanco-1368048/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Soldadora Inverter Igbt Mig Tig Arco 300 Amp Alambre",
-      "precio_clp": 109770,
-      "url": "https://www.easy.cl/soldadora-inverter-igbt-mig-tig-arco-300-amp-alambre-mkp02kptxr/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "4085-567-COT26": {
-  "codigo": "4085-567-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-25T14:43:24+00:00",
-  "fecha_cierre": "2026-11-26 11:30",
-  "veredicto": "RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 78101801,
-    "nombre": "Servicios de transporte local en camión",
-    "descripcion": "Los detalles a considerar son los siguientes:\n\nTipo vehículo: Camión Tolva.\nCapacidad: 14 metros cúbicos (capacidad mínima)\nCantidad de días: 16 días.\nCamión Mínimo Año 2010\nValor diario presupuestado: $450.000 \nREVISAR MAS DETALLES EN LAS REFERNCICAS ADJUNTAS",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   }
-  ],
-  "resultados_precio": {
-   "Servicios de transporte local en camión": {
-    "query": "servicios de transporte local en camión",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Eslinga Amarre Carga Camion Remolque 3 Toneladas 3 Metros Amarillo",
-      "precio_clp": 28990,
-      "url": "https://www.easy.cl/eslinga-amarre-carga-camion-remolque-3-toneladas-3-metros-amarillo-mk4awfifuv/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Eslinga Amarre Carga Camion Remolque 3 Toneladas 3 Metros Amarillo",
-      "precio_clp": 28990,
-      "url": "https://www.easy.cl/eslinga-amarre-carga-camion-remolque-3-toneladas-3-metros-amarillo-mk7ut0tsjd/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Llave 9 en 1 Para Armarios De Control Bahco MK9",
-      "precio_clp": 34990,
-      "url": "https://www.easy.cl/llave-9-en-1-para-armarios-de-control-bahco-mk9-mkd7bfzwfy/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "CANDADO ODIS VANLOCK / SERIE OFF ROAD",
-      "precio_clp": 86290,
-      "url": "https://www.easy.cl/candado-odis-vanlock-serie-off-road-mkr607ma3b/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Kit de Barber a Profesional VGR V 640 S4 4 en 1 Negro Mate",
-      "precio_clp": 209900,
-      "url": "https://www.easy.cl/kit-de-barber-a-profesional-vgr-v-640-s4-4-en-1-negro-mate-mk4riae3rm/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "1965-452-COT26": {
-  "codigo": "1965-452-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-25T14:43:24+00:00",
-  "fecha_cierre": "2026-11-26 13:00",
-  "veredicto": "NO RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 39111809,
-    "nombre": "Filtros acondicionadores de luz",
-    "descripcion": "PROYECTOR DE AREA LED 200W, CARCASA NEGA DE ACUERDO A LAS EETT ADJUNTAS",
-    "cantidad": 40.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 39111809,
-    "nombre": "Filtros acondicionadores de luz",
-    "descripcion": "LUMINARIA PUBLICA 150W 220V DE ACUERDO A LAS EETT ADJUNTAS",
-    "cantidad": 30.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 39111809,
-    "nombre": "Filtros acondicionadores de luz",
-    "descripcion": "DE ACUERDO A LAS EETT ADJUNTAS",
-    "cantidad": 120.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Filtros acondicionadores de luz": {
-    "query": "filtros acondicionadores de luz",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Filtros de Reemplazo Om - Hepa H13 (grado médico)",
-      "precio_clp": 39990,
-      "url": "https://www.easy.cl/filtros-de-reemplazo-om-hepa-h13-grado-medico-mkhxilq0bj/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Campana City White Bajo Mueble 60cm FDV",
-      "precio_clp": 139990,
-      "url": "https://www.easy.cl/campana-city-white-bajo-mueble-60cm-fdv-mkjzg3ip8u/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Campana Isla Deluxe Chef 90 cm 800 m3/h FDV",
-      "precio_clp": 499990,
-      "url": "https://www.easy.cl/campana-isla-deluxe-chef-90-cm-800-m3h-fdv-mkmuwjw5nm/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Campana de Pared Elite 60 cm 500 m3/h FDV",
-      "precio_clp": 199990,
-      "url": "https://www.easy.cl/campana-de-pared-elite-60-cm-500-m3h-fdv-mkra0n519l/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Linterna Led Recargable Kano Lofoten Tactica 40h Autonomia",
-      "precio_clp": 46990,
-      "url": "https://www.easy.cl/linterna-led-recargable-kano-lofoten-tactica-40h-autonomia-mkzkl43som/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
  "1596-105-COT26": {
   "codigo": "1596-105-COT26",
   "demo": false,
@@ -4399,138 +1868,6 @@
   "resultados_precio": {
    "Renovación de edificios, casas, señales y monumentos": {
     "query": "renovación de edificios casas señales y monumentos",
-    "precios": [],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "3707-631-COT26": {
-  "codigo": "3707-631-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-25T14:43:24+00:00",
-  "fecha_cierre": "2026-11-26 11:15",
-  "veredicto": "RENTABLE",
-  "productos": [
-   {
-    "codigo_producto": 80161507,
-    "nombre": "Servicios Audio Visuales",
-    "descripcion": "VER ARCHIVO ADJUNTO CON LO SOLICITADO\nEL PROVEEDOR DEBERA DETALLLAR CON DOCUMENTO ADJUNTO LA PROPUESTA",
-    "cantidad": 1.0,
-    "unidad": "GL"
-   }
-  ],
-  "resultados_precio": {
-   "Servicios Audio Visuales": {
-    "query": "servicios audio visuales",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Parlante Bluetooth Monster Audio P468R Rojo",
-      "precio_clp": 11990,
-      "url": "https://www.easy.cl/parlante-bluetooth-monster-audio-p468r-rojo-mky049gq4z/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Amazon Echo Show 8 2025 Pantalla Inteligente 8,7\" con Audio Espacial Blanco",
-      "precio_clp": 229990,
-      "url": "https://www.easy.cl/amazon-echo-show-8-2025-pantalla-inteligente-87-con-audio-espacial-blanco-mkm4h6u5x2/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Amazon Echo Spot 2024 Asistente de voz con Alexa Blanco",
-      "precio_clp": 89990,
-      "url": "https://www.easy.cl/amazon-echo-spot-2024-asistente-de-voz-con-alexa-blanco-mk2r4rwk3p/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Raidou Remastered The Mystery of the Soulless Army Launch Edition Nintendo Switch 2",
-      "precio_clp": 64990,
-      "url": "https://www.easy.cl/raidou-remastered-the-mystery-of-the-soulless-army-launch-edition-nintendo-switch-2-mkuxydgiw2/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Eslinga Negra Para Eventos 25mm X 2 Capas X 2 Mt 1000 Kilos Negro",
-      "precio_clp": 28990,
-      "url": "https://www.easy.cl/eslinga-negra-para-eventos-25mm-x-2-capas-x-2-mt-1000-kilos-negro-mkzu044iue/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   }
-  },
-  "mejor_cotizacion_neta": null
- },
- "2981-495-COT26": {
-  "codigo": "2981-495-COT26",
-  "demo": false,
-  "guardado_utc": "2026-11-25T14:43:24+00:00",
-  "fecha_cierre": "2026-11-26 11:30",
-  "veredicto": "SIN DATOS",
-  "productos": [
-   {
-    "codigo_producto": 43211903,
-    "nombre": "Monitores de pantalla táctil",
-    "descripcion": "PANTALLA INTERACTIVA SEGUN ARCHIVO ADJUNTO",
-    "cantidad": 2.0,
-    "unidad": "EA"
-   },
-   {
-    "codigo_producto": 45111802,
-    "nombre": "Soportes de televisión",
-    "descripcion": "SOPORTES, SEGÚN ARCHIVO ADJUNTO",
-    "cantidad": 2.0,
-    "unidad": "EA"
-   }
-  ],
-  "resultados_precio": {
-   "Monitores de pantalla táctil": {
-    "query": "monitores de pantalla táctil",
-    "precios": [
-     {
-      "fuente": "easy",
-      "titulo": "Guantes de Moto Con Agarre para Pantalla Táctil",
-      "precio_clp": 11290,
-      "url": "https://www.easy.cl/guantes-de-moto-con-agarre-para-pantalla-tactil-mk8xqfkq0e/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Audífonos Inalámbricos Bluetooth 5.0 Táctil Pantalla Digital",
-      "precio_clp": 26000,
-      "url": "https://www.easy.cl/audifonos-inalambricos-bluetooth-50-tactil-pantalla-digital-mk8nrkbies/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Pantalla Carplay Android Auto 7 Tactil inalambrica",
-      "precio_clp": 56990,
-      "url": "https://www.easy.cl/pantalla-carplay-android-auto-7-tactil-inalambrica-mks86602ow/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Radio Auto Android 1 Din Pantalla Tactil Aiwa",
-      "precio_clp": 168990,
-      "url": "https://www.easy.cl/radio-auto-android-1-din-pantalla-tactil-aiwa-mkg6wygdrx/p",
-      "disponible": true
-     },
-     {
-      "fuente": "easy",
-      "titulo": "Audífonos Bluetooth Blik AirPlus ANC Pantalla Táctil",
-      "precio_clp": 24990,
-      "url": "https://www.easy.cl/audifonos-bluetooth-blik-airplus-anc-pantalla-tactil-mk4o7mlwwb/p",
-      "disponible": true
-     }
-    ],
-    "errores": []
-   },
-   "Soportes de televisión": {
-    "query": "soportes de televisión",
     "precios": [],
     "errores": []
    }
@@ -4592,6 +1929,1007 @@
       "disponible": true
      }
     ],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1561-110-COT26": {
+  "codigo": "1561-110-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-12-01 09:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 60105409,
+    "nombre": "Materiales educativos de publicidad y marketing de marca",
+    "descripcion": "Ver adjunto",
+    "cantidad": 1.0,
+    "unidad": "000"
+   }
+  ],
+  "resultados_precio": {
+   "Materiales educativos de publicidad y marketing de marca": {
+    "query": "materiales educativos de publicidad y marketing de marca",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2080-1062-COT26": {
+  "codigo": "2080-1062-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 11:35",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 51142916,
+    "nombre": "Hialuronidasa",
+    "descripcion": "216-0173  HIALURONIDASA 1.500 UI",
+    "cantidad": 80.0,
+    "unidad": "AMP"
+   }
+  ],
+  "resultados_precio": {
+   "Hialuronidasa": {
+    "query": "hialuronidasa",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "5586-3332-COT26": {
+  "codigo": "5586-3332-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 15:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 43211503,
+    "nombre": "Notebook, laptop o computador portátil excepto Tablet PC",
+    "descripcion": "Equipamiento Espacio Colaborativo",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Notebook, laptop o computador portátil excepto Tablet PC": {
+    "query": "notebook laptop o computador portátil excepto tablet pc",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2981-497-COT26": {
+  "codigo": "2981-497-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 56101504,
+    "nombre": "Sillas",
+    "descripcion": "SILLAS PLEGABLES",
+    "cantidad": 60.0,
+    "unidad": "EA"
+   },
+   {
+    "codigo_producto": 56101519,
+    "nombre": "Mesas",
+    "descripcion": "MESA PLEGABLE CUADRADA, SEGÚN ARCHIVO ADJUNTO",
+    "cantidad": 30.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Sillas": {
+    "query": "sillas sillas plegables",
+    "precios": [
+     {
+      "fuente": "easy",
+      "titulo": "Set 6 Sillas Plegables Metalicas",
+      "precio_clp": 89990,
+      "url": "https://www.easy.cl/set-6-sillas-plegables-metalicas-mkubqofxjo/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "SILLAS PLEGABLES REDONDAS CON ESTRUCTURA DE METAL UNICOLOR",
+      "precio_clp": 42990,
+      "url": "https://www.easy.cl/sillas-plegables-redondas-con-estructura-de-metal-unicolor-mkic0x3vqz/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "SILLAS PLEGABLES INFANTILES ROJO CON DISEÑO DE MARIQUITA",
+      "precio_clp": 20990,
+      "url": "https://www.easy.cl/sillas-plegables-infantiles-rojo-con-diseno-de-mariquita-mkncygtstt/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "SILLAS PLEGABLES INFANTILES AZUL CON DISEÑO DE PERRITO DALMATA",
+      "precio_clp": 20990,
+      "url": "https://www.easy.cl/sillas-plegables-infantiles-azul-con-diseno-de-perrito-dalmata-mkmj6vfxma/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "SILLAS PLEGABLES INFANTILES AMARILLO CON DISEÑO DE TIGRE",
+      "precio_clp": 20990,
+      "url": "https://www.easy.cl/sillas-plegables-infantiles-amarillo-con-diseno-de-tigre-mkgngf8k7r/p",
+      "disponible": true
+     }
+    ],
+    "errores": []
+   },
+   "Mesas": {
+    "query": "mesas mesa plegable cuadrada según archivo adjunto",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2333-812-COT26": {
+  "codigo": "2333-812-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 12:00",
+  "veredicto": "RENTABLE",
+  "productos": [
+   {
+    "codigo_producto": 47131803,
+    "nombre": "Desinfectantes domésticos",
+    "descripcion": "MATERIALES DE LIMPIEZA",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Desinfectantes domésticos": {
+    "query": "desinfectantes domésticos",
+    "precios": [
+     {
+      "fuente": "easy",
+      "titulo": "Alza Baño con apoya Brazos Desmontables Portátil",
+      "precio_clp": 47990,
+      "url": "https://www.easy.cl/alza-bano-con-apoya-brazos-desmontables-portatil-mknvakvp8d/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Alza Baño con apoya Brazos Desmontables Portátil",
+      "precio_clp": 42990,
+      "url": "https://www.easy.cl/alza-bano-con-apoya-brazos-desmontables-portatil-mktvjyjp3g/p",
+      "disponible": true
+     }
+    ],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1077195-115-COT26": {
+  "codigo": "1077195-115-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-12-03 16:00",
+  "veredicto": "RENTABLE",
+  "productos": [
+   {
+    "codigo_producto": 72102305,
+    "nombre": "Servicios de reparación, mantenimiento o reparación de aire acondicionado",
+    "descripcion": "Servicio de Instalación de 15 equipos de aire acondicionado en los centros nucleares de la CCHEN",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Servicios de reparación, mantenimiento o reparación de aire acondicionado": {
+    "query": "servicios de reparación mantenimiento o reparación de aire acondicionado",
+    "precios": [
+     {
+      "fuente": "easy",
+      "titulo": "Filtro De Aire Moto Suzuki GIXXER 250 SF / DI",
+      "precio_clp": 14990,
+      "url": "https://www.easy.cl/filtro-de-aire-moto-suzuki-gixxer-250-sf-di-japones-mkoe5bc3ip/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Bolsa Bomba de Aire para Coches / Cuña / Cerrajería / Ganzúa",
+      "precio_clp": 32990,
+      "url": "https://www.easy.cl/bolsa-bomba-de-aire-para-coches-cuna-cerrajeria-ganzua-mkhdbtu5lc/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Bolsa Bomba de Aire para Coches / Cuña / Cerrajería / Ganzúa",
+      "precio_clp": 24990,
+      "url": "https://www.easy.cl/bolsa-bomba-de-aire-para-coches-cuna-cerrajeria-ganzua-mkw0cioswy/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Kit Mantención Honda NEW ELITE FI",
+      "precio_clp": 41990,
+      "url": "https://www.easy.cl/kit-mantencion-honda-new-elite-fi-125-aire-bujia-aceite-mkp3rx4ese/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Kit Filtros Voge 300 Rally",
+      "precio_clp": 64990,
+      "url": "https://www.easy.cl/kit-filtros-voge-300-rally-airecombustibleaceitebujia-mkk6xwbn0g/p",
+      "disponible": true
+     }
+    ],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "800-7871-COT26": {
+  "codigo": "800-7871-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 11:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42292603,
+    "nombre": "Sondas o directores quirúrgicos",
+    "descripcion": "661921 RECTOSCOPIO DESECHABLE C/INSUFLADOR Y FUENTE LUZ / EQUIVALENTE TECNICAMENTE A Rectoscopio desechable con insuflador y fuente de\nluz incorporada 250 mm, THD 800099",
+    "cantidad": 50.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Sondas o directores quirúrgicos": {
+    "query": "sondas o directores quirúrgicos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1461054-422-COT26": {
+  "codigo": "1461054-422-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-30 09:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 60106001,
+    "nombre": "Libros de recursos o conceptos para la enseñanza básica",
+    "descripcion": "PRODUCTO PARA ESCUELA DAGOBERTO CAMPOS NUÑEZ VICUÑA RBD 682 REQUERIMIENTO 1682 (Adjuntar cotización con detalle de cada producto)",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   },
+   {
+    "codigo_producto": 60106001,
+    "nombre": "Libros de recursos o conceptos para la enseñanza básica",
+    "descripcion": "PRODUCTO PARA COLEGIO VICTOR DOMINGO SILVA LA SERENA RBD 682 REQUERIMIENTO 1658 (Adjuntar cotización con detalle de cada producto)",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   },
+   {
+    "codigo_producto": 60106001,
+    "nombre": "Libros de recursos o conceptos para la enseñanza básica",
+    "descripcion": "PRODUCTO PARA COLEGIO HEROES DE LA CONCEPCION LA SERENA RBD527 REQUERIMIENTO 2133 (Adjuntar cotización con detalle de cada producto)",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Libros de recursos o conceptos para la enseñanza básica": {
+    "query": "libros de recursos o conceptos para la enseñanza básica",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2069-3036-COT26": {
+  "codigo": "2069-3036-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 11:40",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42312201,
+    "nombre": "Sutura",
+    "descripcion": "2240055\tETHILON 6/0 PS4 CAJA * 24 SOBRES (REF 1660T)",
+    "cantidad": 360.0,
+    "unidad": "SOBR"
+   }
+  ],
+  "resultados_precio": {
+   "Sutura": {
+    "query": "sutura 2240055 ethilon 6 0 ps4 caja 24 sobres ref 1660t",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1048-350-COT26": {
+  "codigo": "1048-350-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 12:00",
+  "veredicto": "NO RENTABLE",
+  "productos": [
+   {
+    "codigo_producto": 43231507,
+    "nombre": "Programas de gestión de proyectos",
+    "descripcion": "Licencia anual Autodesk AutoCAD con herramientas especializadas (Segun especificaciones técnicas adjuntas)",
+    "cantidad": 12.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Programas de gestión de proyectos": {
+    "query": "programas de gestión de proyectos",
+    "precios": [
+     {
+      "fuente": "easy",
+      "titulo": "Caldera Mural Condensación GL Victrix Pro V2 150 Immergas",
+      "precio_clp": 7139990,
+      "url": "https://www.easy.cl/caldera-mural-condensacion-gl-victrix-pro-v2-150-immergas-mkyr7atg30/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Maquina Overlock 664Pro Elna",
+      "precio_clp": 599990,
+      "url": "https://www.easy.cl/maquina-overlock-664pro-elna-mku0reect0/p",
+      "disponible": true
+     }
+    ],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "673663-120-COT26": {
+  "codigo": "673663-120-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 12:00",
+  "veredicto": "RENTABLE",
+  "productos": [
+   {
+    "codigo_producto": 50202311,
+    "nombre": "Bebidas",
+    "descripcion": "- Adquisición de alimentos, bebidas y otros",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Bebidas": {
+    "query": "bebidas adquisición de alimentos bebidas y otros",
+    "precios": [
+     {
+      "fuente": "easy",
+      "titulo": "BOTELLA DISEÑO BETTY BOOP ESTAMPADO 750 ML",
+      "precio_clp": 9990,
+      "url": "https://www.easy.cl/botella-diseno-betty-boop-estampado-750-ml-mk02rfsnwb/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "BOTELLA BOB ESPONJA SPONGE BOB 750 ML ALUMINIO",
+      "precio_clp": 9990,
+      "url": "https://www.easy.cl/botella-bob-esponja-sponge-bob-750-ml-aluminio-mkg2uz8g7t/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "BOTELLA 700 ML ALUMINIO RICK AND MORTY",
+      "precio_clp": 8990,
+      "url": "https://www.easy.cl/botella-700-ml-aluminio-rick-and-morty-mkeo0nni20/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "BOTELLA AGUA INTENSAMENTE TRISTEZA, ALEGRÍA, FURIA, DESAGRADO 700 ML",
+      "precio_clp": 9990,
+      "url": "https://www.easy.cl/botella-agua-intensamente-tristeza-alegria-furia-desagrado-700-ml-mkyd3vgerp/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "BOTELLA ESTAMPADO SPY FAMILY ANYA FORGER ANIME",
+      "precio_clp": 9990,
+      "url": "https://www.easy.cl/botella-estampado-spy-family-anya-forger-anime-mkux447y19/p",
+      "disponible": true
+     }
+    ],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "608-7194-COT26": {
+  "codigo": "608-7194-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 11:30",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42281704,
+    "nombre": "Detergentes o limpiadores de instrumentos",
+    "descripcion": "211P198\tDETERGENTE ENZIMATICO LEVEMENTE ALCALINO 5LT",
+    "cantidad": 110.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Detergentes o limpiadores de instrumentos": {
+    "query": "detergentes o limpiadores de instrumentos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "5603-226-COT26": {
+  "codigo": "5603-226-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 12:00",
+  "veredicto": "RENTABLE",
+  "productos": [
+   {
+    "codigo_producto": 90101603,
+    "nombre": "Servicios de catering",
+    "descripcion": "Se adjunta el detalle técnico correspondiente al servicio solicitado.",
+    "cantidad": 12.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Servicios de catering": {
+    "query": "servicios de catering",
+    "precios": [
+     {
+      "fuente": "easy",
+      "titulo": "Pack de 4 Bowls Pocillos Porcelana Blanca",
+      "precio_clp": 12990,
+      "url": "https://www.easy.cl/pack-de-4-bowls-pocillos-porcelana-blanca-mku6jofncs/p",
+      "disponible": true
+     }
+    ],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1704-4079-COT26": {
+  "codigo": "1704-4079-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 11:30",
+  "veredicto": "NO RENTABLE",
+  "productos": [
+   {
+    "codigo_producto": 51191602,
+    "nombre": "Electrolitos de cloruro de sodio",
+    "descripcion": "[CodInt:218S0014|14.000,0] FISIOLOGICO 0,9% 100 ML TU",
+    "cantidad": 14000.0,
+    "unidad": "BG"
+   }
+  ],
+  "resultados_precio": {
+   "Electrolitos de cloruro de sodio": {
+    "query": "electrolitos de cloruro de sodio",
+    "precios": [
+     {
+      "fuente": "easy",
+      "titulo": "Canish Espuma 160g shampoo en seco",
+      "precio_clp": 6500,
+      "url": "https://www.easy.cl/canish-espuma-160g-shampoo-en-seco-mkva83c8ch/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Hills Hypo Treats Premios para Perros 340gr",
+      "precio_clp": 15990,
+      "url": "https://www.easy.cl/hills-hypo-treats-premios-para-perros-340gr-mk5a0a6mq6/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Hills Z D Gatos 1 8kg Hipoalergenico",
+      "precio_clp": 37990,
+      "url": "https://www.easy.cl/hills-z-d-gatos-1-8kg-hipoalergenico-mku0ow80bp/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Fit formula perro adulto 20 kg",
+      "precio_clp": 56990,
+      "url": "https://www.easy.cl/fit-formula-perro-adulto-20-kg-mkoh48tnwg/p",
+      "disponible": true
+     }
+    ],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1952-1473-COT26": {
+  "codigo": "1952-1473-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 11:20",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 42142702,
+    "nombre": "Catéteres urinarios uretrales",
+    "descripcion": "42144511-3-2501\t/ SETS CATETER URETRAL UD 5 FR X 24 CM C/GUIA 0.035 X 145 CM",
+    "cantidad": 4.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Catéteres urinarios uretrales": {
+    "query": "catéteres urinarios uretrales",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1079689-583-COT26": {
+  "codigo": "1079689-583-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-30 15:00",
+  "veredicto": "RENTABLE",
+  "productos": [
+   {
+    "codigo_producto": 23153502,
+    "nombre": "Reparación de zona de pintura",
+    "descripcion": "ADQUISICIÓN DE SERVICIO DE MANTENCIÓN Y REPARACIÓN CON MATERIALES INCLUIDOS DE DEPENDENCIAS DE LA SECCIÓN O.S.7. AYSÉN, CONFORME A ANEXO DE EQUERIMIENTOS TÉCNICOS QUE SE ADJUNTA.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Reparación de zona de pintura": {
+    "query": "reparación de zona de pintura",
+    "precios": [
+     {
+      "fuente": "easy",
+      "titulo": "Kit Reparación Llantas MeidiMake Repara Rayones Rines Auto",
+      "precio_clp": 5990,
+      "url": "https://www.easy.cl/kit-reparacion-llantas-meidimake-repara-rayones-rines-auto-mkb30jyvui/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Pintura En Bastidor: Amazona Roja Y Azul En Arte P 40x20cm",
+      "precio_clp": 16990,
+      "url": "https://www.easy.cl/pintura-en-bastidor-amazona-roja-y-azul-en-arte-p-40x20cm-mky1ngxema/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Pintura En Bastidor: Amazona Roja Y Azul En Arte 80x40cm",
+      "precio_clp": 43990,
+      "url": "https://www.easy.cl/pintura-en-bastidor-amazona-roja-y-azul-en-arte-80x40cm-mky2ahg2qy/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Pintura En Bastidor: Amazona Roja Y Azul En Arte P 100x50cm",
+      "precio_clp": 71990,
+      "url": "https://www.easy.cl/pintura-en-bastidor-amazona-roja-y-azul-en-arte-p-100x50cm-mkv1u8x53l/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Pintura En Bastidor: Amazona Roja Y Azul En Arte 160x80cm",
+      "precio_clp": 175990,
+      "url": "https://www.easy.cl/pintura-en-bastidor-amazona-roja-y-azul-en-arte-160x80cm-mk6e48zpqh/p",
+      "disponible": true
+     }
+    ],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "635-735-COT26": {
+  "codigo": "635-735-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 51121743,
+    "nombre": "Besilato de amlodipina",
+    "descripcion": "SE SOLICITA COTIZACIÓN DE AMLODIPINO  COM. 10 MG. CON VENCIMIENTO SUPERIOR A 18 MESES. DEBE CONTAR CON REGISTRO SANITARIO. DEBE ESTAR AUTORIZADO COMO EMPRESA- BODEGA O DROGUERÍA POR EL ISP. ES EXIGIBLE LOTE O SERIE EN EL ENVASE. TAMBIÉN DEBE PRESENTAR RESOLUCIÓN SANITARIA. DEBE ADJUNTAR COTIZACIÓN, FICHA TECNICA Y ADJUNTAR ANEXO_MEDICAMENTOS. EN CASO CONTRARIO LA OFERTA SERA DECLARADA INADMISIBLE.",
+    "cantidad": 300000.0,
+    "unidad": "CMP"
+   }
+  ],
+  "resultados_precio": {
+   "Besilato de amlodipina": {
+    "query": "besilato de amlodipina",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2422-817-COT26": {
+  "codigo": "2422-817-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 18:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 82121507,
+    "nombre": "Impresión de papelería o formularios comerciales",
+    "descripcion": "SERVICIO DE IMPRESION DE STICKERS E INVITACION PARA VERANEO COMUNAL DE ACUERDO A LO INDICADO EN ANEXO ECONOMICO Y ANEXO TECNICO RESPECTIVO. OFERENTES DEBERAN COMPLETAR EN SU TOTALIDAD ESTE ANEXO. CASO CONTRARIO OFERTA NO SERA CONSIDERADA EN EVALUACION.",
+    "cantidad": 1.0,
+    "unidad": "PK"
+   }
+  ],
+  "resultados_precio": {
+   "Impresión de papelería o formularios comerciales": {
+    "query": "impresión de papelería o formularios comerciales",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2580-122-COT26": {
+  "codigo": "2580-122-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-30 11:00",
+  "veredicto": "RENTABLE",
+  "productos": [
+   {
+    "codigo_producto": 39121004,
+    "nombre": "Unidades de suministro de energía",
+    "descripcion": "Adquisición de 1 UPS trifásica de 20 kVA, doble conversión en línea, entrada y salida trifásica 380/400/415 V, autonomía mínima de 15 minutos a plena carga, baterías VRLA, eficiencia mínima del 96 %, bypass estático y manual, pantalla LCD, tarjeta de monitoreo SNMP, conectividad Ethernet RJ-45, gabinete tipo torre y garantía mínima de 12 meses, de acuerdo con el requerimiento adjunto.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Unidades de suministro de energía": {
+    "query": "unidades de suministro de energía",
+    "precios": [
+     {
+      "fuente": "easy",
+      "titulo": "Led De Suministros De Energía 95.58w 54v 1.77a Adjustable",
+      "precio_clp": 65990,
+      "url": "https://www.easy.cl/led-de-suministros-de-energia-9558w-54v-177a-adjustable-mkil3z2mu4/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Estacion de Energia Portatil DELTA Pro 3",
+      "precio_clp": 5308850,
+      "url": "https://www.easy.cl/estacion-de-energia-portatil-delta-pro-3-mk7z4vf3e0/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Estacion de Energia Ecoflow River 2 256Wh Panel 110W",
+      "precio_clp": 485702,
+      "url": "https://www.easy.cl/estacion-de-energia-ecoflow-river-2-256wh-panel-110w-mk8inem19g/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Pack 20 Unidades Tableta Triple Acción, Pote 1kg",
+      "precio_clp": 94490,
+      "url": "https://www.easy.cl/pack-20-unidades-tableta-triple-accion-pote-1kg-mkspgo2q36/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Pila alcalina Duracell D 1,5 V pack de 2 unidades",
+      "precio_clp": 11500,
+      "url": "https://www.easy.cl/pila-alcalina-duracell-d-15-v-pack-de-2-unidades-mkwd8jkt9l/p",
+      "disponible": true
+     }
+    ],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "4454-863-COT26": {
+  "codigo": "4454-863-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 11:15",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 78111808,
+    "nombre": "Arriendo de vehículos",
+    "descripcion": "ARRIEND0 CAMIONETA 4X4 PARA REALIZAR DIFERENTES COMETIDOS DE ALCADIA, SEGÚN ESPECIFICACIONES TECNICAS ADJUNTAS",
+    "cantidad": 2.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Arriendo de vehículos": {
+    "query": "arriendo de vehículos",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "588809-186-COT26": {
+  "codigo": "588809-186-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-12-03 08:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 84111603,
+    "nombre": "Auditorías internas",
+    "descripcion": "SERVICIO DE AUDITORIA FINANCIERA EXTERNA DE LOS ESTADOS FINANCIEROS, POR EL PERIODO DESDE 01 ENERO 2025 HASTA 30 DE JUNIO 2026- EN EL MARCO DE LAS DISPOSICIONES ESTABLECIDAS EN EL ARTÍCULO TRIGÉSIMO CUARTO TRANSITORIO DE LA LEY NRO. 21.040, Y SUS MODIFICACIONES, QUE CREA EL SISTEMA DE EDUCACIÓN PÚBLICA, EN VIRTUD DEL PROCESO DE TRASPASO DEL SERVICIO EDUCATIVO AL SERVICIO LOCAL DE EDUCACIÓN PÚBLICA. PARA CONSIDERAR VALIDO DEBE ADJUNTAR TODO LO REQUERIDO EN LOS TDR Y ADJUNTAR LOS FORMATOS.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Auditorías internas": {
+    "query": "auditorías internas",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "2674-1046-COT26": {
+  "codigo": "2674-1046-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 11:15",
+  "veredicto": "NO RENTABLE",
+  "productos": [
+   {
+    "codigo_producto": 43223108,
+    "nombre": "Componentes y equipo de red de acceso inalámbrico WLAN",
+    "descripcion": "ADQUISICION DE PUNTOS UBIQUITI UNIFI ACCESS POINT U7 LR O EQUIVALENTE, CON SERVICIO DE INSTALACION INCLUIDA.\nSEGUN ESPECIFICACIONES TECNICAS ADJUNTAS, EL PROVEEDOR DEBE ADJUNTAR COTIZACION DETALLADA DEL PRODUCTO O SERVICIO OFERTADO, DE MANERA OBLIGATORIA.",
+    "cantidad": 25.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Componentes y equipo de red de acceso inalámbrico WLAN": {
+    "query": "componentes y equipo de red de acceso inalámbrico wlan",
+    "precios": [
+     {
+      "fuente": "easy",
+      "titulo": "Cable De Red Lbn High Speed 10 Metros Blanco",
+      "precio_clp": 5990,
+      "url": "https://www.easy.cl/cable-de-red-lbn-high-speed-10-metros-blanco-mkp7gcuoq5/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Torre de Sonido Karaoke Cafini C-S992P 160W Pantalla Táctil 15,4\" y 2 Micrófonos",
+      "precio_clp": 549990,
+      "url": "https://www.easy.cl/torre-de-sonido-karaoke-cafini-c-s992p-160w-pantalla-t-ctil-15-4-pulgadas-incluye-2-microfonos-mkaozfyefc/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Torre de Sonido Karaoke Cafini C S993P 160W Pantalla T ctil 15 4 Pulgadas Incluye 2 Microfonos",
+      "precio_clp": 549990,
+      "url": "https://www.easy.cl/torre-de-sonido-karaoke-cafini-c-s993p-160w-pantalla-t-ctil-15-4-pulgadas-incluye-2-microfonos-mk4sw9ekch/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Torre de Sonido Karaoke Cafini C S992P 160W Pantalla 15 4 Pulgadas 2 Micr fonos Control Remoto RGB",
+      "precio_clp": 549990,
+      "url": "https://www.easy.cl/torre-de-sonido-karaoke-cafini-c-s992p-160w-pantalla-15-4-pulgadas-2-micr-fonos-control-remoto-rgb-mkmidiqdqb/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Radio Nakamichi Nam5210 ax Android Wifi Bluetooth 10 1",
+      "precio_clp": 136990,
+      "url": "https://www.easy.cl/radio-nakamichi-nam5210-ax-android-wifi-bluetooth-10-1-mkgh91wxyk/p",
+      "disponible": true
+     }
+    ],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1233623-1204-COT26": {
+  "codigo": "1233623-1204-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 30221007,
+    "nombre": "Teatro",
+    "descripcion": "Se requiere servicio de intervención teatral formativa para segundo ciclo básico, orientado a fortalecer la convivencia escolar, empatía, solidaridad, responsabilidad y resolución de conflictos. El proveedor deberá acreditar experiencia artístico-pedagógica y respaldo pedagógico formal, disponer de un equipo mínimo de 10 integrantes, actores profesionales y soporte técnico. La obra deberá durar al menos 45 minutos e incluir amplificación propia con cobertura para 300 personas. Se adjuntan EE.TT.",
+    "cantidad": 4.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Teatro": {
+    "query": "teatro se requiere servicio de intervención teatral formativa para segundo ciclo básico orientado a fortalecer la convivencia escolar empatía solidaridad responsabilidad y resolución de conflictos el proveedor deberá acreditar experiencia artístico pedagógica y respaldo pedagógico formal disponer de un equipo mínimo de 10 integrantes actores profesionales y soporte técnico la obra deberá durar al menos 45 minutos e incluir amplificación propia con cobertura para 300 personas se adjuntan ee tt",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "1952-1472-COT26": {
+  "codigo": "1952-1472-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 11:11",
+  "veredicto": "NO RENTABLE",
+  "productos": [
+   {
+    "codigo_producto": 42272209,
+    "nombre": "Circuito de respiración o ventilador",
+    "descripcion": "96161701-3-147\t / CIRCUITO HUMIDIFICADOR NO INVASIVO UD",
+    "cantidad": 30.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Circuito de respiración o ventilador": {
+    "query": "circuito de respiración o ventilador",
+    "precios": [
+     {
+      "fuente": "easy",
+      "titulo": "AUTO RESCATADOR OXYPRO 50 STEELPRO",
+      "precio_clp": 495000,
+      "url": "https://www.easy.cl/auto-rescatador-oxypro-50-steelpro-mk04chwjrb/p",
+      "disponible": true
+     }
+    ],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "29-89-COT26": {
+  "codigo": "29-89-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 12:00",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 15101504,
+    "nombre": "Combustible de aviación",
+    "descripcion": "ADQUISICIÓN DE HASTA 4.000 LITROS DE COMBUSTIBLE DE AVIACIÓN AVGAS 100LL PARA AERÓDROMO VITACURA.",
+    "cantidad": 1.0,
+    "unidad": "EA"
+   }
+  ],
+  "resultados_precio": {
+   "Combustible de aviación": {
+    "query": "combustible de aviación",
+    "precios": [],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "4367-495-COT26": {
+  "codigo": "4367-495-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 15:00",
+  "veredicto": "RENTABLE",
+  "productos": [
+   {
+    "codigo_producto": 80111504,
+    "nombre": "Formación, capacitación y entrenamiento de personal",
+    "descripcion": "Capacitación  para 191 funcionarios divididos en 2 jornadas de 95 funcionarios cada jornada. el que se debe considerar, relatoría, salón y alimentación para cada jornada. Detalle de la capacitación, en Bases Técnicas Adjuntas, las que se deben cumplir en su totalidad.",
+    "cantidad": 1.0,
+    "unidad": "GL"
+   }
+  ],
+  "resultados_precio": {
+   "Formación, capacitación y entrenamiento de personal": {
+    "query": "formación capacitación y entrenamiento de personal",
+    "precios": [
+     {
+      "fuente": "easy",
+      "titulo": "Set 2 Mancuernas 2 Kg CU Hexagonales Recubiertas De Vinilo",
+      "precio_clp": 17990,
+      "url": "https://www.easy.cl/set-2-mancuernas-2-kg-cu-hexagonales-recubiertas-de-vinilo-mkp9d55psu/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Audifonos Bluetooth InEar TWS Blanco Endurance Race 2 JBL",
+      "precio_clp": 100990,
+      "url": "https://www.easy.cl/audifonos-bluetooth-inear-tws-blanco-endurance-race-2-jbl-mkqoj3e6mo/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Guantes De Boxeo Profesionales Unisex Con Velcro 14oz Vidita 14oz Negro",
+      "precio_clp": 16990,
+      "url": "https://www.easy.cl/guantes-de-boxeo-profesionales-unisex-con-velcro-14oz-vidita-14oz-negro-mken2d9rls/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Set 2 Mancuernas 2 Kg C u Hexagonales Recubiertas De Vinilo",
+      "precio_clp": 17190,
+      "url": "https://www.easy.cl/set-2-mancuernas-2-kg-c-u-hexagonales-recubiertas-de-vinilo-mk7l92bo3w/p",
+      "disponible": true
+     },
+     {
+      "fuente": "easy",
+      "titulo": "Guantes De Boxeo Profesionales Unisex Con Velcro 12oz Vidita",
+      "precio_clp": 16990,
+      "url": "https://www.easy.cl/guantes-de-boxeo-profesionales-unisex-con-velcro-12oz-vidita-mkev2y5hji/p",
+      "disponible": true
+     }
+    ],
+    "errores": []
+   }
+  },
+  "mejor_cotizacion_neta": null
+ },
+ "5051-446-COT26": {
+  "codigo": "5051-446-COT26",
+  "demo": false,
+  "guardado_utc": "2026-11-26T14:39:32+00:00",
+  "fecha_cierre": "2026-11-27 11:15",
+  "veredicto": "SIN DATOS",
+  "productos": [
+   {
+    "codigo_producto": 51241104,
+    "nombre": "Brinzolamida",
+    "descripcion": "BRINZOLAMIDA 1% (COD. INT. 040400180063) ZGEN 100004707",
+    "cantidad": 650.0,
+    "unidad": "VI"
+   }
+  ],
+  "resultados_precio": {
+   "Brinzolamida": {
+    "query": "brinzolamida",
+    "precios": [],
     "errores": []
    }
   },
